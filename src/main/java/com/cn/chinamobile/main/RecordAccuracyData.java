@@ -37,8 +37,8 @@ public class RecordAccuracyData {
         IniDomain.initResource();
         //设置log4j
         PropertyConfigurator.configure(ContentInfo.ROOT_PATH + "conf/log4j.properties");
-        String datetime="2018-05-22";
-        //String datetime=args[0];
+        //String datetime="2018-05-22";
+        String datetime=args[0];
         //获取成功录入数据的省份，注意非空数据的判断
         ScheduleTaskService scheduleTaskService=IniDomain.ct.getBean(ScheduleTaskService.class);
         List<ScheduleTask>  scheduleTasks=scheduleTaskService.selectByDateAndStatus(datetime);

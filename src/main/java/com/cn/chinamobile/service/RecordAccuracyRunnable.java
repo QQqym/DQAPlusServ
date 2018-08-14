@@ -7,7 +7,6 @@ import com.cn.chinamobile.util.ExcelUtil;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,8 +34,6 @@ public class RecordAccuracyRunnable implements Runnable {
     private RecordAccuracyService_enb recordAccuracyService_enb;
     @Resource
     private ProvinceService provinceService;
-    @Resource
-    private Dao dao;
     //设置参数
     public void setPara(List<ScheduleTask> list, String province, String vendor) {
         this.list = list;
