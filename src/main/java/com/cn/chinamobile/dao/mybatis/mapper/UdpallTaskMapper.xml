@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpallTaskMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpallTask" >
+    <constructor >
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    netype, vendor, version,type
+  </sql>
+  <select id="selectByType" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udpalltask
+    where type =  #{type,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpallTask" >
+    insert into udpalltask (netype, vendor, version, 
+      type)
+    values (#{netype,jdbcType=VARCHAR}, #{vendor,jdbcType=VARCHAR}, #{version,jdbcType=VARCHAR}, 
+      #{type,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpallTask" >
+    insert into udpalltask
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+      <if test="type != null" >
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

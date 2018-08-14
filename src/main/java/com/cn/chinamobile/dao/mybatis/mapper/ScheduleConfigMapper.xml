@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.ScheduleConfigMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.ScheduleConfig" >
+    <constructor >
+      <idArg column="intid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="scheduletime" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="compare" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    intid, province, netype, vendor, version, datatype, scheduletime,compare
+  </sql>
+
+  <select id="selectAll" resultMap="BaseResultMap"  >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from schedule_config
+  </select>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from schedule_config
+    where intid = #{intid,jdbcType=INTEGER}
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.ScheduleConfig" >
+    insert into schedule_config (intid, province, netype, 
+      vendor, version, datatype, 
+      scheduletime)
+    values (#{intid,jdbcType=INTEGER}, #{province,jdbcType=VARCHAR}, #{netype,jdbcType=VARCHAR}, 
+      #{vendor,jdbcType=VARCHAR}, #{version,jdbcType=VARCHAR}, #{datatype,jdbcType=VARCHAR}, 
+      #{scheduletime,jdbcType=VARCHAR})
+  </insert>
+
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.ScheduleConfig" >
+    insert into schedule_config
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        intid,
+      </if>
+      <if test="province != null" >
+        province,
+      </if>
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="scheduletime != null" >
+        scheduletime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        #{intid,jdbcType=INTEGER},
+      </if>
+      <if test="province != null" >
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="scheduletime != null" >
+        #{scheduletime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.ScheduleConfig" >
+    update schedule_config
+    <set >
+      <if test="province != null" >
+        province = #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="netype != null" >
+        netype = #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        vendor = #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        version = #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        datatype = #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="scheduletime != null" >
+        scheduletime = #{scheduletime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.ScheduleConfig" >
+    update schedule_config
+    set province = #{province,jdbcType=VARCHAR},
+      netype = #{netype,jdbcType=VARCHAR},
+      vendor = #{vendor,jdbcType=VARCHAR},
+      version = #{version,jdbcType=VARCHAR},
+      datatype = #{datatype,jdbcType=VARCHAR},
+      scheduletime = #{scheduletime,jdbcType=VARCHAR}
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+</mapper>

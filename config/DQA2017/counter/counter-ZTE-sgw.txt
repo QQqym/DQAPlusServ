@@ -1,0 +1,6 @@
+SM.AttDedicatedEpsBearerS11.Ims#C051370019
+SM.SuccDedicatedEpsBearerS11.Ims#C051370020
+SM.AttUpdateDedicatedEpsBearerS11.Ims#C051370023
+SM.SuccUpdateDedicatedEpsBearerS11.Ims#C051370024
+SM.AttDedicatedEpsBearerS11#C051370013
+SM.SuccDedicatedEpsBearerS11#C051370014

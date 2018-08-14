@@ -1,0 +1,24 @@
+无线接通率#RRC.SuccConnEstab/RRC.AttConnEstab*ERAB.NbrSuccEstab/ERAB.NbrAttEstab
+无线掉线率#(CONTEXT.AttRelEnb-CONTEXT.AttRelEnb.Normal)/(CONTEXT.SuccInitalSetup+CONTEXT.NbrLeft)
+无线掉线率(剔除UI原因)#(CONTEXT.AttRelEnb-CONTEXT.AttRelEnb.Normal)/(CONTEXT.SuccInitalSetup+CONTEXT.NbrLeft-CONTEXT.AttRelEnb.CauseUserInactivity)
+切换成功率#(HO.SuccOutInterEnbS1+HO.SuccOutInterEnbX2+HO.SuccOutIntraEnb)/(HO.AttOutInterEnbS1+HO.AttOutInterEnbX2+HO.AttOutIntraEnb)
+E-RAB掉线率#(ERAB.NbrReqRelEnb-ERAB.NbrReqRelEnb.Normal+ERAB.HoFail)/(ERAB.NbrSuccEstab+ERAB.NbrLeft)
+上行业务信息PRB占用率#∑(RRU.DtchPrbAssnMeanUl * RRU.TtiTotUl)/∑(RRU.PuschPrbMeanTot * RRU.TtiTotUl)
+下行业务信息PRB占用率#∑(RRU.DtchPrbAssnMeanDl * RRU.TtiTotDl)/∑(RRU.PdschPrbMeanTot * RRU.TtiTotDl)
+上行每PRB平均吞吐量#∑PDCP.UpOctUl*8/∑(RRU.TtiTotUl*RRU.DtchPrbAssnMeanUl)
+下行每PRB平均吞吐量#∑PDCP.UpOctDl*8/∑(RRU.TtiTotDl * RRU.DtchPrbAssnMeanDl-RRU.LendToPCellPrbTotDl+RRU.BorrowFromScellPrbTotDl)
+上行用户平均速率#PDCP.UpOctUl*8/PDCP.ThrpTimeUL
+下行用户平均速率#PDCP.UpOctDl*8/PDCP.ThrpTimeDL
+有效RRC连接平均数#RRC.EffectiveConnMean
+有效RRC连接最大数#RRC.EffectiveConnMax
+RRC连接平均数#RRC.ConnMean
+RRC连接最大数#RRC.ConnMax
+PDCCH信道CCE占用率#RRU.PdcchCceUtilRatio
+MME建立专用承载成功率#SM.SuccCreateDedicatedS5S8BearerMme/SM.AttCreateDedicatedS5S8BearerMme
+SGW建立专用承载成功率#SM.SuccDedicatedEpsBearerS11/SM.AttDedicatedEpsBearerS11
+HSS鉴权信息查询成功率#DIAM.AucInfoAnsSucc/DIAM.AucInfoReq
+排除用户原因的附着成功率#MM.SuccEpsAttach/(MM.AttEpsAttach-MM.FailedEpsAttach.3-MM.FailedEpsAttach.5-MM.FailedEpsAttach.6-MM.FailedEpsAttach.7.User-MM.FailedEpsAttach.8-MM.FailedEpsAttach.15.User-MM.FailedEpsAttach.19.User)
+缺省承载激活成功率#SM.ActDefaultEpsBearerAccept/SM.ActDefaultEpsBearerRequest
+寻呼成功率#(MM.FirstPagingSucc+MM.SecondPagingSucc)/MM.PagAtt
+跟踪区更新成功率#MM.TauAccept/MM.TauRequest
+PGW计费请求成功率#AAA.AccountingRespStartPgw/AAA.AccountingReqStartPgw

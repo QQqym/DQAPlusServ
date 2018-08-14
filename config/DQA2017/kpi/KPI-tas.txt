@@ -1,0 +1,3 @@
+eSRVCC切换成功率#SCC.eSRVCCsuccTimes/SCC.eSRVCCTimes
+被叫域选至IMS比例#SCC.TADStoIMS/SCC.ReqTADS
+被叫域选至CS比例#SCC.TADStoCS/SCC.ReqTADS

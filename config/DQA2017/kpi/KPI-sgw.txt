@@ -1,0 +1,3 @@
+IMS专用承载建立成功率(SGW)#SM.SuccDedicatedEpsBearerS11.Ims/SM.AttDedicatedEpsBearerS11.Ims
+IMS专用承载更新成功率(SGW)#SM.SuccUpdateDedicatedEpsBearerS11.Ims/SM.AttUpdateDedicatedEpsBearerS11.Ims
+专用承载建立成功率(SGW)#SM.SuccDedicatedEpsBearerS11/SM.AttDedicatedEpsBearerS11

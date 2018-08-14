@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpLosednMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpLosedn" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="filename" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="dn" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <delete id="deletebytaskid" parameterType="java.lang.Integer">
+    delete from udp_losedn where taskid = #{taskid,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpLosedn" >
+    insert into udp_losedn (taskid, datatype, filename, 
+      dn)
+    values (#{taskid,jdbcType=INTEGER}, #{datatype,jdbcType=VARCHAR}, #{filename,jdbcType=VARCHAR}, 
+      #{dn,jdbcType=VARCHAR})
+  </insert>
+
+  <insert id="batchinsert" parameterType="list" >
+    insert into udp_losedn (taskid, datatype, filename,dn)
+    values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.taskid,jdbcType=INTEGER}, #{item.datatype,jdbcType=VARCHAR}, #{item.filename,jdbcType=VARCHAR},
+      #{item.dn,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
+
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpLosedn" >
+    insert into udp_losedn
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="filename != null" >
+        filename,
+      </if>
+      <if test="dn != null" >
+        dn,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="filename != null" >
+        #{filename,jdbcType=VARCHAR},
+      </if>
+      <if test="dn != null" >
+        #{dn,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

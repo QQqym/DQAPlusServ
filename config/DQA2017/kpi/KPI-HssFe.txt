@@ -1,0 +1,1 @@
+HSS鉴权信息查询成功率#DIAM.AucInfoAnsSucc/DIAM.AucInfoReq

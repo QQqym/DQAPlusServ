@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+	<compareobject name = "userside" file = "userside_pacap_dpi_compare_pm.txt"/>
+	<compareobject name = "wireless" file = "wireless_omc_dpi_compare_pm.txt"/>
+	<compareobject name = "corenet" file = "corenet_omc_dpi_compare_pm.txt"/>
+</files>

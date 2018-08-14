@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd">
+		<vendorname name="HW" >
+			<pmversion name="V2.7.0" file="title_EutranCellTdd_huawei_omc_2.7.txt"></pmversion>
+			<pmversion name="V2.6.0" file="title_EutranCellTdd_huawei_omc_2.6.txt"></pmversion>
+			<pmversion name="V2.8.1" file="title_EutranCellTdd_huawei_omc_2.8.1.txt"></pmversion>
+		</vendorname>
+		<vendorname name="ZT">
+			<pmversion name="V2.7.0" file="title_EutranCellTdd_zte_omc_2.7.txt"></pmversion>
+			<pmversion name="V2.6.0" file="title_EutranCellTdd_zte_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="AS">
+			<pmversion name="V2.7.0" file="title_EutranCellTdd_alcatel_omc_2.7.txt"></pmversion>
+			<pmversion name="V2.6.0" file="title_EutranCellTdd_alcatel_omc_2.6.txt"></pmversion>
+			<pmversion name="V2.6.1" file="title_EutranCellTdd_alcatel_omc_2.6.txt"></pmversion>
+			<pmversion name="V2.6.2" file="title_EutranCellTdd_alcatel_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="ER">
+			<pmversion name="V2.6.0" file="title_EutranCellTdd_ericsson_omc_2.6.txt"></pmversion>
+			<pmversion name="V2.6.1" file="title_EutranCellTdd_ericsson_omc_2.6.txt"></pmversion>
+			<pmversion name="V2.7.0" file="title_EutranCellTdd_ericsson_omc_2.7.txt"></pmversion>
+		</vendorname>
+		<vendorname name="DT">
+			<pmversion name="V2.7.0" file="title_EutranCellTdd_datang_omc_2.7.txt"></pmversion>
+			<pmversion name="V2.6.0" file="title_EutranCellTdd_datang_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="NS">
+			<pmversion name="V2.6.0" file="title_EutranCellTdd_nokia_omc_2.6.txt"></pmversion>
+			<pmversion name="V2.7.0" file="title_EutranCellTdd_nokia_omc_2.7.txt"></pmversion>
+		</vendorname>
+		
+		<WYWG name="wangyou" filename="title_EutranCellTdd_wangyou.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="MmeFunction">
+		<vendorname name="HW" filename="title_MME_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_MME_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_MME_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_MME_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_MME_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_MME_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="EpRpDynS11Mme">
+		<vendorname name="HW" filename="title_MME_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_MME_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_MME_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_MME_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_MME_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_MME_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="EpRpDynS11Sgw">
+		<vendorname name="HW" filename="title_SGW_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_SGW_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_SGW_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_SGW_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_SGW_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SGW_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="EpRpDynS5S8Pgw">
+		<vendorname name="HW" filename="title_PGW_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_PGW_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_PGW_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_PGW_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_PGW_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_PGW_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="PgwFunction">
+		<vendorname name="HW" filename="title_PGW_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_PGW_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_PGW_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_PGW_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_PGW_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_PGW_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="SbcFunction">
+		<vendorname name="HW" filename="title_SBC_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_SBC_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_SBC_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_SBC_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_SBC_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SBC_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="SgcFunction">
+		<vendorname name="HW" filename="title_SBC_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_SBC_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_SBC_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_SBC_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_SBC_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SBC_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	
+	<PmType name="ScscfFunction">
+		<vendorname name="HW" filename="title_SCSCF_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_SCSCF_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_SCSCF_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_SCSCF_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_SCSCF_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SCSCF_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="SccAsFunction">
+		<vendorname name="HW" filename="title_TAS_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_TAS_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_TAS_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_TAS_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_TAS_nokia_omc.txt"></vendorname>
+		<WYWG name="wangguan" filename="title_TAS_wangguan.txt"></WYWG>
+				
+	</PmType>
+	
+	<PmType name="HssFunction">
+		<vendorname name="HW" filename="title_HSS_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_HSS_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_HSS_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_HSS_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_HSS_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_HSS_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="FeFunction">
+		<vendorname name="HW" filename="title_HSS_huawei_omc.txt"></vendorname>
+		<vendorname name="ZT" filename="title_HSS_zte_omc.txt"></vendorname>
+		<vendorname name="AS" filename="title_HSS_alcatel_omc.txt"></vendorname>
+		<vendorname name="ER" filename="title_HSS_ericsson_omc.txt"></vendorname>
+		<vendorname name="NS" filename="title_HSS_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_HSS_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+</file>

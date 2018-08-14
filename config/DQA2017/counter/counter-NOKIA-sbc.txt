@@ -1,0 +1,13 @@
+UR.AttInitReg#VS.PCSCFInitSIPREGRec-VS.PCSCFErrorCodeInitREGRespRec_401
+UR.SuccInitReg#VS.PCSCFSucc2xxInitSIPREGRespRec
+UR.AttReReg#VS.PCSCFSIPREREGRec-VS.PCSCFErrorCodeREREGRespRec_401
+UR.SuccReReg#VS.PCSCFSucc2xxSIPREREGRespRec+VS.PCSCFSIPREGSupp200RespSent+VS.PCSCFProtSIPREGSupp200RespSent
+SC.AttSessionOrig#VS.PCSCFUEOrigSIPINVRec
+SC.SuccSessionOrig#VS.PCSCFRingUEOrigSIPINVRespRec
+SC.AttSessionTerm#VS.PCSCFUETermSIPINVRec
+SC.SuccSessionTerm#VS.PCSCFRingUETermSIPINVRespRec
+SC.VoiceAnsTraf#(VS.PCSCFOrigAnsTrafUsageSDPMediaOffer.Voice+VS.PCSCFTermAnsTrafUsageSDPMediaOffer.Voice)*4
+SC.VideoAnsTrafTerm#(VS.PCSCFOrigAnsTrafUsageSDPMediaOffer.Video+VS.PCSCFTermAnsTrafUsageSDPMediaOffer.Video)*4
+UR.UserRoamingRegSucc#VS.PCSCFConcurRoamRegistCur
+UR.ProvRoamingRegSucc#VS.PCSCFConcurProvRoamRegistCur
+UR.UserRegSucc#VS.LicensePCSCFConcurRegistCur

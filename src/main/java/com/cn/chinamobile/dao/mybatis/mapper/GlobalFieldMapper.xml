@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.GlobalFieldMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.GlobalField" >
+    <constructor >
+      <arg column="table_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="column_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="fact_columnname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="column_type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="data_type" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    table_name, column_name, fact_columnname, column_type, netype,data_type
+  </sql>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.GlobalField" >
+    insert into global_field_mapper (table_name, column_name, fact_columnname, 
+      column_type, data_type)
+    values (#{tableName,jdbcType=VARCHAR}, #{columnName,jdbcType=VARCHAR}, #{factColumnname,jdbcType=VARCHAR}, 
+      #{columnType,jdbcType=VARCHAR}, #{dataType,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.GlobalField" >
+    insert into global_field_mapper
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="tableName != null" >
+        table_name,
+      </if>
+      <if test="columnName != null" >
+        column_name,
+      </if>
+      <if test="factColumnname != null" >
+        fact_columnname,
+      </if>
+      <if test="columnType != null" >
+        column_type,
+      </if>
+      <if test="dataType != null" >
+        data_type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="tableName != null" >
+        #{tableName,jdbcType=VARCHAR},
+      </if>
+      <if test="columnName != null" >
+        #{columnName,jdbcType=VARCHAR},
+      </if>
+      <if test="factColumnname != null" >
+        #{factColumnname,jdbcType=VARCHAR},
+      </if>
+      <if test="columnType != null" >
+        #{columnType,jdbcType=VARCHAR},
+      </if>
+      <if test="dataType != null" >
+        #{dataType,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+
+  <select id="selectByTableName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    table_name, column_name, fact_columnname, column_type, netype,data_type
+    from global_field_mapper
+    where table_name = #{tableName,jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectByparas" resultMap="BaseResultMap" parameterType="map" >
+    select
+    table_name, column_name, fact_columnname, column_type, netype,data_type
+    from global_field_mapper
+    where netype = #{netype,jdbcType=VARCHAR}
+          and data_type like concat('%',#{dataType,jdbcType=VARCHAR},'%')
+          and table_name  like  concat(#{tableprefix,jdbcType=VARCHAR},'%')
+  </select>
+</mapper>

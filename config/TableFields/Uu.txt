@@ -1,0 +1,20 @@
+#是否建表 1 需要 2不需要
+##1%%
+#XDR分割方式
+##,**
+#原数据是否忽略前1行或者前N行
+#$1#$
+#数据文件名
+#fileName varchar(24)
+#Procedure Type 流程类型 位置 9
+##8##
+ProcedureType varchar(3)
+#流程开始时间 位置10
+##9##
+ProcedureStartTime datetime
+#流程结束时间 位置11
+##10##
+ProcedureEndTime datetime
+#Procedure Status 流程状态 位置12
+##11##
+ProcedureStatus smallINT UNSIGNED

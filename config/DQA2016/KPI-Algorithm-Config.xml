@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd-无线网ENB">
+		<VendorName name="华为">
+			<pmversion name="PM-2.5" file="KPI-enb-2.5.txt"/>
+			<pmversion name="PM-2.6" file="KPI-enb-2.5.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="KPI-enb-2.5.txt"/>
+			<pmversion name="PM-2.6" file="KPI-enb-2.5.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="KPI-enb-2.5.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="KPI-enb-2.5.txt"/>
+			<pmversion name="PM-2.6" file="KPI-enb-2.5.txt"/>
+			<pmversion name="PM-2.7" file="KPI-enb-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="KPI-enb-2.5.txt"/>
+			<pmversion name="PM-2.6" file="KPI-enb-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="KPI-enb-2.5.txt"/>
+			<pmversion name="PM-2.6" file="KPI-enb-2.5.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="MmeFunction-核心网MME">
+		<VendorName name="华为">
+			<pmversion name="PM-2.0" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.0-老模型" file="KPI-mme.txt"/>
+			<pmversion name="PM-2.0-新模型" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.0" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.0" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.0" file="KPI-mme.txt"/>
+		</VendorName>
+	</PmType>
+	
+		<PmType name="EpRpDynS11Sgw-核心网SGW">
+		<VendorName name="华为">
+			<pmversion name="PM-2.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.0" file="KPI-sgw.txt"/>
+		</VendorName>
+	</PmType>	
+	
+		<PmType name="EpRpDynS5S8Pgw-核心网PGW">
+		<VendorName name="华为">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+	</PmType>
+	
+		<PmType name="SbcFunction-IMS指标集中式SBC">
+		<VendorName name="华为">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+	</PmType>
+
+		<PmType name="SgcFunction-IMS指标分布式SBC">
+		<VendorName name="华为">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+	</PmType>
+	
+		<PmType name="ScscfFunction-IMS指标SCSCF">
+		<VendorName name="华为">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+	</PmType>
+	
+		<PmType name="SccAsFunction-IMS指标TAS">
+		<VendorName name="华为">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+	</PmType>
+
+	
+	
+</file>

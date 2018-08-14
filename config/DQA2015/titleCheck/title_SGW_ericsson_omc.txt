@@ -1,0 +1,14 @@
+开始时间
+结束时间
+周期
+省份
+地市
+厂家
+网元版本
+网元设备名称
+smCreateBearerReqSent
+smCreateBearerRespAccRcvd
+SM.AttDedicatedEpsBearerS11.Ims
+SM.SuccDedicatedEpsBearerS11.Ims
+SM.AttDedicatedEpsBearerS11.Ims.Qci1
+SM.SuccDedicatedEpsBearerS11.Ims.Qci1

@@ -1,0 +1,9 @@
+UR.AttInitReg#sbgSipRegStatInitialAttCnt(access)
+UR.SuccInitReg#sbgSipRegStatInitialAccCnt(access)
+UR.AttReReg#sbgSipRegStatReRegAttCnt(access)
+UR.SuccReReg#sbgSipRegStatReRegAccCnt(access)
+SC.AttSessionOrig#sbgSipTotalIncSessSetups(access)
+SC.SuccSessionOrig#sbgSipRespondedIncSessions(access)
+SC.AttSessionTerm#sbgSipTotalIncSessSetups(core)
+SC.SuccSessionTerm#sbgSipRespondedIncSessions(coreside)
+UR.UserRegSucc#sbgSgcRegResCurrentTotalReg

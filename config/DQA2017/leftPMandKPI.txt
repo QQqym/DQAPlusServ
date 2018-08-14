@@ -1,0 +1,17 @@
+﻿#pm
+ERAB.NbrLeft.1
+ERAB.NbrLeft.2
+CONTEXT.NbrLeft
+ERAB.NbrLeft
+#end pm
+
+#kpi
+E-RAB掉线率(QCI=1)
+E-RAB掉线率(QCI=1)(剔除UI原因)
+E-RAB掉线率(QCI=2)
+E-RAB掉线率(QCI=2)(剔除UI原因)
+E-RAB掉线率(剔除UI原因)
+E-RAB掉线率(剔除UI原因)(小区级)
+无线掉线率(剔除UI原因)
+无线掉线率(剔除UI原因)(小区级)
+#end kpi

@@ -1,0 +1,2 @@
+HSS鉴权信息查询成功率#HSSHA04#DIAM.AucInfoReq#鉴权信息查询请求次数
+HSS鉴权信息查询成功率#HSSHA05#DIAM.AucInfoAnsSucc#鉴权信息查询成功次数

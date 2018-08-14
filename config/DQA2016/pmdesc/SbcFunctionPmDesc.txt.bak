@@ -1,0 +1,13 @@
+SBC初始注册成功率#SBCHA06#UR.AttInitReg#SBC初始注册次数
+SBC初始注册成功率#SBCHA07#UR.SuccInitReg#SBC初始注册成功次数
+SBC重注册成功率#SBCHA10#UR.AttReReg#SBC重注册次数
+SBC重注册成功率#SBCHA11#UR.SuccReReg#SBC重注册成功次数
+SBC接通率#SBCHB03#SC.AttSessionOrig#SBC主叫试呼次数
+SBC接通率#SBCHB04#SC.SuccSessionOrig#SBC主叫接通次数
+SBC接通率#SBCHB06#SC.AttSessionTerm#SBC被叫试呼次数
+SBC接通率#SBCHB07#SC.SuccSessionTerm#SBC被叫接通次数
+SBC语音应答话务量#PSBCHN07#SC.VoiceAnsTraf#SBC语音应答话务量
+SBC视频应答话务量#PSBCHO07#SC.VideoAnsTrafTerm#SBC视频应答话务量
+SBC漫入用户数#PSBCHF02#UR.UserRoamingRegSucc#SBC注册国际漫游用户数
+SBC漫入用户数#PSBCHF35#UR.ProvRoamingRegSucc#SBC注册省际漫游用户数
+SBC注册用户数#PSBCHF01#UR.UserRegSucc#SBC注册用户数

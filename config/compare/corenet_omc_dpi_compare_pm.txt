@@ -1,0 +1,12 @@
+MME:EPS附着请求次数
+MME:EPS附着成功次数
+MME:MME成功建立的缺省S5S8承载数
+MME:MME请求建立的缺省S5S8承载数
+MME:MME成功建立的专用S5S8承载数
+MME:MME请求建立的专用S5S8承载数
+SGW:SGW从MME接收专用承载建立成功个数
+SGW:SGW向MME发送专用承载建立请求个数
+SGW:更新位置成功次数
+SGW:更新位置请求次数
+SGW:CSFBSGs寻呼响应次数
+SGW:CSFBSGs寻呼请求次数

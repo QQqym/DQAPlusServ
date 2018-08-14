@@ -1,0 +1,4 @@
+IMS专用承载建立成功率(SGW)#SGWHA03#SM.AttDedicatedEpsBearerS11.Ims#IMS专用承载建立请求个数(SGW)
+IMS专用承载建立成功率(SGW)#SGWHA04#SM.SuccDedicatedEpsBearerS11.Ims#IMS专用承载建立成功个数(SGW)
+IMS专用承载更新成功率(SGW)#SGWHA07#SM.AttUpdateDedicatedEpsBearerS11.Ims#IMS专用承载更新请求个数(SGW)
+IMS专用承载更新成功率(SGW)#SGWHA08#SM.SuccUpdateDedicatedEpsBearerS11.Ims#IMS专用承载更新成功个数(SGW)

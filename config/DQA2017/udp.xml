@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<Filetype name="NRM">
+		<pmversion name="ENB-V2.7.0" file="eNB网元统计数据需求规范-NRM(V2.7).xlsx">
+		</pmversion>
+		<pmversion name="ENB-V2.6.0" file="eNB网元统计数据需求规范-NRM(V2.6).xlsx">
+		</pmversion>
+		<pmversion name="CSCF-V3.1.4" file="CSCF-NRM(V3.1.4)V1.xlsx">
+		</pmversion>
+		<pmversion name="IMSHSS-V1.1.4" file="IMSHSS-NRM(V1.1.4)V1.xlsx">
+		</pmversion>
+		<pmversion name="IMSMGW-V2.1.4" file="IMSMGW-NRM(V2.1.4)V1.xlsx">
+		</pmversion>
+		<pmversion name="MGCF-V2.1.6" file="MGCF-NRM(V2.1.6)V1.xlsx">
+		</pmversion>
+		<pmversion name="VOLTESBC-V1.1.8" file="PSBC-NRM(V1.1.8)V1.xlsx">
+		</pmversion>
+		<pmversion name="TAS-V1.0.9" file="TAS-NRM(V1.0.9)V1.xlsx">
+		</pmversion>
+	</Filetype>
+	<Filetype name="PM">
+		<pmversion name="ENB-V2.7.0" file="eNB网元统计数据需求规范-PM(V2.7).xlsx">
+		</pmversion>
+		<pmversion name="ENB-V2.6.0" file="eNB网元统计数据需求规范-PM(V2.6).xlsx">
+		</pmversion>
+		<pmversion name="CSCF-V3.1.4" file="CSCF-PM(V3.1.4)V1 .xlsx">
+		</pmversion>
+		<pmversion name="IMSHSS-V1.1.4" file="IMSHSS-PM(V1.1.4)V1.xlsx">
+		</pmversion>
+		<pmversion name="IMSMGW-V2.1.4" file="IMSMGW-PM(V2.1.4)V1.xlsx">
+		</pmversion>
+		<pmversion name="MGCF-V2.1.6" file="MGCF-PM(V2.1.6)V1.xlsx">
+		</pmversion>
+		<pmversion name="VOLTESBC-V1.1.8" file="PSBC-PM(V1.1.8)V1.xlsx">
+		</pmversion>
+		<pmversion name="TAS-V1.0.9" file="TAS-PM(V1.0.9)V1.xlsx">
+		</pmversion>
+	</Filetype>	
+	
+</file>

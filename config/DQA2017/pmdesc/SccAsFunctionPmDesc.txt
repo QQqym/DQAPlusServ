@@ -1,0 +1,6 @@
+eSRVCC切换成功率#TASHA42#SCC.eSRVCCTimes#eSRVCC切换次数
+eSRVCC切换成功率#TASHA48#SCC.eSRVCCsuccTimes#eSRVCC切换成功次数
+被叫域选至IMS比例#TASHA01#SCC.ReqTADS#SCCAS请求域选择次数
+被叫域选至IMS比例#TASHA08#SCC.TADStoIMS#域选择到IMS次数
+被叫域选至CS比例#TASHA01#SCC.ReqTADS#SCCAS请求域选择次数
+被叫域选至CS比例#TASHA09#SCC.TADStoCS#域选择到CS次数

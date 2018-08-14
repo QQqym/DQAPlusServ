@@ -1,0 +1,8 @@
+SCSCF初始注册成功率#CSCFHI01#UR.AttInitReg#SCSCF初始注册请求次数
+SCSCF初始注册成功率#CSCFHI02#UR.SuccInitReg#SCSCF初始注册成功次数
+SCSCF重注册成功率#CSCFHI06#UR.AttReReg#SCSCF重注册次数
+SCSCF重注册成功率#CSCFHI07#UR.SuccReReg#SCSCF重注册成功次数
+SCSCF接通率#CSCFHH01#SC.AttSessionOrig#SCSCF主叫试呼次数
+SCSCF接通率#CSCFHH02#SC.SuccSessionOrig#SCSCF主叫接通次数
+SCSCF接通率#CSCFHH04#SC.AttSessionTerm#SCSCF被叫试呼次数
+SCSCF接通率#CSCFHH05#SC.SuccSessionTerm#SCSCF被叫接通次数

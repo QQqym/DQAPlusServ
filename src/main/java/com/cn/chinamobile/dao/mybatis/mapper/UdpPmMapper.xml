@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpPmMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpPm" >
+    <constructor >
+      <arg column="NE_Type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="ver" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Space_Granularity" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="PM_Grade" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="PMName_EN" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="DataType" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.cn.chinamobile.pojo.mybatis.UdpPm" >
+    <constructor >
+      <arg column="NE_Type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="ver" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Space_Granularity" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="PM_Grade" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="PMName_EN" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="DataType" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="PM_Definition" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Blob_Column_List" >
+    NE_Type, ver, Space_Granularity,PM_Grade, PMName_EN, DataType,PM_Definition
+  </sql>
+
+  <select id="selectByParas" resultMap="ResultMapWithBLOBs"  parameterType="map">
+    select 'false' as QUERYID,
+    <include refid="Blob_Column_List" />
+    from udp_pm
+    where NE_Type = #{neType,jdbcType=VARCHAR}
+    and Ver = #{ver,jdbcType=VARCHAR}
+  </select>
+
+  <select id="getVersion" resultType="java.lang.String"  parameterType="java.lang.String">
+    select Ver
+    from udp_pm
+    where NE_Type = #{netype,jdbcType=VARCHAR}
+    ORDER BY REPLACE(Ver,'V','') desc
+    limit 1
+  </select>
+
+  <select id="getHigherVersion" resultType="java.lang.String"  parameterType="map">
+    select Ver
+    from udp_pm
+    where NE_Type = #{netype,jdbcType=VARCHAR}
+    and Ver &gt; #{ver,jdbcType=VARCHAR}
+    ORDER BY ver
+    limit 1
+  </select>
+
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpPm" >
+    insert into udp_pm (NE_Type, ver, Space_Granularity, 
+      PM_Grade, PMName_EN, DataType, 
+      PM_Definition)
+    values (#{neType,jdbcType=VARCHAR}, #{ver,jdbcType=VARCHAR}, #{spaceGranularity,jdbcType=VARCHAR}, 
+      #{pmGrade,jdbcType=VARCHAR}, #{pmnameEn,jdbcType=VARCHAR}, #{datatype,jdbcType=VARCHAR}, 
+      #{pmDefinition,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpPm" >
+    insert into udp_pm
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="neType != null" >
+        NE_Type,
+      </if>
+      <if test="ver != null" >
+        ver,
+      </if>
+      <if test="spaceGranularity != null" >
+        Space_Granularity,
+      </if>
+      <if test="pmGrade != null" >
+        PM_Grade,
+      </if>
+      <if test="pmnameEn != null" >
+        PMName_EN,
+      </if>
+      <if test="datatype != null" >
+        DataType,
+      </if>
+      <if test="pmDefinition != null" >
+        PM_Definition,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="neType != null" >
+        #{neType,jdbcType=VARCHAR},
+      </if>
+      <if test="ver != null" >
+        #{ver,jdbcType=VARCHAR},
+      </if>
+      <if test="spaceGranularity != null" >
+        #{spaceGranularity,jdbcType=VARCHAR},
+      </if>
+      <if test="pmGrade != null" >
+        #{pmGrade,jdbcType=VARCHAR},
+      </if>
+      <if test="pmnameEn != null" >
+        #{pmnameEn,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmDefinition != null" >
+        #{pmDefinition,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

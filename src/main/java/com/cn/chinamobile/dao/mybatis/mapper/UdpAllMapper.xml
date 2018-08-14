@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpAllMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpAll" >
+    <constructor >
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="filetype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datetime" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.cn.chinamobile.pojo.mybatis.UdpAll" >
+    <constructor >
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="filetype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datetime" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="pctlose" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <resultMap id="PartResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpAll" >
+    <constructor >
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Blob_Column_List" >
+    pctlose
+  </sql>
+
+  <sql id="Base_Column_List" >
+    province, filetype,netype, vendor,version, type, datetime
+  </sql>
+
+  <delete id="deletebyparas" parameterType="map">
+    delete from udpall
+    where province = #{province,jdbcType=VARCHAR}
+    and filetype = #{filetype,jdbcType=VARCHAR}
+    and netype = #{netype,jdbcType=VARCHAR}
+    and vendor = #{vendor,jdbcType=VARCHAR}
+    and version = #{version,jdbcType=VARCHAR}
+    and type = #{type,jdbcType=VARCHAR}
+    and  datetime = #{datetime,jdbcType=VARCHAR}
+  </delete>
+
+  <select id="selectByType" resultMap="BaseResultMap" parameterType="map" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udpall
+    where type =  #{type,jdbcType=VARCHAR}
+    and filetype= #{filetype,jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectDisTask" resultMap="PartResultMap" parameterType="map" >
+    select DISTINCT province, netype, vendor,version, type
+    from udpall
+    where type =  #{type,jdbcType=VARCHAR}
+    and filetype= #{filetype,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpAll" >
+    insert ignore into udpall (province, filetype, netype,
+      vendor, version, type, 
+      datetime, datatype, pctlose
+      )
+    values (#{province,jdbcType=VARCHAR}, #{filetype,jdbcType=VARCHAR}, #{netype,jdbcType=VARCHAR}, 
+      #{vendor,jdbcType=VARCHAR}, #{version,jdbcType=VARCHAR}, #{type,jdbcType=VARCHAR}, 
+      #{datetime,jdbcType=VARCHAR}, #{datatype,jdbcType=VARCHAR}, #{pctlose,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+
+</mapper>

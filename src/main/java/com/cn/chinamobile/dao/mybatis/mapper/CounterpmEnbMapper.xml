@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.CounterpmEnbMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.CounterpmEnb" >
+    <id column="pm1" property="pm1" jdbcType="INTEGER" />
+    <result column="pm00" property="pm00" jdbcType="VARCHAR" />
+    <result column="pm0" property="pm0" jdbcType="INTEGER" />
+    <result column="pm2" property="pm2" jdbcType="VARCHAR" />
+    <result column="pm3" property="pm3" jdbcType="VARCHAR" />
+    <result column="pm4" property="pm4" jdbcType="VARCHAR" />
+    <result column="pm5" property="pm5" jdbcType="VARCHAR" />
+    <result column="pm6" property="pm6" jdbcType="VARCHAR" />
+    <result column="pm7" property="pm7" jdbcType="VARCHAR" />
+    <result column="pm8" property="pm8" jdbcType="VARCHAR" />
+    <result column="pm9" property="pm9" jdbcType="VARCHAR" />
+    <result column="pm10" property="pm10" jdbcType="VARCHAR" />
+    <result column="pm11" property="pm11" jdbcType="VARCHAR" />
+    <result column="pm12" property="pm12" jdbcType="VARCHAR" />
+    <result column="pm13" property="pm13" jdbcType="VARCHAR" />
+    <result column="pm14" property="pm14" jdbcType="VARCHAR" />
+    <result column="pm15" property="pm15" jdbcType="DOUBLE" />
+    <result column="pm16" property="pm16" jdbcType="DOUBLE" />
+    <result column="pm17" property="pm17" jdbcType="DOUBLE" />
+    <result column="pm18" property="pm18" jdbcType="DOUBLE" />
+    <result column="pm19" property="pm19" jdbcType="DOUBLE" />
+    <result column="pm20" property="pm20" jdbcType="DOUBLE" />
+    <result column="pm21" property="pm21" jdbcType="DOUBLE" />
+    <result column="pm22" property="pm22" jdbcType="DOUBLE" />
+    <result column="pm23" property="pm23" jdbcType="DOUBLE" />
+    <result column="pm24" property="pm24" jdbcType="DOUBLE" />
+    <result column="pm25" property="pm25" jdbcType="DOUBLE" />
+    <result column="pm26" property="pm26" jdbcType="DOUBLE" />
+    <result column="pm27" property="pm27" jdbcType="DOUBLE" />
+    <result column="pm28" property="pm28" jdbcType="DOUBLE" />
+    <result column="pm29" property="pm29" jdbcType="DOUBLE" />
+    <result column="pm30" property="pm30" jdbcType="DOUBLE" />
+    <result column="pm31" property="pm31" jdbcType="DOUBLE" />
+    <result column="pm32" property="pm32" jdbcType="DOUBLE" />
+    <result column="pm33" property="pm33" jdbcType="DOUBLE" />
+    <result column="pm34" property="pm34" jdbcType="DOUBLE" />
+    <result column="pm35" property="pm35" jdbcType="DOUBLE" />
+    <result column="pm36" property="pm36" jdbcType="DOUBLE" />
+    <result column="pm37" property="pm37" jdbcType="DOUBLE" />
+    <result column="pm38" property="pm38" jdbcType="DOUBLE" />
+    <result column="pm39" property="pm39" jdbcType="DOUBLE" />
+    <result column="pm40" property="pm40" jdbcType="DOUBLE" />
+    <result column="pm41" property="pm41" jdbcType="DOUBLE" />
+    <result column="pm42" property="pm42" jdbcType="DOUBLE" />
+    <result column="pm43" property="pm43" jdbcType="DOUBLE" />
+    <result column="pm44" property="pm44" jdbcType="DOUBLE" />
+    <result column="pm45" property="pm45" jdbcType="DOUBLE" />
+    <result column="pm46" property="pm46" jdbcType="DOUBLE" />
+    <result column="pm47" property="pm47" jdbcType="DOUBLE" />
+    <result column="pm48" property="pm48" jdbcType="DOUBLE" />
+    <result column="pm49" property="pm49" jdbcType="DOUBLE" />
+    <result column="pm50" property="pm50" jdbcType="DOUBLE" />
+    <result column="pm51" property="pm51" jdbcType="DOUBLE" />
+    <result column="pm52" property="pm52" jdbcType="DOUBLE" />
+    <result column="pm53" property="pm53" jdbcType="DOUBLE" />
+    <result column="pm54" property="pm54" jdbcType="DOUBLE" />
+    <result column="pm55" property="pm55" jdbcType="DOUBLE" />
+    <result column="pm56" property="pm56" jdbcType="DOUBLE" />
+    <result column="pm57" property="pm57" jdbcType="DOUBLE" />
+    <result column="pm58" property="pm58" jdbcType="DOUBLE" />
+    <result column="pm59" property="pm59" jdbcType="DOUBLE" />
+    <result column="pm60" property="pm60" jdbcType="DOUBLE" />
+    <result column="pm61" property="pm61" jdbcType="DOUBLE" />
+    <result column="pm62" property="pm62" jdbcType="DOUBLE" />
+    <result column="pm63" property="pm63" jdbcType="DOUBLE" />
+    <result column="pm64" property="pm64" jdbcType="DOUBLE" />
+    <result column="pm65" property="pm65" jdbcType="DOUBLE" />
+    <result column="pm66" property="pm66" jdbcType="DOUBLE" />
+    <result column="pm67" property="pm67" jdbcType="DOUBLE" />
+    <result column="pm68" property="pm68" jdbcType="DOUBLE" />
+    <result column="pm69" property="pm69" jdbcType="DOUBLE" />
+    <result column="pm70" property="pm70" jdbcType="DOUBLE" />
+    <result column="pm71" property="pm71" jdbcType="DOUBLE" />
+    <result column="pm72" property="pm72" jdbcType="DOUBLE" />
+    <result column="pm73" property="pm73" jdbcType="DOUBLE" />
+    <result column="pm74" property="pm74" jdbcType="DOUBLE" />
+    <result column="pm75" property="pm75" jdbcType="DOUBLE" />
+    <result column="pm76" property="pm76" jdbcType="DOUBLE" />
+    <result column="pm77" property="pm77" jdbcType="DOUBLE" />
+    <result column="pm78" property="pm78" jdbcType="DOUBLE" />
+    <result column="pm79" property="pm79" jdbcType="DOUBLE" />
+    <result column="pm80" property="pm80" jdbcType="DOUBLE" />
+    <result column="pm81" property="pm81" jdbcType="DOUBLE" />
+    <result column="pm82" property="pm82" jdbcType="DOUBLE" />
+    <result column="pm83" property="pm83" jdbcType="DOUBLE" />
+    <result column="pm84" property="pm84" jdbcType="DOUBLE" />
+    <result column="pm85" property="pm85" jdbcType="DOUBLE" />
+    <result column="pm86" property="pm86" jdbcType="DOUBLE" />
+    <result column="pm87" property="pm87" jdbcType="DOUBLE" />
+    <result column="pm88" property="pm88" jdbcType="DOUBLE" />
+    <result column="pm89" property="pm89" jdbcType="DOUBLE" />
+    <result column="pm90" property="pm90" jdbcType="DOUBLE" />
+    <result column="pm91" property="pm91" jdbcType="DOUBLE" />
+    <result column="pm92" property="pm92" jdbcType="DOUBLE" />
+  </resultMap>
+
+  <resultMap id="selectResultMap" type="com.cn.chinamobile.pojo.mybatis.EnbCounterPm">
+    <result column="province" property="province"/>
+    <result column="city" property="city"/>
+    <result column="vendor" property="vendor"/>
+    <result column="pmversion" property="pmversion"/>
+    <result column="elementtype" property="elementtype"/>
+    <result column="TIME" property="dateTime"/>
+    <result column="totaluserlabel" property="commonVillageNumber"/>
+    <result column="CONTEXT_AttRelEnb" property="contextAttrelenb"/>
+    <result column="CONTEXT_AttRelEnb_CauseUserInactivity" property="contextAttrelenbCauseuserinactivity"/>
+    <result column="CONTEXT_AttRelEnb_Normal" property="contextAttrelenbNormal"/>
+    <result column="CONTEXT_NbrLeft" property="contextNbrleft"/>
+    <result column="CONTEXT_SuccInitalSetup" property="contextSuccinitalsetup"/>
+    <result column="ERAB_HoFail" property="erabHofail"/>
+    <result column="ERAB_HoFail_1" property="erabHofail1"/>
+    <result column="ERAB_HoFail_2" property="erabHofail2"/>
+    <result column="ERAB_NbrAttEstab" property="erabNbrattestab"/>
+    <result column="ERAB_NbrAttEstab_1" property="erabNbrattestab1"/>
+    <result column="ERAB_NbrAttEstab_2" property="erabNbrattestab2"/>
+    <result column="ERAB_NbrHoInc" property="erabNbrhoinc"/>
+    <result column="ERAB_NbrLeft" property="erabNbrleft"/>
+    <result column="ERAB_NbrLeft_1" property="erabNbrleft1"/>
+    <result column="ERAB_NbrLeft_2" property="erabNbrleft2"/>
+    <result column="ERAB_NbrReqRelEnb" property="erabNbrreqrelenb"/>
+    <result column="ERAB_NbrReqRelEnb_1" property="erabNbrreqrelenb1"/>
+    <result column="ERAB_NbrReqRelEnb_2" property="erabNbrreqrelenb2"/>
+    <result column="ERAB_NbrReqRelEnb_CauseUserInactivity" property="erabNbrreqrelenbCauseuserinactivity"/>
+    <result column="ERAB_NbrReqRelEnb_Normal" property="erabNbrreqrelenbNormal"/>
+    <result column="ERAB_NbrReqRelEnb_Normal_1" property="erabNbrreqrelenbNormal1"/>
+    <result column="ERAB_NbrReqRelEnb_Normal_2" property="erabNbrreqrelenbNormal2"/>
+    <result column="ERAB_NbrSuccEstab" property="erabNbrsuccestab"/>
+    <result column="ERAB_NbrSuccEstab_1" property="erabNbrsuccestab1"/>
+    <result column="ERAB_NbrSuccEstab_2" property="erabNbrsuccestab2"/>
+    <result column="HO_AttOutInterEnbS1" property="hoAttoutinterenbs1"/>
+    <result column="HO_AttOutInterEnbS1_1" property="hoAttoutinterenbs11"/>
+    <result column="HO_AttOutInterEnbS1_2" property="hoAttoutinterenbs12"/>
+    <result column="HO_AttOutInterEnbX2" property="hoAttoutinterenbx2"/>
+    <result column="HO_AttOutInterEnbX2_1" property="hoAttoutinterenbx21"/>
+    <result column="HO_AttOutInterEnbX2_2" property="hoAttoutinterenbx22"/>
+    <result column="HO_AttOutIntraEnb" property="hoAttoutintraenb"/>
+    <result column="HO_AttOutIntraEnb_1" property="hoAttoutintraenb1"/>
+    <result column="HO_AttOutIntraEnb_2" property="hoAttoutintraenb2"/>
+    <result column="HO_SuccExecInc" property="hoSuccexecinc"/>
+    <result column="HO_SuccOutInterEnbS1" property="hoSuccoutinterenbs1"/>
+    <result column="HO_SuccOutInterEnbS1_1" property="hoSuccoutinterenbs11"/>
+    <result column="HO_SuccOutInterEnbS1_2" property="hoSuccoutinterenbs12"/>
+    <result column="HO_SuccOutInterEnbX2" property="hoSuccoutinterenbx2"/>
+    <result column="HO_SuccOutInterEnbX2_1" property="hoSuccoutinterenbx21"/>
+    <result column="HO_SuccOutInterEnbX2_2" property="hoSuccoutinterenbx22"/>
+    <result column="HO_SuccOutIntraEnb" property="hoSuccoutintraenb"/>
+    <result column="HO_SuccOutIntraEnb_1" property="hoSuccoutintraenb1"/>
+    <result column="HO_SuccOutIntraEnb_2" property="hoSuccoutintraenb2"/>
+    <result column="IRATHO_AttOutGeran" property="irathoAttoutgeran"/>
+    <result column="IRATHO_SuccOutGeran" property="irathoSuccoutgeran"/>
+    <result column="PDCP_NbrPktDl_1" property="pdcpNbrpktdl1"/>
+    <result column="PDCP_NbrPktLossDl_1" property="pdcpNbrpktlossdl1"/>
+    <result column="PDCP_ThrpTimeDL" property="pdcpThrptimedl"/>
+    <result column="PDCP_ThrpTimeUL" property="pdcpThrptimeul"/>
+    <result column="PDCP_UpOctDl" property="pdcpUpoctdl"/>
+    <result column="PDCP_UpOctUl" property="pdcpUpoctul"/>
+    <result column="PDCP_UpPktTotDelayDl_1" property="pdcpUppkttotdelaydl1"/>
+    <result column="RRC_AttConnEstab" property="rrcAttconnestab"/>
+    <result column="RRC_ConnMax" property="rrcConnmax"/>
+    <result column="RRC_ConnMean" property="rrcConnmean"/>
+    <result column="RRC_EffectiveConnMax" property="rrcEffectiveconnmax"/>
+    <result column="RRC_EffectiveConnMean" property="rrcEffectiveconnmean"/>
+    <result column="RRC_SuccConnEstab" property="rrcSuccconnestab"/>
+    <result column="RRC_SuccConnReestab_NonSrccell" property="rrcSuccconnreestabNonsrccell"/>
+    <result column="RRU_BorrowFromScellPrbTotDl" property="rruBorrowfromscellprbtotdl"/>
+    <result column="RRU_DtchPrbAssnMeanUl" property="rruDtchprbassnmeanul"/>
+    <result column="RRU_DtchPrbAssnMeanDl" property="rruDtchprbassnmeandl"/>
+    <result column="RRU_LendToPCellPrbTotDl" property="rruLendtopcellprbtotdl"/>
+    <result column="RRU_PdcchCceUtilRatio" property="rruPdcchcceutilratio"/>
+    <result column="RRU_PdschPrbMeanTot" property="rruPdschprbmeantot"/>
+    <result column="RRU_PuschPrbMeanTot" property="rruPuschprbmeantot"/>
+    <result column="RRU_TtiTotDl" property="rruTtitotdl"/>
+    <result column="RRU_PdcchCceUtil" property="rruPdcchcceutil"/>
+    <result column="PDCP_UpLastTtiOctUl" property="pdcpUplastttioctul"/>
+    <result column="PDCP_UpLastTtiOctDl" property="pdcpUplastttioctdl"/>
+    <result column="RRU_PdschPrbTot" property="rruPdschprbtot"/>
+    <result column="RRU_PuschPrbTot" property="rruPuschprbtot"/>
+    <result column="RRU_DtchPrbAssnUl" property="rruDtchprbassnul"/>
+    <result column="RRU_DtchPrbAssnDl" property="rruDtchprbassndl"/>
+    <result column="RRU_TtiTotUl" property="rruTtitotul"/>
+  </resultMap>
+  <resultMap id="selectResultMap2" type="com.cn.chinamobile.pojo.mybatis.EnbCounterPm">
+    <result column="province" property="province"/>
+    <result column="city" property="city"/>
+    <result column="vendor" property="vendor"/>
+    <result column="pmversion" property="pmversion"/>
+    <result column="elementtype" property="elementtype"/>
+    <result column="TIME" property="dateTime"/>
+    <result column="common" property="commonVillageNumber"/>
+    <result column="CONTEXT_AttRelEnb" property="contextAttrelenb"/>
+    <result column="CONTEXT_AttRelEnb_CauseUserInactivity" property="contextAttrelenbCauseuserinactivity"/>
+    <result column="CONTEXT_AttRelEnb_Normal" property="contextAttrelenbNormal"/>
+    <result column="CONTEXT_NbrLeft" property="contextNbrleft"/>
+    <result column="CONTEXT_SuccInitalSetup" property="contextSuccinitalsetup"/>
+    <result column="ERAB_HoFail" property="erabHofail"/>
+    <result column="ERAB_HoFail_1" property="erabHofail1"/>
+    <result column="ERAB_HoFail_2" property="erabHofail2"/>
+    <result column="ERAB_NbrAttEstab" property="erabNbrattestab"/>
+    <result column="ERAB_NbrAttEstab_1" property="erabNbrattestab1"/>
+    <result column="ERAB_NbrAttEstab_2" property="erabNbrattestab2"/>
+    <result column="ERAB_NbrHoInc" property="erabNbrhoinc"/>
+    <result column="ERAB_NbrLeft" property="erabNbrleft"/>
+    <result column="ERAB_NbrLeft_1" property="erabNbrleft1"/>
+    <result column="ERAB_NbrLeft_2" property="erabNbrleft2"/>
+    <result column="ERAB_NbrReqRelEnb" property="erabNbrreqrelenb"/>
+    <result column="ERAB_NbrReqRelEnb_1" property="erabNbrreqrelenb1"/>
+    <result column="ERAB_NbrReqRelEnb_2" property="erabNbrreqrelenb2"/>
+    <result column="ERAB_NbrReqRelEnb_CauseUserInactivity" property="erabNbrreqrelenbCauseuserinactivity"/>
+    <result column="ERAB_NbrReqRelEnb_Normal" property="erabNbrreqrelenbNormal"/>
+    <result column="ERAB_NbrReqRelEnb_Normal_1" property="erabNbrreqrelenbNormal1"/>
+    <result column="ERAB_NbrReqRelEnb_Normal_2" property="erabNbrreqrelenbNormal2"/>
+    <result column="ERAB_NbrSuccEstab" property="erabNbrsuccestab"/>
+    <result column="ERAB_NbrSuccEstab_1" property="erabNbrsuccestab1"/>
+    <result column="ERAB_NbrSuccEstab_2" property="erabNbrsuccestab2"/>
+    <result column="HO_AttOutInterEnbS1" property="hoAttoutinterenbs1"/>
+    <result column="HO_AttOutInterEnbS1_1" property="hoAttoutinterenbs11"/>
+    <result column="HO_AttOutInterEnbS1_2" property="hoAttoutinterenbs12"/>
+    <result column="HO_AttOutInterEnbX2" property="hoAttoutinterenbx2"/>
+    <result column="HO_AttOutInterEnbX2_1" property="hoAttoutinterenbx21"/>
+    <result column="HO_AttOutInterEnbX2_2" property="hoAttoutinterenbx22"/>
+    <result column="HO_AttOutIntraEnb" property="hoAttoutintraenb"/>
+    <result column="HO_AttOutIntraEnb_1" property="hoAttoutintraenb1"/>
+    <result column="HO_AttOutIntraEnb_2" property="hoAttoutintraenb2"/>
+    <result column="HO_SuccExecInc" property="hoSuccexecinc"/>
+    <result column="HO_SuccOutInterEnbS1" property="hoSuccoutinterenbs1"/>
+    <result column="HO_SuccOutInterEnbS1_1" property="hoSuccoutinterenbs11"/>
+    <result column="HO_SuccOutInterEnbS1_2" property="hoSuccoutinterenbs12"/>
+    <result column="HO_SuccOutInterEnbX2" property="hoSuccoutinterenbx2"/>
+    <result column="HO_SuccOutInterEnbX2_1" property="hoSuccoutinterenbx21"/>
+    <result column="HO_SuccOutInterEnbX2_2" property="hoSuccoutinterenbx22"/>
+    <result column="HO_SuccOutIntraEnb" property="hoSuccoutintraenb"/>
+    <result column="HO_SuccOutIntraEnb_1" property="hoSuccoutintraenb1"/>
+    <result column="HO_SuccOutIntraEnb_2" property="hoSuccoutintraenb2"/>
+    <result column="IRATHO_AttOutGeran" property="irathoAttoutgeran"/>
+    <result column="IRATHO_SuccOutGeran" property="irathoSuccoutgeran"/>
+    <result column="PDCP_NbrPktDl_1" property="pdcpNbrpktdl1"/>
+    <result column="PDCP_NbrPktLossDl_1" property="pdcpNbrpktlossdl1"/>
+    <result column="PDCP_ThrpTimeDL" property="pdcpThrptimedl"/>
+    <result column="PDCP_ThrpTimeUL" property="pdcpThrptimeul"/>
+    <result column="PDCP_UpOctDl" property="pdcpUpoctdl"/>
+    <result column="PDCP_UpOctUl" property="pdcpUpoctul"/>
+    <result column="PDCP_UpPktTotDelayDl_1" property="pdcpUppkttotdelaydl1"/>
+    <result column="RRC_AttConnEstab" property="rrcAttconnestab"/>
+    <result column="RRC_ConnMax" property="rrcConnmax"/>
+    <result column="RRC_ConnMean" property="rrcConnmean"/>
+    <result column="RRC_EffectiveConnMax" property="rrcEffectiveconnmax"/>
+    <result column="RRC_EffectiveConnMean" property="rrcEffectiveconnmean"/>
+    <result column="RRC_SuccConnEstab" property="rrcSuccconnestab"/>
+    <result column="RRC_SuccConnReestab_NonSrccell" property="rrcSuccconnreestabNonsrccell"/>
+    <result column="RRU_BorrowFromScellPrbTotDl" property="rruBorrowfromscellprbtotdl"/>
+    <result column="RRU_DtchPrbAssnMeanUl" property="rruDtchprbassnmeanul"/>
+    <result column="RRU_DtchPrbAssnMeanDl" property="rruDtchprbassnmeandl"/>
+    <result column="RRU_LendToPCellPrbTotDl" property="rruLendtopcellprbtotdl"/>
+    <result column="RRU_PdcchCceUtilRatio" property="rruPdcchcceutilratio"/>
+    <result column="RRU_PdschPrbMeanTot" property="rruPdschprbmeantot"/>
+    <result column="RRU_PuschPrbMeanTot" property="rruPuschprbmeantot"/>
+    <result column="RRU_TtiTotDl" property="rruTtitotdl"/>
+    <result column="RRU_PdcchCceUtil" property="rruPdcchcceutil"/>
+    <result column="PDCP_UpLastTtiOctUl" property="pdcpUplastttioctul"/>
+    <result column="PDCP_UpLastTtiOctDl" property="pdcpUplastttioctdl"/>
+    <result column="RRU_PdschPrbTot" property="rruPdschprbtot"/>
+    <result column="RRU_PuschPrbTot" property="rruPuschprbtot"/>
+    <result column="RRU_DtchPrbAssnUl" property="rruDtchprbassnul"/>
+    <result column="RRU_DtchPrbAssnDl" property="rruDtchprbassndl"/>
+    <result column="RRU_TtiTotUl" property="rruTtitotul"/>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    pm1, pm00, pm0, pm2, pm3, pm4, pm5, pm6, pm7, pm8, pm9, pm10, pm11, pm12, pm13, pm14, 
+    pm15, pm16, pm17, pm18, pm19, pm20, pm21, pm22, pm23, pm24, pm25, pm26, pm27, pm28, 
+    pm29, pm30, pm31, pm32, pm33, pm34, pm35, pm36, pm37, pm38, pm39, pm40, pm41, pm42, 
+    pm43, pm44, pm45, pm46, pm47, pm48, pm49, pm50, pm51, pm52, pm53, pm54, pm55, pm56, 
+    pm57, pm58, pm59, pm60, pm61, pm62, pm63, pm64, pm65, pm66, pm67, pm68, pm69, pm70, 
+    pm71, pm72, pm73, pm74, pm75, pm76, pm77, pm78, pm79, pm80, pm81, pm82, pm83, pm84, 
+    pm85, pm86, pm87, pm88, pm89, pm90, pm91, pm92
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from counterpm_1h_enb
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </select>
+  <select id="selectSumCOUNTERByProAndDate" resultMap="selectResultMap">
+      SELECT counterpm_1h_enb.pm2 AS province,counterpm_1h_enb.pm3 AS city,counterpm_1h_enb.pm7 AS vendor,counterpm_1h_enb.pm9 AS pmversion,
+       counterpm_1h_enb.pm8 AS elementtype, counterpm_1h_enb.pm4 AS TIME,COUNT(1) AS totaluserlabel,
+SUM(counterpm_1h_enb.pm15) AS CONTEXT_AttRelEnb,
+SUM(counterpm_1h_enb.pm16) AS CONTEXT_AttRelEnb_CauseUserInactivity,
+SUM(counterpm_1h_enb.pm17) AS CONTEXT_AttRelEnb_Normal,
+SUM(counterpm_1h_enb.pm18) AS CONTEXT_NbrLeft,
+SUM(counterpm_1h_enb.pm19) AS CONTEXT_SuccInitalSetup,
+SUM(counterpm_1h_enb.pm20) AS ERAB_HoFail,
+SUM(counterpm_1h_enb.pm21) AS ERAB_HoFail_1,
+SUM(counterpm_1h_enb.pm22) AS ERAB_HoFail_2,
+SUM(counterpm_1h_enb.pm23) AS ERAB_NbrAttEstab,
+SUM(counterpm_1h_enb.pm24) AS ERAB_NbrAttEstab_1,
+SUM(counterpm_1h_enb.pm25) AS ERAB_NbrAttEstab_2,
+SUM(counterpm_1h_enb.pm26) AS ERAB_NbrHoInc,
+SUM(counterpm_1h_enb.pm27) AS ERAB_NbrLeft,
+SUM(counterpm_1h_enb.pm28) AS ERAB_NbrLeft_1,
+SUM(counterpm_1h_enb.pm29) AS ERAB_NbrLeft_2,
+SUM(counterpm_1h_enb.pm30) AS ERAB_NbrReqRelEnb,
+SUM(counterpm_1h_enb.pm31) AS ERAB_NbrReqRelEnb_1,
+SUM(counterpm_1h_enb.pm32) AS ERAB_NbrReqRelEnb_2,
+SUM(counterpm_1h_enb.pm33) AS ERAB_NbrReqRelEnb_CauseUserInactivity,
+SUM(counterpm_1h_enb.pm34) AS ERAB_NbrReqRelEnb_Normal,
+SUM(counterpm_1h_enb.pm35) AS ERAB_NbrReqRelEnb_Normal_1,
+SUM(counterpm_1h_enb.pm36) AS ERAB_NbrReqRelEnb_Normal_2,
+SUM(counterpm_1h_enb.pm37) AS ERAB_NbrSuccEstab,
+SUM(counterpm_1h_enb.pm38) AS ERAB_NbrSuccEstab_1,
+SUM(counterpm_1h_enb.pm39) AS ERAB_NbrSuccEstab_2,
+SUM(counterpm_1h_enb.pm40) AS HO_AttOutInterEnbS1,
+SUM(counterpm_1h_enb.pm41) AS HO_AttOutInterEnbS1_1,
+SUM(counterpm_1h_enb.pm42) AS HO_AttOutInterEnbS1_2,
+SUM(counterpm_1h_enb.pm43) AS HO_AttOutInterEnbX2,
+SUM(counterpm_1h_enb.pm44) AS HO_AttOutInterEnbX2_1,
+SUM(counterpm_1h_enb.pm45) AS HO_AttOutInterEnbX2_2,
+SUM(counterpm_1h_enb.pm46) AS HO_AttOutIntraEnb,
+SUM(counterpm_1h_enb.pm47) AS HO_AttOutIntraEnb_1,
+SUM(counterpm_1h_enb.pm48) AS HO_AttOutIntraEnb_2,
+SUM(counterpm_1h_enb.pm49) AS HO_SuccExecInc,
+SUM(counterpm_1h_enb.pm50) AS HO_SuccOutInterEnbS1,
+SUM(counterpm_1h_enb.pm51) AS HO_SuccOutInterEnbS1_1,
+SUM(counterpm_1h_enb.pm52) AS HO_SuccOutInterEnbS1_2,
+SUM(counterpm_1h_enb.pm53) AS HO_SuccOutInterEnbX2,
+SUM(counterpm_1h_enb.pm54) AS HO_SuccOutInterEnbX2_1,
+SUM(counterpm_1h_enb.pm55) AS HO_SuccOutInterEnbX2_2,
+SUM(counterpm_1h_enb.pm56) AS HO_SuccOutIntraEnb,
+SUM(counterpm_1h_enb.pm57) AS HO_SuccOutIntraEnb_1,
+SUM(counterpm_1h_enb.pm58) AS HO_SuccOutIntraEnb_2,
+SUM(counterpm_1h_enb.pm59) AS IRATHO_AttOutGeran,
+SUM(counterpm_1h_enb.pm60) AS IRATHO_SuccOutGeran,
+SUM(counterpm_1h_enb.pm61) AS PDCP_NbrPktDl_1,
+SUM(counterpm_1h_enb.pm62) AS PDCP_NbrPktLossDl_1,
+SUM(counterpm_1h_enb.pm63) AS PDCP_ThrpTimeDL,
+SUM(counterpm_1h_enb.pm64) AS PDCP_ThrpTimeUL,
+SUM(counterpm_1h_enb.pm65) AS PDCP_UpOctDl,
+SUM(counterpm_1h_enb.pm66) AS PDCP_UpOctUl,
+SUM(counterpm_1h_enb.pm67) AS PDCP_UpPktTotDelayDl_1,
+SUM(counterpm_1h_enb.pm68) AS RRC_AttConnEstab,
+SUM(counterpm_1h_enb.pm69) AS RRC_ConnMax,
+SUM(counterpm_1h_enb.pm70) AS RRC_ConnMean,
+SUM(counterpm_1h_enb.pm71) AS RRC_EffectiveConnMax,
+SUM(counterpm_1h_enb.pm72) AS RRC_EffectiveConnMean,
+SUM(counterpm_1h_enb.pm73) AS RRC_SuccConnEstab,
+SUM(counterpm_1h_enb.pm74) AS RRC_SuccConnReestab_NonSrccell,
+SUM(counterpm_1h_enb.pm75) AS RRU_BorrowFromScellPrbTotDl,
+SUM(counterpm_1h_enb.pm76) AS RRU_DtchPrbAssnMeanUl,
+SUM(counterpm_1h_enb.pm77) AS RRU_DtchPrbAssnMeanDl,
+SUM(counterpm_1h_enb.pm78) AS RRU_LendToPCellPrbTotDl,
+SUM(counterpm_1h_enb.pm79) AS RRU_PdcchCceUtilRatio,
+SUM(counterpm_1h_enb.pm80) AS RRU_PdschPrbMeanTot,
+SUM(counterpm_1h_enb.pm81) AS RRU_PuschPrbMeanTot,
+SUM(counterpm_1h_enb.pm82) AS RRU_TtiTotDl,
+SUM(counterpm_1h_enb.pm90) AS RRU_PdcchCceUtil,
+SUM(counterpm_1h_enb.pm88) AS PDCP_UpLastTtiOctUl,
+SUM(counterpm_1h_enb.pm89) AS PDCP_UpLastTtiOctDl,
+SUM(counterpm_1h_enb.pm87) AS RRU_PdschPrbTot,
+SUM(counterpm_1h_enb.pm85) AS RRU_PuschPrbTot,
+SUM(counterpm_1h_enb.pm84) AS RRU_DtchPrbAssnUl,
+SUM(counterpm_1h_enb.pm86) AS RRU_DtchPrbAssnDl,
+SUM(counterpm_1h_enb.pm83) AS RRU_TtiTotUl
+FROM counterpm_1h_enb
+WHERE
+pm4 = #{pm4}
+AND
+pm2= #{pm2}
+AND
+pm12  IN (SELECT DISTINCT pm12 FROM counterpm_1h_enb c WHERE c.pm4 = #{pm4} AND c.pm2=#{pm2}
+
+	AND c.pm12 NOT IN (
+
+		SELECT DISTINCT c1.pm12  FROM counterpm_1h_enb c1
+		WHERE
+		c1.pm4=#{pm4}
+		AND c1.pm2=#{pm2}
+		AND c1.pm16 IS NULL
+		AND c1.pm18 IS NULL
+		AND c1.pm27 IS NULL
+		AND c1.pm30 IS NULL
+	)
+
+	AND c.pm12 NOT IN (
+		SELECT DISTINCT n1.pm12  FROM nbipm_1h_enb n1
+		WHERE
+		n1.pm4=#{pm4}
+		AND n1.pm2=#{pm2}
+		AND n1.pm16 IS NULL
+		AND n1.pm18 IS NULL
+		AND n1.pm27 IS NULL
+		AND n1.pm30 IS NULL
+	)
+)
+GROUP BY pm2,pm7,pm9
+
+  </select>
+
+  <select id="selectSumCOUNTERByProAndDateFromTmp" resultMap="selectResultMap">
+      SELECT a.pm2 AS province,a.pm3 AS city,a.pm7 AS vendor,a.pm9 AS pmversion,
+       a.pm8 AS elementtype, a.pm4 AS TIME,COUNT(1) AS totaluserlabel,
+SUM(a.pm15) AS CONTEXT_AttRelEnb,
+SUM(a.pm16) AS CONTEXT_AttRelEnb_CauseUserInactivity,
+SUM(a.pm17) AS CONTEXT_AttRelEnb_Normal,
+SUM(a.pm18) AS CONTEXT_NbrLeft,
+SUM(a.pm19) AS CONTEXT_SuccInitalSetup,
+SUM(a.pm20) AS ERAB_HoFail,
+SUM(a.pm21) AS ERAB_HoFail_1,
+SUM(a.pm22) AS ERAB_HoFail_2,
+SUM(a.pm23) AS ERAB_NbrAttEstab,
+SUM(a.pm24) AS ERAB_NbrAttEstab_1,
+SUM(a.pm25) AS ERAB_NbrAttEstab_2,
+SUM(a.pm26) AS ERAB_NbrHoInc,
+SUM(a.pm27) AS ERAB_NbrLeft,
+SUM(a.pm28) AS ERAB_NbrLeft_1,
+SUM(a.pm29) AS ERAB_NbrLeft_2,
+SUM(a.pm30) AS ERAB_NbrReqRelEnb,
+SUM(a.pm31) AS ERAB_NbrReqRelEnb_1,
+SUM(a.pm32) AS ERAB_NbrReqRelEnb_2,
+SUM(a.pm33) AS ERAB_NbrReqRelEnb_CauseUserInactivity,
+SUM(a.pm34) AS ERAB_NbrReqRelEnb_Normal,
+SUM(a.pm35) AS ERAB_NbrReqRelEnb_Normal_1,
+SUM(a.pm36) AS ERAB_NbrReqRelEnb_Normal_2,
+SUM(a.pm37) AS ERAB_NbrSuccEstab,
+SUM(a.pm38) AS ERAB_NbrSuccEstab_1,
+SUM(a.pm39) AS ERAB_NbrSuccEstab_2,
+SUM(a.pm40) AS HO_AttOutInterEnbS1,
+SUM(a.pm41) AS HO_AttOutInterEnbS1_1,
+SUM(a.pm42) AS HO_AttOutInterEnbS1_2,
+SUM(a.pm43) AS HO_AttOutInterEnbX2,
+SUM(a.pm44) AS HO_AttOutInterEnbX2_1,
+SUM(a.pm45) AS HO_AttOutInterEnbX2_2,
+SUM(a.pm46) AS HO_AttOutIntraEnb,
+SUM(a.pm47) AS HO_AttOutIntraEnb_1,
+SUM(a.pm48) AS HO_AttOutIntraEnb_2,
+SUM(a.pm49) AS HO_SuccExecInc,
+SUM(a.pm50) AS HO_SuccOutInterEnbS1,
+SUM(a.pm51) AS HO_SuccOutInterEnbS1_1,
+SUM(a.pm52) AS HO_SuccOutInterEnbS1_2,
+SUM(a.pm53) AS HO_SuccOutInterEnbX2,
+SUM(a.pm54) AS HO_SuccOutInterEnbX2_1,
+SUM(a.pm55) AS HO_SuccOutInterEnbX2_2,
+SUM(a.pm56) AS HO_SuccOutIntraEnb,
+SUM(a.pm57) AS HO_SuccOutIntraEnb_1,
+SUM(a.pm58) AS HO_SuccOutIntraEnb_2,
+SUM(a.pm59) AS IRATHO_AttOutGeran,
+SUM(a.pm60) AS IRATHO_SuccOutGeran,
+SUM(a.pm61) AS PDCP_NbrPktDl_1,
+SUM(a.pm62) AS PDCP_NbrPktLossDl_1,
+SUM(a.pm63) AS PDCP_ThrpTimeDL,
+SUM(a.pm64) AS PDCP_ThrpTimeUL,
+SUM(a.pm65) AS PDCP_UpOctDl,
+SUM(a.pm66) AS PDCP_UpOctUl,
+SUM(a.pm67) AS PDCP_UpPktTotDelayDl_1,
+SUM(a.pm68) AS RRC_AttConnEstab,
+SUM(a.pm69) AS RRC_ConnMax,
+SUM(a.pm70) AS RRC_ConnMean,
+SUM(a.pm71) AS RRC_EffectiveConnMax,
+SUM(a.pm72) AS RRC_EffectiveConnMean,
+SUM(a.pm73) AS RRC_SuccConnEstab,
+SUM(a.pm74) AS RRC_SuccConnReestab_NonSrccell,
+SUM(a.pm75) AS RRU_BorrowFromScellPrbTotDl,
+SUM(a.pm76) AS RRU_DtchPrbAssnMeanUl,
+SUM(a.pm77) AS RRU_DtchPrbAssnMeanDl,
+SUM(a.pm78) AS RRU_LendToPCellPrbTotDl,
+SUM(a.pm79) AS RRU_PdcchCceUtilRatio,
+SUM(a.pm80) AS RRU_PdschPrbMeanTot,
+SUM(a.pm81) AS RRU_PuschPrbMeanTot,
+SUM(a.pm82) AS RRU_TtiTotDl,
+SUM(a.pm90) AS RRU_PdcchCceUtil,
+SUM(a.pm88) AS PDCP_UpLastTtiOctUl,
+SUM(a.pm89) AS PDCP_UpLastTtiOctDl,
+SUM(a.pm87) AS RRU_PdschPrbTot,
+SUM(a.pm85) AS RRU_PuschPrbTot,
+SUM(a.pm84) AS RRU_DtchPrbAssnUl,
+SUM(a.pm86) AS RRU_DtchPrbAssnDl,
+SUM(a.pm83) AS RRU_TtiTotUl
+FROM ${tableName} a
+WHERE
+pm4 = #{pm4}
+AND
+pm2= #{pm2}
+GROUP BY pm2,pm7,pm9
+
+  </select>
+
+
+
+  <select id="selectCommonCOUNTERByProAndDate" resultMap="selectResultMap2">
+    SELECT counterpm_1h_enb.pm2 AS province,counterpm_1h_enb.pm3 AS city,counterpm_1h_enb.pm7 AS vendor,counterpm_1h_enb.pm9 AS pmversion,
+       counterpm_1h_enb.pm8 AS elementtype, counterpm_1h_enb.pm4 AS TIME,counterpm_1h_enb.pm12 AS common,
+counterpm_1h_enb.pm15 AS CONTEXT_AttRelEnb,
+counterpm_1h_enb.pm16 AS CONTEXT_AttRelEnb_CauseUserInactivity,
+counterpm_1h_enb.pm17 AS CONTEXT_AttRelEnb_Normal,
+counterpm_1h_enb.pm18 AS CONTEXT_NbrLeft,
+counterpm_1h_enb.pm19 AS CONTEXT_SuccInitalSetup,
+counterpm_1h_enb.pm20 AS ERAB_HoFail,
+counterpm_1h_enb.pm21 AS ERAB_HoFail_1,
+counterpm_1h_enb.pm22 AS ERAB_HoFail_2,
+counterpm_1h_enb.pm23 AS ERAB_NbrAttEstab,
+counterpm_1h_enb.pm24 AS ERAB_NbrAttEstab_1,
+counterpm_1h_enb.pm25 AS ERAB_NbrAttEstab_2,
+counterpm_1h_enb.pm26 AS ERAB_NbrHoInc,
+counterpm_1h_enb.pm27 AS ERAB_NbrLeft,
+counterpm_1h_enb.pm28 AS ERAB_NbrLeft_1,
+counterpm_1h_enb.pm29 AS ERAB_NbrLeft_2,
+counterpm_1h_enb.pm30 AS ERAB_NbrReqRelEnb,
+counterpm_1h_enb.pm31 AS ERAB_NbrReqRelEnb_1,
+counterpm_1h_enb.pm32 AS ERAB_NbrReqRelEnb_2,
+counterpm_1h_enb.pm33 AS ERAB_NbrReqRelEnb_CauseUserInactivity,
+counterpm_1h_enb.pm34 AS ERAB_NbrReqRelEnb_Normal,
+counterpm_1h_enb.pm35 AS ERAB_NbrReqRelEnb_Normal_1,
+counterpm_1h_enb.pm36 AS ERAB_NbrReqRelEnb_Normal_2,
+counterpm_1h_enb.pm37 AS ERAB_NbrSuccEstab,
+counterpm_1h_enb.pm38 AS ERAB_NbrSuccEstab_1,
+counterpm_1h_enb.pm39 AS ERAB_NbrSuccEstab_2,
+counterpm_1h_enb.pm40 AS HO_AttOutInterEnbS1,
+counterpm_1h_enb.pm41 AS HO_AttOutInterEnbS1_1,
+counterpm_1h_enb.pm42 AS HO_AttOutInterEnbS1_2,
+counterpm_1h_enb.pm43 AS HO_AttOutInterEnbX2,
+counterpm_1h_enb.pm44 AS HO_AttOutInterEnbX2_1,
+counterpm_1h_enb.pm45 AS HO_AttOutInterEnbX2_2,
+counterpm_1h_enb.pm46 AS HO_AttOutIntraEnb,
+counterpm_1h_enb.pm47 AS HO_AttOutIntraEnb_1,
+counterpm_1h_enb.pm48 AS HO_AttOutIntraEnb_2,
+counterpm_1h_enb.pm49 AS HO_SuccExecInc,
+counterpm_1h_enb.pm50 AS HO_SuccOutInterEnbS1,
+counterpm_1h_enb.pm51 AS HO_SuccOutInterEnbS1_1,
+counterpm_1h_enb.pm52 AS HO_SuccOutInterEnbS1_2,
+counterpm_1h_enb.pm53 AS HO_SuccOutInterEnbX2,
+counterpm_1h_enb.pm54 AS HO_SuccOutInterEnbX2_1,
+counterpm_1h_enb.pm55 AS HO_SuccOutInterEnbX2_2,
+counterpm_1h_enb.pm56 AS HO_SuccOutIntraEnb,
+counterpm_1h_enb.pm57 AS HO_SuccOutIntraEnb_1,
+counterpm_1h_enb.pm58 AS HO_SuccOutIntraEnb_2,
+counterpm_1h_enb.pm59 AS IRATHO_AttOutGeran,
+counterpm_1h_enb.pm60 AS IRATHO_SuccOutGeran,
+counterpm_1h_enb.pm61 AS PDCP_NbrPktDl_1,
+counterpm_1h_enb.pm62 AS PDCP_NbrPktLossDl_1,
+counterpm_1h_enb.pm63 AS PDCP_ThrpTimeDL,
+counterpm_1h_enb.pm64 AS PDCP_ThrpTimeUL,
+counterpm_1h_enb.pm65 AS PDCP_UpOctDl,
+counterpm_1h_enb.pm66 AS PDCP_UpOctUl,
+counterpm_1h_enb.pm67 AS PDCP_UpPktTotDelayDl_1,
+counterpm_1h_enb.pm68 AS RRC_AttConnEstab,
+counterpm_1h_enb.pm69 AS RRC_ConnMax,
+counterpm_1h_enb.pm70 AS RRC_ConnMean,
+counterpm_1h_enb.pm71 AS RRC_EffectiveConnMax,
+counterpm_1h_enb.pm72 AS RRC_EffectiveConnMean,
+counterpm_1h_enb.pm73 AS RRC_SuccConnEstab,
+counterpm_1h_enb.pm74 AS RRC_SuccConnReestab_NonSrccell,
+counterpm_1h_enb.pm75 AS RRU_BorrowFromScellPrbTotDl,
+counterpm_1h_enb.pm76 AS RRU_DtchPrbAssnMeanUl,
+counterpm_1h_enb.pm77 AS RRU_DtchPrbAssnMeanDl,
+counterpm_1h_enb.pm78 AS RRU_LendToPCellPrbTotDl,
+counterpm_1h_enb.pm79 AS RRU_PdcchCceUtilRatio,
+counterpm_1h_enb.pm80 AS RRU_PdschPrbMeanTot,
+counterpm_1h_enb.pm81 AS RRU_PuschPrbMeanTot,
+counterpm_1h_enb.pm82 AS RRU_TtiTotDl,
+counterpm_1h_enb.pm90 AS RRU_PdcchCceUtil,
+counterpm_1h_enb.pm88 AS PDCP_UpLastTtiOctUl,
+counterpm_1h_enb.pm89 AS PDCP_UpLastTtiOctDl,
+counterpm_1h_enb.pm87 AS RRU_PdschPrbTot,
+counterpm_1h_enb.pm85 AS RRU_PuschPrbTot,
+counterpm_1h_enb.pm84 AS RRU_DtchPrbAssnUl,
+counterpm_1h_enb.pm86 AS RRU_DtchPrbAssnDl,
+counterpm_1h_enb.pm83 AS RRU_TtiTotUl
+FROM counterpm_1h_enb
+WHERE
+pm4 = #{pm4}
+AND
+pm2= #{pm2}
+AND
+pm12  IN (SELECT DISTINCT pm12 FROM nbipm_1h_enb c WHERE c.pm4 = #{pm4} AND c.pm2=#{pm2}
+
+AND c.pm12 NOT IN (
+
+		SELECT DISTINCT c1.pm12  FROM counterpm_1h_enb c1
+		WHERE
+		c1.pm4=#{pm4}
+		AND c1.pm2=#{pm2}
+		AND c1.pm16 IS NULL
+		AND c1.pm18 IS NULL
+		AND c1.pm27 IS NULL
+		AND c1.pm30 IS NULL
+	)
+
+	AND c.pm12 NOT IN (
+		SELECT DISTINCT n1.pm12  FROM nbipm_1h_enb n1
+		WHERE
+		n1.pm4=#{pm4}
+		AND n1.pm2=#{pm2}
+		AND n1.pm16 IS NULL
+		AND n1.pm18 IS NULL
+		AND n1.pm27 IS NULL
+		AND n1.pm30 IS NULL
+	)
+)
+
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from counterpm_1h_enb
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.CounterpmEnb" >
+    insert into counterpm_1h_enb (pm1, pm00, pm0, 
+      pm2, pm3, pm4, pm5, 
+      pm6, pm7, pm8, pm9, 
+      pm10, pm11, pm12, pm13, 
+      pm14, pm15, pm16, pm17, 
+      pm18, pm19, pm20, pm21, 
+      pm22, pm23, pm24, pm25, 
+      pm26, pm27, pm28, pm29, 
+      pm30, pm31, pm32, pm33, 
+      pm34, pm35, pm36, pm37, 
+      pm38, pm39, pm40, pm41, 
+      pm42, pm43, pm44, pm45, 
+      pm46, pm47, pm48, pm49, 
+      pm50, pm51, pm52, pm53, 
+      pm54, pm55, pm56, pm57, 
+      pm58, pm59, pm60, pm61, 
+      pm62, pm63, pm64, pm65, 
+      pm66, pm67, pm68, pm69, 
+      pm70, pm71, pm72, pm73, 
+      pm74, pm75, pm76, pm77, 
+      pm78, pm79, pm80, pm81, 
+      pm82, pm83, pm84, pm85, 
+      pm86, pm87, pm88, pm89, 
+      pm90, pm91, pm92)
+    values (#{pm1,jdbcType=INTEGER}, #{pm00,jdbcType=VARCHAR}, #{pm0,jdbcType=INTEGER}, 
+      #{pm2,jdbcType=VARCHAR}, #{pm3,jdbcType=VARCHAR}, #{pm4,jdbcType=VARCHAR}, #{pm5,jdbcType=VARCHAR}, 
+      #{pm6,jdbcType=VARCHAR}, #{pm7,jdbcType=VARCHAR}, #{pm8,jdbcType=VARCHAR}, #{pm9,jdbcType=VARCHAR}, 
+      #{pm10,jdbcType=VARCHAR}, #{pm11,jdbcType=VARCHAR}, #{pm12,jdbcType=VARCHAR}, #{pm13,jdbcType=VARCHAR}, 
+      #{pm14,jdbcType=VARCHAR}, #{pm15,jdbcType=DOUBLE}, #{pm16,jdbcType=DOUBLE}, #{pm17,jdbcType=DOUBLE}, 
+      #{pm18,jdbcType=DOUBLE}, #{pm19,jdbcType=DOUBLE}, #{pm20,jdbcType=DOUBLE}, #{pm21,jdbcType=DOUBLE}, 
+      #{pm22,jdbcType=DOUBLE}, #{pm23,jdbcType=DOUBLE}, #{pm24,jdbcType=DOUBLE}, #{pm25,jdbcType=DOUBLE}, 
+      #{pm26,jdbcType=DOUBLE}, #{pm27,jdbcType=DOUBLE}, #{pm28,jdbcType=DOUBLE}, #{pm29,jdbcType=DOUBLE}, 
+      #{pm30,jdbcType=DOUBLE}, #{pm31,jdbcType=DOUBLE}, #{pm32,jdbcType=DOUBLE}, #{pm33,jdbcType=DOUBLE}, 
+      #{pm34,jdbcType=DOUBLE}, #{pm35,jdbcType=DOUBLE}, #{pm36,jdbcType=DOUBLE}, #{pm37,jdbcType=DOUBLE}, 
+      #{pm38,jdbcType=DOUBLE}, #{pm39,jdbcType=DOUBLE}, #{pm40,jdbcType=DOUBLE}, #{pm41,jdbcType=DOUBLE}, 
+      #{pm42,jdbcType=DOUBLE}, #{pm43,jdbcType=DOUBLE}, #{pm44,jdbcType=DOUBLE}, #{pm45,jdbcType=DOUBLE}, 
+      #{pm46,jdbcType=DOUBLE}, #{pm47,jdbcType=DOUBLE}, #{pm48,jdbcType=DOUBLE}, #{pm49,jdbcType=DOUBLE}, 
+      #{pm50,jdbcType=DOUBLE}, #{pm51,jdbcType=DOUBLE}, #{pm52,jdbcType=DOUBLE}, #{pm53,jdbcType=DOUBLE}, 
+      #{pm54,jdbcType=DOUBLE}, #{pm55,jdbcType=DOUBLE}, #{pm56,jdbcType=DOUBLE}, #{pm57,jdbcType=DOUBLE}, 
+      #{pm58,jdbcType=DOUBLE}, #{pm59,jdbcType=DOUBLE}, #{pm60,jdbcType=DOUBLE}, #{pm61,jdbcType=DOUBLE}, 
+      #{pm62,jdbcType=DOUBLE}, #{pm63,jdbcType=DOUBLE}, #{pm64,jdbcType=DOUBLE}, #{pm65,jdbcType=DOUBLE}, 
+      #{pm66,jdbcType=DOUBLE}, #{pm67,jdbcType=DOUBLE}, #{pm68,jdbcType=DOUBLE}, #{pm69,jdbcType=DOUBLE}, 
+      #{pm70,jdbcType=DOUBLE}, #{pm71,jdbcType=DOUBLE}, #{pm72,jdbcType=DOUBLE}, #{pm73,jdbcType=DOUBLE}, 
+      #{pm74,jdbcType=DOUBLE}, #{pm75,jdbcType=DOUBLE}, #{pm76,jdbcType=DOUBLE}, #{pm77,jdbcType=DOUBLE}, 
+      #{pm78,jdbcType=DOUBLE}, #{pm79,jdbcType=DOUBLE}, #{pm80,jdbcType=DOUBLE}, #{pm81,jdbcType=DOUBLE}, 
+      #{pm82,jdbcType=DOUBLE}, #{pm83,jdbcType=DOUBLE}, #{pm84,jdbcType=DOUBLE}, #{pm85,jdbcType=DOUBLE}, 
+      #{pm86,jdbcType=DOUBLE}, #{pm87,jdbcType=DOUBLE}, #{pm88,jdbcType=DOUBLE}, #{pm89,jdbcType=DOUBLE}, 
+      #{pm90,jdbcType=DOUBLE}, #{pm91,jdbcType=DOUBLE}, #{pm92,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.CounterpmEnb" >
+    insert into counterpm_1h_enb
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="pm1 != null" >
+        pm1,
+      </if>
+      <if test="pm00 != null" >
+        pm00,
+      </if>
+      <if test="pm0 != null" >
+        pm0,
+      </if>
+      <if test="pm2 != null" >
+        pm2,
+      </if>
+      <if test="pm3 != null" >
+        pm3,
+      </if>
+      <if test="pm4 != null" >
+        pm4,
+      </if>
+      <if test="pm5 != null" >
+        pm5,
+      </if>
+      <if test="pm6 != null" >
+        pm6,
+      </if>
+      <if test="pm7 != null" >
+        pm7,
+      </if>
+      <if test="pm8 != null" >
+        pm8,
+      </if>
+      <if test="pm9 != null" >
+        pm9,
+      </if>
+      <if test="pm10 != null" >
+        pm10,
+      </if>
+      <if test="pm11 != null" >
+        pm11,
+      </if>
+      <if test="pm12 != null" >
+        pm12,
+      </if>
+      <if test="pm13 != null" >
+        pm13,
+      </if>
+      <if test="pm14 != null" >
+        pm14,
+      </if>
+      <if test="pm15 != null" >
+        pm15,
+      </if>
+      <if test="pm16 != null" >
+        pm16,
+      </if>
+      <if test="pm17 != null" >
+        pm17,
+      </if>
+      <if test="pm18 != null" >
+        pm18,
+      </if>
+      <if test="pm19 != null" >
+        pm19,
+      </if>
+      <if test="pm20 != null" >
+        pm20,
+      </if>
+      <if test="pm21 != null" >
+        pm21,
+      </if>
+      <if test="pm22 != null" >
+        pm22,
+      </if>
+      <if test="pm23 != null" >
+        pm23,
+      </if>
+      <if test="pm24 != null" >
+        pm24,
+      </if>
+      <if test="pm25 != null" >
+        pm25,
+      </if>
+      <if test="pm26 != null" >
+        pm26,
+      </if>
+      <if test="pm27 != null" >
+        pm27,
+      </if>
+      <if test="pm28 != null" >
+        pm28,
+      </if>
+      <if test="pm29 != null" >
+        pm29,
+      </if>
+      <if test="pm30 != null" >
+        pm30,
+      </if>
+      <if test="pm31 != null" >
+        pm31,
+      </if>
+      <if test="pm32 != null" >
+        pm32,
+      </if>
+      <if test="pm33 != null" >
+        pm33,
+      </if>
+      <if test="pm34 != null" >
+        pm34,
+      </if>
+      <if test="pm35 != null" >
+        pm35,
+      </if>
+      <if test="pm36 != null" >
+        pm36,
+      </if>
+      <if test="pm37 != null" >
+        pm37,
+      </if>
+      <if test="pm38 != null" >
+        pm38,
+      </if>
+      <if test="pm39 != null" >
+        pm39,
+      </if>
+      <if test="pm40 != null" >
+        pm40,
+      </if>
+      <if test="pm41 != null" >
+        pm41,
+      </if>
+      <if test="pm42 != null" >
+        pm42,
+      </if>
+      <if test="pm43 != null" >
+        pm43,
+      </if>
+      <if test="pm44 != null" >
+        pm44,
+      </if>
+      <if test="pm45 != null" >
+        pm45,
+      </if>
+      <if test="pm46 != null" >
+        pm46,
+      </if>
+      <if test="pm47 != null" >
+        pm47,
+      </if>
+      <if test="pm48 != null" >
+        pm48,
+      </if>
+      <if test="pm49 != null" >
+        pm49,
+      </if>
+      <if test="pm50 != null" >
+        pm50,
+      </if>
+      <if test="pm51 != null" >
+        pm51,
+      </if>
+      <if test="pm52 != null" >
+        pm52,
+      </if>
+      <if test="pm53 != null" >
+        pm53,
+      </if>
+      <if test="pm54 != null" >
+        pm54,
+      </if>
+      <if test="pm55 != null" >
+        pm55,
+      </if>
+      <if test="pm56 != null" >
+        pm56,
+      </if>
+      <if test="pm57 != null" >
+        pm57,
+      </if>
+      <if test="pm58 != null" >
+        pm58,
+      </if>
+      <if test="pm59 != null" >
+        pm59,
+      </if>
+      <if test="pm60 != null" >
+        pm60,
+      </if>
+      <if test="pm61 != null" >
+        pm61,
+      </if>
+      <if test="pm62 != null" >
+        pm62,
+      </if>
+      <if test="pm63 != null" >
+        pm63,
+      </if>
+      <if test="pm64 != null" >
+        pm64,
+      </if>
+      <if test="pm65 != null" >
+        pm65,
+      </if>
+      <if test="pm66 != null" >
+        pm66,
+      </if>
+      <if test="pm67 != null" >
+        pm67,
+      </if>
+      <if test="pm68 != null" >
+        pm68,
+      </if>
+      <if test="pm69 != null" >
+        pm69,
+      </if>
+      <if test="pm70 != null" >
+        pm70,
+      </if>
+      <if test="pm71 != null" >
+        pm71,
+      </if>
+      <if test="pm72 != null" >
+        pm72,
+      </if>
+      <if test="pm73 != null" >
+        pm73,
+      </if>
+      <if test="pm74 != null" >
+        pm74,
+      </if>
+      <if test="pm75 != null" >
+        pm75,
+      </if>
+      <if test="pm76 != null" >
+        pm76,
+      </if>
+      <if test="pm77 != null" >
+        pm77,
+      </if>
+      <if test="pm78 != null" >
+        pm78,
+      </if>
+      <if test="pm79 != null" >
+        pm79,
+      </if>
+      <if test="pm80 != null" >
+        pm80,
+      </if>
+      <if test="pm81 != null" >
+        pm81,
+      </if>
+      <if test="pm82 != null" >
+        pm82,
+      </if>
+      <if test="pm83 != null" >
+        pm83,
+      </if>
+      <if test="pm84 != null" >
+        pm84,
+      </if>
+      <if test="pm85 != null" >
+        pm85,
+      </if>
+      <if test="pm86 != null" >
+        pm86,
+      </if>
+      <if test="pm87 != null" >
+        pm87,
+      </if>
+      <if test="pm88 != null" >
+        pm88,
+      </if>
+      <if test="pm89 != null" >
+        pm89,
+      </if>
+      <if test="pm90 != null" >
+        pm90,
+      </if>
+      <if test="pm91 != null" >
+        pm91,
+      </if>
+      <if test="pm92 != null" >
+        pm92,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="pm1 != null" >
+        #{pm1,jdbcType=INTEGER},
+      </if>
+      <if test="pm00 != null" >
+        #{pm00,jdbcType=VARCHAR},
+      </if>
+      <if test="pm0 != null" >
+        #{pm0,jdbcType=INTEGER},
+      </if>
+      <if test="pm2 != null" >
+        #{pm2,jdbcType=VARCHAR},
+      </if>
+      <if test="pm3 != null" >
+        #{pm3,jdbcType=VARCHAR},
+      </if>
+      <if test="pm4 != null" >
+        #{pm4,jdbcType=VARCHAR},
+      </if>
+      <if test="pm5 != null" >
+        #{pm5,jdbcType=VARCHAR},
+      </if>
+      <if test="pm6 != null" >
+        #{pm6,jdbcType=VARCHAR},
+      </if>
+      <if test="pm7 != null" >
+        #{pm7,jdbcType=VARCHAR},
+      </if>
+      <if test="pm8 != null" >
+        #{pm8,jdbcType=VARCHAR},
+      </if>
+      <if test="pm9 != null" >
+        #{pm9,jdbcType=VARCHAR},
+      </if>
+      <if test="pm10 != null" >
+        #{pm10,jdbcType=VARCHAR},
+      </if>
+      <if test="pm11 != null" >
+        #{pm11,jdbcType=VARCHAR},
+      </if>
+      <if test="pm12 != null" >
+        #{pm12,jdbcType=VARCHAR},
+      </if>
+      <if test="pm13 != null" >
+        #{pm13,jdbcType=VARCHAR},
+      </if>
+      <if test="pm14 != null" >
+        #{pm14,jdbcType=VARCHAR},
+      </if>
+      <if test="pm15 != null" >
+        #{pm15,jdbcType=DOUBLE},
+      </if>
+      <if test="pm16 != null" >
+        #{pm16,jdbcType=DOUBLE},
+      </if>
+      <if test="pm17 != null" >
+        #{pm17,jdbcType=DOUBLE},
+      </if>
+      <if test="pm18 != null" >
+        #{pm18,jdbcType=DOUBLE},
+      </if>
+      <if test="pm19 != null" >
+        #{pm19,jdbcType=DOUBLE},
+      </if>
+      <if test="pm20 != null" >
+        #{pm20,jdbcType=DOUBLE},
+      </if>
+      <if test="pm21 != null" >
+        #{pm21,jdbcType=DOUBLE},
+      </if>
+      <if test="pm22 != null" >
+        #{pm22,jdbcType=DOUBLE},
+      </if>
+      <if test="pm23 != null" >
+        #{pm23,jdbcType=DOUBLE},
+      </if>
+      <if test="pm24 != null" >
+        #{pm24,jdbcType=DOUBLE},
+      </if>
+      <if test="pm25 != null" >
+        #{pm25,jdbcType=DOUBLE},
+      </if>
+      <if test="pm26 != null" >
+        #{pm26,jdbcType=DOUBLE},
+      </if>
+      <if test="pm27 != null" >
+        #{pm27,jdbcType=DOUBLE},
+      </if>
+      <if test="pm28 != null" >
+        #{pm28,jdbcType=DOUBLE},
+      </if>
+      <if test="pm29 != null" >
+        #{pm29,jdbcType=DOUBLE},
+      </if>
+      <if test="pm30 != null" >
+        #{pm30,jdbcType=DOUBLE},
+      </if>
+      <if test="pm31 != null" >
+        #{pm31,jdbcType=DOUBLE},
+      </if>
+      <if test="pm32 != null" >
+        #{pm32,jdbcType=DOUBLE},
+      </if>
+      <if test="pm33 != null" >
+        #{pm33,jdbcType=DOUBLE},
+      </if>
+      <if test="pm34 != null" >
+        #{pm34,jdbcType=DOUBLE},
+      </if>
+      <if test="pm35 != null" >
+        #{pm35,jdbcType=DOUBLE},
+      </if>
+      <if test="pm36 != null" >
+        #{pm36,jdbcType=DOUBLE},
+      </if>
+      <if test="pm37 != null" >
+        #{pm37,jdbcType=DOUBLE},
+      </if>
+      <if test="pm38 != null" >
+        #{pm38,jdbcType=DOUBLE},
+      </if>
+      <if test="pm39 != null" >
+        #{pm39,jdbcType=DOUBLE},
+      </if>
+      <if test="pm40 != null" >
+        #{pm40,jdbcType=DOUBLE},
+      </if>
+      <if test="pm41 != null" >
+        #{pm41,jdbcType=DOUBLE},
+      </if>
+      <if test="pm42 != null" >
+        #{pm42,jdbcType=DOUBLE},
+      </if>
+      <if test="pm43 != null" >
+        #{pm43,jdbcType=DOUBLE},
+      </if>
+      <if test="pm44 != null" >
+        #{pm44,jdbcType=DOUBLE},
+      </if>
+      <if test="pm45 != null" >
+        #{pm45,jdbcType=DOUBLE},
+      </if>
+      <if test="pm46 != null" >
+        #{pm46,jdbcType=DOUBLE},
+      </if>
+      <if test="pm47 != null" >
+        #{pm47,jdbcType=DOUBLE},
+      </if>
+      <if test="pm48 != null" >
+        #{pm48,jdbcType=DOUBLE},
+      </if>
+      <if test="pm49 != null" >
+        #{pm49,jdbcType=DOUBLE},
+      </if>
+      <if test="pm50 != null" >
+        #{pm50,jdbcType=DOUBLE},
+      </if>
+      <if test="pm51 != null" >
+        #{pm51,jdbcType=DOUBLE},
+      </if>
+      <if test="pm52 != null" >
+        #{pm52,jdbcType=DOUBLE},
+      </if>
+      <if test="pm53 != null" >
+        #{pm53,jdbcType=DOUBLE},
+      </if>
+      <if test="pm54 != null" >
+        #{pm54,jdbcType=DOUBLE},
+      </if>
+      <if test="pm55 != null" >
+        #{pm55,jdbcType=DOUBLE},
+      </if>
+      <if test="pm56 != null" >
+        #{pm56,jdbcType=DOUBLE},
+      </if>
+      <if test="pm57 != null" >
+        #{pm57,jdbcType=DOUBLE},
+      </if>
+      <if test="pm58 != null" >
+        #{pm58,jdbcType=DOUBLE},
+      </if>
+      <if test="pm59 != null" >
+        #{pm59,jdbcType=DOUBLE},
+      </if>
+      <if test="pm60 != null" >
+        #{pm60,jdbcType=DOUBLE},
+      </if>
+      <if test="pm61 != null" >
+        #{pm61,jdbcType=DOUBLE},
+      </if>
+      <if test="pm62 != null" >
+        #{pm62,jdbcType=DOUBLE},
+      </if>
+      <if test="pm63 != null" >
+        #{pm63,jdbcType=DOUBLE},
+      </if>
+      <if test="pm64 != null" >
+        #{pm64,jdbcType=DOUBLE},
+      </if>
+      <if test="pm65 != null" >
+        #{pm65,jdbcType=DOUBLE},
+      </if>
+      <if test="pm66 != null" >
+        #{pm66,jdbcType=DOUBLE},
+      </if>
+      <if test="pm67 != null" >
+        #{pm67,jdbcType=DOUBLE},
+      </if>
+      <if test="pm68 != null" >
+        #{pm68,jdbcType=DOUBLE},
+      </if>
+      <if test="pm69 != null" >
+        #{pm69,jdbcType=DOUBLE},
+      </if>
+      <if test="pm70 != null" >
+        #{pm70,jdbcType=DOUBLE},
+      </if>
+      <if test="pm71 != null" >
+        #{pm71,jdbcType=DOUBLE},
+      </if>
+      <if test="pm72 != null" >
+        #{pm72,jdbcType=DOUBLE},
+      </if>
+      <if test="pm73 != null" >
+        #{pm73,jdbcType=DOUBLE},
+      </if>
+      <if test="pm74 != null" >
+        #{pm74,jdbcType=DOUBLE},
+      </if>
+      <if test="pm75 != null" >
+        #{pm75,jdbcType=DOUBLE},
+      </if>
+      <if test="pm76 != null" >
+        #{pm76,jdbcType=DOUBLE},
+      </if>
+      <if test="pm77 != null" >
+        #{pm77,jdbcType=DOUBLE},
+      </if>
+      <if test="pm78 != null" >
+        #{pm78,jdbcType=DOUBLE},
+      </if>
+      <if test="pm79 != null" >
+        #{pm79,jdbcType=DOUBLE},
+      </if>
+      <if test="pm80 != null" >
+        #{pm80,jdbcType=DOUBLE},
+      </if>
+      <if test="pm81 != null" >
+        #{pm81,jdbcType=DOUBLE},
+      </if>
+      <if test="pm82 != null" >
+        #{pm82,jdbcType=DOUBLE},
+      </if>
+      <if test="pm83 != null" >
+        #{pm83,jdbcType=DOUBLE},
+      </if>
+      <if test="pm84 != null" >
+        #{pm84,jdbcType=DOUBLE},
+      </if>
+      <if test="pm85 != null" >
+        #{pm85,jdbcType=DOUBLE},
+      </if>
+      <if test="pm86 != null" >
+        #{pm86,jdbcType=DOUBLE},
+      </if>
+      <if test="pm87 != null" >
+        #{pm87,jdbcType=DOUBLE},
+      </if>
+      <if test="pm88 != null" >
+        #{pm88,jdbcType=DOUBLE},
+      </if>
+      <if test="pm89 != null" >
+        #{pm89,jdbcType=DOUBLE},
+      </if>
+      <if test="pm90 != null" >
+        #{pm90,jdbcType=DOUBLE},
+      </if>
+      <if test="pm91 != null" >
+        #{pm91,jdbcType=DOUBLE},
+      </if>
+      <if test="pm92 != null" >
+        #{pm92,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.CounterpmEnb" >
+    update counterpm_1h_enb
+    <set >
+      <if test="pm00 != null" >
+        pm00 = #{pm00,jdbcType=VARCHAR},
+      </if>
+      <if test="pm0 != null" >
+        pm0 = #{pm0,jdbcType=INTEGER},
+      </if>
+      <if test="pm2 != null" >
+        pm2 = #{pm2,jdbcType=VARCHAR},
+      </if>
+      <if test="pm3 != null" >
+        pm3 = #{pm3,jdbcType=VARCHAR},
+      </if>
+      <if test="pm4 != null" >
+        pm4 = #{pm4,jdbcType=VARCHAR},
+      </if>
+      <if test="pm5 != null" >
+        pm5 = #{pm5,jdbcType=VARCHAR},
+      </if>
+      <if test="pm6 != null" >
+        pm6 = #{pm6,jdbcType=VARCHAR},
+      </if>
+      <if test="pm7 != null" >
+        pm7 = #{pm7,jdbcType=VARCHAR},
+      </if>
+      <if test="pm8 != null" >
+        pm8 = #{pm8,jdbcType=VARCHAR},
+      </if>
+      <if test="pm9 != null" >
+        pm9 = #{pm9,jdbcType=VARCHAR},
+      </if>
+      <if test="pm10 != null" >
+        pm10 = #{pm10,jdbcType=VARCHAR},
+      </if>
+      <if test="pm11 != null" >
+        pm11 = #{pm11,jdbcType=VARCHAR},
+      </if>
+      <if test="pm12 != null" >
+        pm12 = #{pm12,jdbcType=VARCHAR},
+      </if>
+      <if test="pm13 != null" >
+        pm13 = #{pm13,jdbcType=VARCHAR},
+      </if>
+      <if test="pm14 != null" >
+        pm14 = #{pm14,jdbcType=VARCHAR},
+      </if>
+      <if test="pm15 != null" >
+        pm15 = #{pm15,jdbcType=DOUBLE},
+      </if>
+      <if test="pm16 != null" >
+        pm16 = #{pm16,jdbcType=DOUBLE},
+      </if>
+      <if test="pm17 != null" >
+        pm17 = #{pm17,jdbcType=DOUBLE},
+      </if>
+      <if test="pm18 != null" >
+        pm18 = #{pm18,jdbcType=DOUBLE},
+      </if>
+      <if test="pm19 != null" >
+        pm19 = #{pm19,jdbcType=DOUBLE},
+      </if>
+      <if test="pm20 != null" >
+        pm20 = #{pm20,jdbcType=DOUBLE},
+      </if>
+      <if test="pm21 != null" >
+        pm21 = #{pm21,jdbcType=DOUBLE},
+      </if>
+      <if test="pm22 != null" >
+        pm22 = #{pm22,jdbcType=DOUBLE},
+      </if>
+      <if test="pm23 != null" >
+        pm23 = #{pm23,jdbcType=DOUBLE},
+      </if>
+      <if test="pm24 != null" >
+        pm24 = #{pm24,jdbcType=DOUBLE},
+      </if>
+      <if test="pm25 != null" >
+        pm25 = #{pm25,jdbcType=DOUBLE},
+      </if>
+      <if test="pm26 != null" >
+        pm26 = #{pm26,jdbcType=DOUBLE},
+      </if>
+      <if test="pm27 != null" >
+        pm27 = #{pm27,jdbcType=DOUBLE},
+      </if>
+      <if test="pm28 != null" >
+        pm28 = #{pm28,jdbcType=DOUBLE},
+      </if>
+      <if test="pm29 != null" >
+        pm29 = #{pm29,jdbcType=DOUBLE},
+      </if>
+      <if test="pm30 != null" >
+        pm30 = #{pm30,jdbcType=DOUBLE},
+      </if>
+      <if test="pm31 != null" >
+        pm31 = #{pm31,jdbcType=DOUBLE},
+      </if>
+      <if test="pm32 != null" >
+        pm32 = #{pm32,jdbcType=DOUBLE},
+      </if>
+      <if test="pm33 != null" >
+        pm33 = #{pm33,jdbcType=DOUBLE},
+      </if>
+      <if test="pm34 != null" >
+        pm34 = #{pm34,jdbcType=DOUBLE},
+      </if>
+      <if test="pm35 != null" >
+        pm35 = #{pm35,jdbcType=DOUBLE},
+      </if>
+      <if test="pm36 != null" >
+        pm36 = #{pm36,jdbcType=DOUBLE},
+      </if>
+      <if test="pm37 != null" >
+        pm37 = #{pm37,jdbcType=DOUBLE},
+      </if>
+      <if test="pm38 != null" >
+        pm38 = #{pm38,jdbcType=DOUBLE},
+      </if>
+      <if test="pm39 != null" >
+        pm39 = #{pm39,jdbcType=DOUBLE},
+      </if>
+      <if test="pm40 != null" >
+        pm40 = #{pm40,jdbcType=DOUBLE},
+      </if>
+      <if test="pm41 != null" >
+        pm41 = #{pm41,jdbcType=DOUBLE},
+      </if>
+      <if test="pm42 != null" >
+        pm42 = #{pm42,jdbcType=DOUBLE},
+      </if>
+      <if test="pm43 != null" >
+        pm43 = #{pm43,jdbcType=DOUBLE},
+      </if>
+      <if test="pm44 != null" >
+        pm44 = #{pm44,jdbcType=DOUBLE},
+      </if>
+      <if test="pm45 != null" >
+        pm45 = #{pm45,jdbcType=DOUBLE},
+      </if>
+      <if test="pm46 != null" >
+        pm46 = #{pm46,jdbcType=DOUBLE},
+      </if>
+      <if test="pm47 != null" >
+        pm47 = #{pm47,jdbcType=DOUBLE},
+      </if>
+      <if test="pm48 != null" >
+        pm48 = #{pm48,jdbcType=DOUBLE},
+      </if>
+      <if test="pm49 != null" >
+        pm49 = #{pm49,jdbcType=DOUBLE},
+      </if>
+      <if test="pm50 != null" >
+        pm50 = #{pm50,jdbcType=DOUBLE},
+      </if>
+      <if test="pm51 != null" >
+        pm51 = #{pm51,jdbcType=DOUBLE},
+      </if>
+      <if test="pm52 != null" >
+        pm52 = #{pm52,jdbcType=DOUBLE},
+      </if>
+      <if test="pm53 != null" >
+        pm53 = #{pm53,jdbcType=DOUBLE},
+      </if>
+      <if test="pm54 != null" >
+        pm54 = #{pm54,jdbcType=DOUBLE},
+      </if>
+      <if test="pm55 != null" >
+        pm55 = #{pm55,jdbcType=DOUBLE},
+      </if>
+      <if test="pm56 != null" >
+        pm56 = #{pm56,jdbcType=DOUBLE},
+      </if>
+      <if test="pm57 != null" >
+        pm57 = #{pm57,jdbcType=DOUBLE},
+      </if>
+      <if test="pm58 != null" >
+        pm58 = #{pm58,jdbcType=DOUBLE},
+      </if>
+      <if test="pm59 != null" >
+        pm59 = #{pm59,jdbcType=DOUBLE},
+      </if>
+      <if test="pm60 != null" >
+        pm60 = #{pm60,jdbcType=DOUBLE},
+      </if>
+      <if test="pm61 != null" >
+        pm61 = #{pm61,jdbcType=DOUBLE},
+      </if>
+      <if test="pm62 != null" >
+        pm62 = #{pm62,jdbcType=DOUBLE},
+      </if>
+      <if test="pm63 != null" >
+        pm63 = #{pm63,jdbcType=DOUBLE},
+      </if>
+      <if test="pm64 != null" >
+        pm64 = #{pm64,jdbcType=DOUBLE},
+      </if>
+      <if test="pm65 != null" >
+        pm65 = #{pm65,jdbcType=DOUBLE},
+      </if>
+      <if test="pm66 != null" >
+        pm66 = #{pm66,jdbcType=DOUBLE},
+      </if>
+      <if test="pm67 != null" >
+        pm67 = #{pm67,jdbcType=DOUBLE},
+      </if>
+      <if test="pm68 != null" >
+        pm68 = #{pm68,jdbcType=DOUBLE},
+      </if>
+      <if test="pm69 != null" >
+        pm69 = #{pm69,jdbcType=DOUBLE},
+      </if>
+      <if test="pm70 != null" >
+        pm70 = #{pm70,jdbcType=DOUBLE},
+      </if>
+      <if test="pm71 != null" >
+        pm71 = #{pm71,jdbcType=DOUBLE},
+      </if>
+      <if test="pm72 != null" >
+        pm72 = #{pm72,jdbcType=DOUBLE},
+      </if>
+      <if test="pm73 != null" >
+        pm73 = #{pm73,jdbcType=DOUBLE},
+      </if>
+      <if test="pm74 != null" >
+        pm74 = #{pm74,jdbcType=DOUBLE},
+      </if>
+      <if test="pm75 != null" >
+        pm75 = #{pm75,jdbcType=DOUBLE},
+      </if>
+      <if test="pm76 != null" >
+        pm76 = #{pm76,jdbcType=DOUBLE},
+      </if>
+      <if test="pm77 != null" >
+        pm77 = #{pm77,jdbcType=DOUBLE},
+      </if>
+      <if test="pm78 != null" >
+        pm78 = #{pm78,jdbcType=DOUBLE},
+      </if>
+      <if test="pm79 != null" >
+        pm79 = #{pm79,jdbcType=DOUBLE},
+      </if>
+      <if test="pm80 != null" >
+        pm80 = #{pm80,jdbcType=DOUBLE},
+      </if>
+      <if test="pm81 != null" >
+        pm81 = #{pm81,jdbcType=DOUBLE},
+      </if>
+      <if test="pm82 != null" >
+        pm82 = #{pm82,jdbcType=DOUBLE},
+      </if>
+      <if test="pm83 != null" >
+        pm83 = #{pm83,jdbcType=DOUBLE},
+      </if>
+      <if test="pm84 != null" >
+        pm84 = #{pm84,jdbcType=DOUBLE},
+      </if>
+      <if test="pm85 != null" >
+        pm85 = #{pm85,jdbcType=DOUBLE},
+      </if>
+      <if test="pm86 != null" >
+        pm86 = #{pm86,jdbcType=DOUBLE},
+      </if>
+      <if test="pm87 != null" >
+        pm87 = #{pm87,jdbcType=DOUBLE},
+      </if>
+      <if test="pm88 != null" >
+        pm88 = #{pm88,jdbcType=DOUBLE},
+      </if>
+      <if test="pm89 != null" >
+        pm89 = #{pm89,jdbcType=DOUBLE},
+      </if>
+      <if test="pm90 != null" >
+        pm90 = #{pm90,jdbcType=DOUBLE},
+      </if>
+      <if test="pm91 != null" >
+        pm91 = #{pm91,jdbcType=DOUBLE},
+      </if>
+      <if test="pm92 != null" >
+        pm92 = #{pm92,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.CounterpmEnb" >
+    update counterpm_1h_enb
+    set pm00 = #{pm00,jdbcType=VARCHAR},
+      pm0 = #{pm0,jdbcType=INTEGER},
+      pm2 = #{pm2,jdbcType=VARCHAR},
+      pm3 = #{pm3,jdbcType=VARCHAR},
+      pm4 = #{pm4,jdbcType=VARCHAR},
+      pm5 = #{pm5,jdbcType=VARCHAR},
+      pm6 = #{pm6,jdbcType=VARCHAR},
+      pm7 = #{pm7,jdbcType=VARCHAR},
+      pm8 = #{pm8,jdbcType=VARCHAR},
+      pm9 = #{pm9,jdbcType=VARCHAR},
+      pm10 = #{pm10,jdbcType=VARCHAR},
+      pm11 = #{pm11,jdbcType=VARCHAR},
+      pm12 = #{pm12,jdbcType=VARCHAR},
+      pm13 = #{pm13,jdbcType=VARCHAR},
+      pm14 = #{pm14,jdbcType=VARCHAR},
+      pm15 = #{pm15,jdbcType=DOUBLE},
+      pm16 = #{pm16,jdbcType=DOUBLE},
+      pm17 = #{pm17,jdbcType=DOUBLE},
+      pm18 = #{pm18,jdbcType=DOUBLE},
+      pm19 = #{pm19,jdbcType=DOUBLE},
+      pm20 = #{pm20,jdbcType=DOUBLE},
+      pm21 = #{pm21,jdbcType=DOUBLE},
+      pm22 = #{pm22,jdbcType=DOUBLE},
+      pm23 = #{pm23,jdbcType=DOUBLE},
+      pm24 = #{pm24,jdbcType=DOUBLE},
+      pm25 = #{pm25,jdbcType=DOUBLE},
+      pm26 = #{pm26,jdbcType=DOUBLE},
+      pm27 = #{pm27,jdbcType=DOUBLE},
+      pm28 = #{pm28,jdbcType=DOUBLE},
+      pm29 = #{pm29,jdbcType=DOUBLE},
+      pm30 = #{pm30,jdbcType=DOUBLE},
+      pm31 = #{pm31,jdbcType=DOUBLE},
+      pm32 = #{pm32,jdbcType=DOUBLE},
+      pm33 = #{pm33,jdbcType=DOUBLE},
+      pm34 = #{pm34,jdbcType=DOUBLE},
+      pm35 = #{pm35,jdbcType=DOUBLE},
+      pm36 = #{pm36,jdbcType=DOUBLE},
+      pm37 = #{pm37,jdbcType=DOUBLE},
+      pm38 = #{pm38,jdbcType=DOUBLE},
+      pm39 = #{pm39,jdbcType=DOUBLE},
+      pm40 = #{pm40,jdbcType=DOUBLE},
+      pm41 = #{pm41,jdbcType=DOUBLE},
+      pm42 = #{pm42,jdbcType=DOUBLE},
+      pm43 = #{pm43,jdbcType=DOUBLE},
+      pm44 = #{pm44,jdbcType=DOUBLE},
+      pm45 = #{pm45,jdbcType=DOUBLE},
+      pm46 = #{pm46,jdbcType=DOUBLE},
+      pm47 = #{pm47,jdbcType=DOUBLE},
+      pm48 = #{pm48,jdbcType=DOUBLE},
+      pm49 = #{pm49,jdbcType=DOUBLE},
+      pm50 = #{pm50,jdbcType=DOUBLE},
+      pm51 = #{pm51,jdbcType=DOUBLE},
+      pm52 = #{pm52,jdbcType=DOUBLE},
+      pm53 = #{pm53,jdbcType=DOUBLE},
+      pm54 = #{pm54,jdbcType=DOUBLE},
+      pm55 = #{pm55,jdbcType=DOUBLE},
+      pm56 = #{pm56,jdbcType=DOUBLE},
+      pm57 = #{pm57,jdbcType=DOUBLE},
+      pm58 = #{pm58,jdbcType=DOUBLE},
+      pm59 = #{pm59,jdbcType=DOUBLE},
+      pm60 = #{pm60,jdbcType=DOUBLE},
+      pm61 = #{pm61,jdbcType=DOUBLE},
+      pm62 = #{pm62,jdbcType=DOUBLE},
+      pm63 = #{pm63,jdbcType=DOUBLE},
+      pm64 = #{pm64,jdbcType=DOUBLE},
+      pm65 = #{pm65,jdbcType=DOUBLE},
+      pm66 = #{pm66,jdbcType=DOUBLE},
+      pm67 = #{pm67,jdbcType=DOUBLE},
+      pm68 = #{pm68,jdbcType=DOUBLE},
+      pm69 = #{pm69,jdbcType=DOUBLE},
+      pm70 = #{pm70,jdbcType=DOUBLE},
+      pm71 = #{pm71,jdbcType=DOUBLE},
+      pm72 = #{pm72,jdbcType=DOUBLE},
+      pm73 = #{pm73,jdbcType=DOUBLE},
+      pm74 = #{pm74,jdbcType=DOUBLE},
+      pm75 = #{pm75,jdbcType=DOUBLE},
+      pm76 = #{pm76,jdbcType=DOUBLE},
+      pm77 = #{pm77,jdbcType=DOUBLE},
+      pm78 = #{pm78,jdbcType=DOUBLE},
+      pm79 = #{pm79,jdbcType=DOUBLE},
+      pm80 = #{pm80,jdbcType=DOUBLE},
+      pm81 = #{pm81,jdbcType=DOUBLE},
+      pm82 = #{pm82,jdbcType=DOUBLE},
+      pm83 = #{pm83,jdbcType=DOUBLE},
+      pm84 = #{pm84,jdbcType=DOUBLE},
+      pm85 = #{pm85,jdbcType=DOUBLE},
+      pm86 = #{pm86,jdbcType=DOUBLE},
+      pm87 = #{pm87,jdbcType=DOUBLE},
+      pm88 = #{pm88,jdbcType=DOUBLE},
+      pm89 = #{pm89,jdbcType=DOUBLE},
+      pm90 = #{pm90,jdbcType=DOUBLE},
+      pm91 = #{pm91,jdbcType=DOUBLE},
+      pm92 = #{pm92,jdbcType=DOUBLE}
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </update>
+
+  <!--获取厂家信息-->
+  <select id="selectCounterVenderInformation" resultType="com.cn.chinamobile.pojo.mybatis.VenderInformation">
+    SELECT  DISTINCT pm2,pm7,pm8,pm9 FROM counterpm_1h_enb
+  </select>
+  <!--获取厂商社区信息-->
+  <select id="selectCounterUserlabels" resultType="java.lang.String">
+    SELECT DISTINCT pm12  FROM  counterpm_1h_enb
+    WHERE pm2=#{pm2} AND pm7=#{pm7} AND pm8=#{pm8} AND pm9=#{pm9}
+  </select>
+
+  <!--生成临时表-->
+  <update id="createCounterTmpTabel" >
+    ${sql}
+  </update>
+
+</mapper>

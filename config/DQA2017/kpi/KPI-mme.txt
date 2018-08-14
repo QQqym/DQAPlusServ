@@ -1,0 +1,6 @@
+IMS网络PDN连接建立成功率#SM.PdnConnectivityComplete.Ims/SM.PdnConnectivityRequest.Ims
+跟踪区更新成功率#MM.TauAccept/MM.TauRequest
+排除用户原因的附着成功率#MM.SuccEpsAttach/(MM.AttEpsAttach-MM.FailedEpsAttach.3-MM.FailedEpsAttach.5-MM.FailedEpsAttach.6-MM.FailedEpsAttach.7.User-MM.FailedEpsAttach.8-MM.FailedEpsAttach.15.User-MM.FailedEpsAttach.19.User)
+缺省承载激活成功率#SM.ActDefaultEpsBearerAccept/SM.ActDefaultEpsBearerRequest
+寻呼成功率#(MM.FirstPagingSucc+MM.SecondPagingSucc)/MM.PagAtt
+MME建立专用承载成功率#SM.SuccCreateDedicatedS5S8BearerMme/SM.AttCreateDedicatedS5S8BearerMme

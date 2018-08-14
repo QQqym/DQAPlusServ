@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpExempDtypeMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpExempDtype" >
+    <constructor >
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="excetype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version"  jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    netype, datatype, type,excetype,version
+  </sql>
+
+  <select id="selectByParas" resultMap="BaseResultMap"  parameterType="map">
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udp_exemp_dtype
+    where netype = #{neType,jdbcType=VARCHAR}
+    and type = #{type,jdbcType=VARCHAR}
+    <if test="version != null">
+      AND version = #{version,jdbcType=VARCHAR}
+    </if>
+    <if test="version == null">
+      AND version is null
+    </if>
+
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpExempDtype" >
+    insert into udp_exemp_dtype (netype, datatype, type, 
+      excetype)
+    values (#{netype,jdbcType=VARCHAR}, #{datatype,jdbcType=VARCHAR}, #{type,jdbcType=VARCHAR}, 
+      #{excetype,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpExempDtype" >
+    insert into udp_exemp_dtype
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="type != null" >
+        type,
+      </if>
+      <if test="excetype != null" >
+        excetype,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="excetype != null" >
+        #{excetype,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

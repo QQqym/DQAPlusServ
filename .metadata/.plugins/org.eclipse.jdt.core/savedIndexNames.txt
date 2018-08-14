@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+D:\java_work\java_work\DQAPlusServ\.metadata\.plugins\org.eclipse.jdt.core
+1953297533.index
+465637022.index
+2342595929.index

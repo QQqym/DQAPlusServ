@@ -1,0 +1,2 @@
+DIAM.AucInfoReq#HssS6aAuthInfoRequests_ALL_moid
+DIAM.AucInfoAnsSucc#HssS6aAuthInfoAnswersDiaSuccess_ALL_moid

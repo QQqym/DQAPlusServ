@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<version name = "磐石行动 I期" file="DQA2015"></version>
+	<version name = "磐石行动 II期" file="DQA2016"></version>
+	<version name = "磐石行动 III期" file="DQA2017"></version>
+	<version name = "自定义" file="DQASelfDefine"></version>
+</file>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd" file="EutranCellTddPmDesc.txt"></PmType>
+	
+	<PmType name="MmeFunction" file="MmeFunctionPmDesc.txt"></PmType>
+	
+	<PmType name="EpRpDynS11Mme" file="EpRpDynS11MmePmDesc.txt"></PmType>
+	
+	<PmType name="EpRpDynS11Sgw" file="EpRpDynS11SgwPmDesc.txt"></PmType>
+	
+	<PmType name="PgwFunction" file="PgwFunctionPmDesc.txt"></PmType>
+	
+	<PmType name="EpRpDynS5S8Pgw" file="EpRpDynS5S8PgwPmDesc.txt"></PmType>
+		
+	<PmType name="HssFunction" file="HssFunctionPmDesc.txt"></PmType>
+	
+	<PmType name="FeFunction" file="FeFunctionPmDesc.txt"></PmType>
+	
+	<PmType name="SbcFunction" file="SbcFunctionPmDesc.txt"></PmType>
+	
+	<PmType name="ScscfFunction" file="ScscfFunctionPmDesc.txt"></PmType>
+		
+	
+</file>

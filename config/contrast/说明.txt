@@ -1,0 +1,19 @@
+1 pm-* 或omc-*文件
+以PM统计工具计算的csv结果文件中的测量项和指标值去和OMC提供的测量项和指标值作对比：
+PM的csv文件的配置文件和OMC提供的Excel表的配置文件(暂时分无线侧、核心网侧、用户面)中的指标名称(name)相同，
+value是指标值在csv或者excel表中的列位置,列位置的起始位置值是1
+pm输出时间格式必须是"yyyy-MM-dd HH:mm"
+
+2 sqlOutputOrder.properties
+#指标与SQL语句从数据中获得的值的位置关系，
+#如语句：SELECT nemark,COUNT(*),sum(case when ProcedureStatus=0 then 1 else 0 end) from sgs WHERE ProcedureType=1 AND ServiceIndicator<>2
+#获得的三列分别是网元名称、CSFB寻呼次数、CSFB寻呼成功次数
+#则在配置文件中格式如下：
+#CSFBSgsPaging.sql=Service.CSFB.SGsPagingReqMsgCount，Service.CSFB.SGsPagingSuccCount；
+#分别代表：CSFB寻呼请求的sql文件名=寻呼请求次数，寻呼请求成功数；
+#注意：等号("=")右边测量项的次序一定是其在SQL语句中select查询从句中的先后顺序
+
+3 IndexRelativeSQL_*
+指标项名称和SQL文件名称对应的关系,分为核心网侧、无线侧、用户侧、关键字段完整率三个关系文件
+指标项名称和统计界面的复选框指标名相对应
+

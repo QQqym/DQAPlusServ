@@ -1,0 +1,3 @@
+SBC初始注册成功率#UR.SuccInitReg/UR.AttInitReg
+SBC重注册成功率#UR.SuccReReg/UR.AttReReg
+SBC接通率#(SC.SuccSessionOrig+SC.SuccSessionTerm)/(SC.AttSessionOrig+SC.AttSessionTerm)

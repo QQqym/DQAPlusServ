@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.CityInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.CityInfo" >
+    <constructor >
+      <idArg column="id" jdbcType="DOUBLE" javaType="java.lang.Double" />
+      <arg column="provincename" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="cityname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="englishname" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, provincename, cityname, englishname
+  </sql>
+
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from city_info
+  </select>
+
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Double" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from city_info
+    where id = #{id,jdbcType=DOUBLE}
+  </select>
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.CityInfo" >
+    insert into city_info (id, provincename, cityname, 
+      englishname)
+    values (#{id,jdbcType=DOUBLE}, #{provincename,jdbcType=VARCHAR}, #{cityname,jdbcType=VARCHAR}, 
+      #{englishname,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.CityInfo" >
+    insert into city_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="provincename != null" >
+        provincename,
+      </if>
+      <if test="cityname != null" >
+        cityname,
+      </if>
+      <if test="englishname != null" >
+        englishname,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=DOUBLE},
+      </if>
+      <if test="provincename != null" >
+        #{provincename,jdbcType=VARCHAR},
+      </if>
+      <if test="cityname != null" >
+        #{cityname,jdbcType=VARCHAR},
+      </if>
+      <if test="englishname != null" >
+        #{englishname,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.CityInfo" >
+    update city_info
+    <set >
+      <if test="provincename != null" >
+        provincename = #{provincename,jdbcType=VARCHAR},
+      </if>
+      <if test="cityname != null" >
+        cityname = #{cityname,jdbcType=VARCHAR},
+      </if>
+      <if test="englishname != null" >
+        englishname = #{englishname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=DOUBLE}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.CityInfo" >
+    update city_info
+    set provincename = #{provincename,jdbcType=VARCHAR},
+      cityname = #{cityname,jdbcType=VARCHAR},
+      englishname = #{englishname,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=DOUBLE}
+  </update>
+</mapper>

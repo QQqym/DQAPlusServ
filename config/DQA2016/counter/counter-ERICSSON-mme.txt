@@ -1,0 +1,2 @@
+SM.PdnConnectivityRequest.Ims#SM.PdnConnectivityRequest.Ims
+SM.PdnConnectivityComplete.Ims#SM.PdnConnectivityComplete.Ims

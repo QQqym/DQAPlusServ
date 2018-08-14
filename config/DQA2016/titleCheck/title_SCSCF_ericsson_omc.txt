@@ -1,0 +1,80 @@
+开始时间
+结束时间
+周期
+省份
+地市
+厂家
+网元版本
+网元设备名称
+cscfAcceptedRegistrations
+cscfRegistrationsFailure.sum
+cscfAcceptedRegistrations
+cscfAcceptedReregistrations
+cscfRejectedReregistrations
+cscfOriginatingInviteToAsAttempts
+cscfOriginatingInviteNoAsAttempts
+scscfOriginatingInviteSuccessfulEstablishedToAs.{sum}
+scscfOriginatingInviteSuccessfulEstablishedNoAs.{sum}
+cscfTerminatingInviteNoAsAttempts
+cscfTerminatingInviteToAsAttempts
+scscfTerminatingInviteSuccessfulEstablishedToAs.{sum}
+scscfTerminatingInviteSuccessfulEstablishedNoAs.{sum}
+scscfOrigAttemptedSessionPerMedia.{audio}
+scscfOrigAttemptedSessionPerMedia.{video}
+scscfTermAttemptedSessionPerMedia.{audio}
+scscfTermAttemptedSessionPerMedia.{video}
+scscfOrigAnsweredSessionPerMedia.{audio}
+scscfOrigAnsweredSessionPerMedia.{video}
+scscfTermAnsweredSessionPerMedia.{audio}
+scscfTermAnsweredSessionPerMedia.{video}
+scscfOriginatingInviteCancelledBeforeEarlyDialog
+scscfOriginatingInviteCancelledInEarlyDialog
+scscfOrigAnsweredInvitePerAccess.{access-type = not starting with "3GPP"}
+scscfOriginatingInviteToAsAnswered
+scscfOriginatingInviteNoAsAnswered
+scscfOrigFailedSessionPerMedia.{audio}
+scscfOrigFailedSessionPerMedia.{video}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{403}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{404}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{408}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{480}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{484}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{486}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{487} 
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{600}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{603}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{604} 
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{418}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{488}
+scscfOrigFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{606}
+scscfTerminatingInviteCancelledBeforeEarlyDialog
+scscfTerminatingInviteCancelledInEarlyDialog
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{403} 
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{404}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{408}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{484}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{486}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{487}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{600}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{603}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{604}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{416}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{488}
+scscfTermFailedInvitePerAccess.{access-type = not starting with "3GPP"}.{606}
+scscfOrigSuccessfulEstablishedSessionPerMedia.{video}
+scscfAttemptedRegistrationPerAccess.{3GPP-E-UTRAN-FDD}
+scscfSuccessfulRegistrationPerAccess.{3GPP-E-UTRAN-FDD}
+scscfOrigAccumulatedCallTimePerAccess.{access-type = starting with "3GPP"}
+cscfConcurrentRegistrations
+scscfRegistrationsFromVisitingDomainsSuccess
+scscfTermAnsweredInvitePerAccess.{access-type = not starting with "3GPP"}
+scscfTerminatingInviteToAsAnswered
+scscfTerminatingInviteNoAsAnswered
+scscfTermFailedSessionPerMedia.{audio}
+scscfTermFailedSessionPerMedia.{video}
+scscfOrigAnsweredInvitePerAccess.{access-type = starting with "3GPP"}
+scscfTermSuccessfulEstablishedSessionPerMedia.{video}
+scscfAttemptedRegistrationPerAccess.{3GPP-E-UTRAN-TDD}
+scscfSuccessfulRegistrationPerAccess.{3GPP-E-UTRAN-TDD}
+scscfTermAccumulatedCallTimePerAccess.{access-type = starting with "3GPP"}
+Reg-VoBB-sub-Percentage

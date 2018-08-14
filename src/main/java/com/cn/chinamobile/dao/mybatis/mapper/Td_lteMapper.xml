@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.Td_lteMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.Td_lte" >
+    <result column="province" property="province" jdbcType="VARCHAR" />
+    <result column="city" property="city" jdbcType="VARCHAR" />
+    <result column="vendor" property="vendor" jdbcType="VARCHAR" />
+    <result column="pmversion" property="pmversion" jdbcType="VARCHAR" />
+    <result column="elementtype" property="elementtype" jdbcType="VARCHAR" />
+    <result column="date_time" property="dateTime" jdbcType="VARCHAR" />
+    <result column="CONTEXT_AttRelEnb" property="contextAttrelenb" jdbcType="VARCHAR" />
+    <result column="CONTEXT_AttRelEnb_CauseUserInactivity" property="contextAttrelenbCauseuserinactivity" jdbcType="VARCHAR" />
+    <result column="CONTEXT_AttRelEnb_Normal" property="contextAttrelenbNormal" jdbcType="VARCHAR" />
+    <result column="CONTEXT_NbrLeft" property="contextNbrleft" jdbcType="VARCHAR" />
+    <result column="CONTEXT_SuccInitalSetup" property="contextSuccinitalsetup" jdbcType="VARCHAR" />
+    <result column="ERAB_HoFail" property="erabHofail" jdbcType="VARCHAR" />
+    <result column="ERAB_HoFail_1" property="erabHofail1" jdbcType="VARCHAR" />
+    <result column="ERAB_HoFail_2" property="erabHofail2" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrAttEstab" property="erabNbrattestab" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrAttEstab_1" property="erabNbrattestab1" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrAttEstab_2" property="erabNbrattestab2" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrHoInc" property="erabNbrhoinc" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrLeft" property="erabNbrleft" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrLeft_1" property="erabNbrleft1" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrLeft_2" property="erabNbrleft2" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb" property="erabNbrreqrelenb" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb_1" property="erabNbrreqrelenb1" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb_2" property="erabNbrreqrelenb2" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb_CauseUserInactivity" property="erabNbrreqrelenbCauseuserinactivity" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb_Normal" property="erabNbrreqrelenbNormal" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb_Normal_1" property="erabNbrreqrelenbNormal1" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrReqRelEnb_Normal_2" property="erabNbrreqrelenbNormal2" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrSuccEstab" property="erabNbrsuccestab" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrSuccEstab_1" property="erabNbrsuccestab1" jdbcType="VARCHAR" />
+    <result column="ERAB_NbrSuccEstab_2" property="erabNbrsuccestab2" jdbcType="VARCHAR" />
+    <result column="HO_AttOutInterEnbS1" property="hoAttoutinterenbs1" jdbcType="VARCHAR" />
+    <result column="HO_AttOutInterEnbS1_1" property="hoAttoutinterenbs11" jdbcType="VARCHAR" />
+    <result column="HO_AttOutInterEnbS1_2" property="hoAttoutinterenbs12" jdbcType="VARCHAR" />
+    <result column="HO_AttOutInterEnbX2" property="hoAttoutinterenbx2" jdbcType="VARCHAR" />
+    <result column="HO_AttOutInterEnbX2_1" property="hoAttoutinterenbx21" jdbcType="VARCHAR" />
+    <result column="HO_AttOutInterEnbX2_2" property="hoAttoutinterenbx22" jdbcType="VARCHAR" />
+    <result column="HO_AttOutIntraEnb" property="hoAttoutintraenb" jdbcType="VARCHAR" />
+    <result column="HO_AttOutIntraEnb_1" property="hoAttoutintraenb1" jdbcType="VARCHAR" />
+    <result column="HO_AttOutIntraEnb_2" property="hoAttoutintraenb2" jdbcType="VARCHAR" />
+    <result column="HO_SuccExecInc" property="hoSuccexecinc" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutInterEnbS1" property="hoSuccoutinterenbs1" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutInterEnbS1_1" property="hoSuccoutinterenbs11" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutInterEnbS1_2" property="hoSuccoutinterenbs12" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutInterEnbX2" property="hoSuccoutinterenbx2" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutInterEnbX2_1" property="hoSuccoutinterenbx21" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutInterEnbX2_2" property="hoSuccoutinterenbx22" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutIntraEnb" property="hoSuccoutintraenb" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutIntraEnb_1" property="hoSuccoutintraenb1" jdbcType="VARCHAR" />
+    <result column="HO_SuccOutIntraEnb_2" property="hoSuccoutintraenb2" jdbcType="VARCHAR" />
+    <result column="IRATHO_AttOutGeran" property="irathoAttoutgeran" jdbcType="VARCHAR" />
+    <result column="IRATHO_SuccOutGeran" property="irathoSuccoutgeran" jdbcType="VARCHAR" />
+    <result column="PDCP_NbrPktDl_1" property="pdcpNbrpktdl1" jdbcType="VARCHAR" />
+    <result column="PDCP_NbrPktLossDl_1" property="pdcpNbrpktlossdl1" jdbcType="VARCHAR" />
+    <result column="PDCP_ThrpTimeDL" property="pdcpThrptimedl" jdbcType="VARCHAR" />
+    <result column="PDCP_ThrpTimeUL" property="pdcpThrptimeul" jdbcType="VARCHAR" />
+    <result column="PDCP_UpOctDl" property="pdcpUpoctdl" jdbcType="VARCHAR" />
+    <result column="PDCP_UpOctUl" property="pdcpUpoctul" jdbcType="VARCHAR" />
+    <result column="PDCP_UpPktTotDelayDl_1" property="pdcpUppkttotdelaydl1" jdbcType="VARCHAR" />
+    <result column="RRC_AttConnEstab" property="rrcAttconnestab" jdbcType="VARCHAR" />
+    <result column="RRC_ConnMax" property="rrcConnmax" jdbcType="VARCHAR" />
+    <result column="RRC_ConnMean" property="rrcConnmean" jdbcType="VARCHAR" />
+    <result column="RRC_EffectiveConnMax" property="rrcEffectiveconnmax" jdbcType="VARCHAR" />
+    <result column="RRC_EffectiveConnMean" property="rrcEffectiveconnmean" jdbcType="VARCHAR" />
+    <result column="RRC_SuccConnEstab" property="rrcSuccconnestab" jdbcType="VARCHAR" />
+    <result column="RRC_SuccConnReestab_NonSrccell" property="rrcSuccconnreestabNonsrccell" jdbcType="VARCHAR" />
+    <result column="RRU_BorrowFromScellPrbTotDl" property="rruBorrowfromscellprbtotdl" jdbcType="VARCHAR" />
+    <result column="RRU_DtchPrbAssnMeanUl" property="rruDtchprbassnmeanul" jdbcType="VARCHAR" />
+    <result column="RRU_DtchPrbAssnMeanDl" property="rruDtchprbassnmeandl" jdbcType="VARCHAR" />
+    <result column="RRU_LendToPCellPrbTotDl" property="rruLendtopcellprbtotdl" jdbcType="VARCHAR" />
+    <result column="RRU_PdcchCceUtilRatio" property="rruPdcchcceutilratio" jdbcType="VARCHAR" />
+    <result column="RRU_PdschPrbMeanTot" property="rruPdschprbmeantot" jdbcType="VARCHAR" />
+    <result column="RRU_PuschPrbMeanTot" property="rruPuschprbmeantot" jdbcType="VARCHAR" />
+    <result column="RRU_TtiTotDl" property="rruTtitotdl" jdbcType="VARCHAR" />
+    <result column="RRU_PdcchCceUtil" property="rruPdcchcceutil" jdbcType="VARCHAR" />
+    <result column="RRU_PdcchCceAvail" property="rruPdcchcceavail" jdbcType="VARCHAR" />
+    <result column="PDCP_UpLastTtiOctUl" property="pdcpUplastttioctul" jdbcType="VARCHAR" />
+    <result column="PDCP_UpLastTtiOctDl" property="pdcpUplastttioctdl" jdbcType="VARCHAR" />
+    <result column="RRU_PdschPrbTot" property="rruPdschprbtot" jdbcType="VARCHAR" />
+    <result column="RRU_PuschPrbAssn" property="rruPuschprbassn" jdbcType="VARCHAR" />
+    <result column="RRU_PuschPrbTot" property="rruPuschprbtot" jdbcType="VARCHAR" />
+    <result column="RRU_DtchPrbAssnUl" property="rruDtchprbassnul" jdbcType="VARCHAR" />
+    <result column="RRU_DtchPrbAssnDl" property="rruDtchprbassndl" jdbcType="VARCHAR" />
+    <result column="RRU_TtiTotUl" property="rruTtitotul" jdbcType="VARCHAR" />
+    <result column="data_status" property="dataStatus" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.Td_lte" >
+    insert into td_lte (province, city, vendor, 
+      pmversion, elementtype, date_time, 
+      CONTEXT_AttRelEnb,
+      CONTEXT_AttRelEnb_CauseUserInactivity, CONTEXT_AttRelEnb_Normal, 
+      CONTEXT_NbrLeft, CONTEXT_SuccInitalSetup, 
+      ERAB_HoFail, ERAB_HoFail_1, ERAB_HoFail_2, 
+      ERAB_NbrAttEstab, ERAB_NbrAttEstab_1, ERAB_NbrAttEstab_2, 
+      ERAB_NbrHoInc, ERAB_NbrLeft, ERAB_NbrLeft_1, 
+      ERAB_NbrLeft_2, ERAB_NbrReqRelEnb, ERAB_NbrReqRelEnb_1, 
+      ERAB_NbrReqRelEnb_2, ERAB_NbrReqRelEnb_CauseUserInactivity, 
+      ERAB_NbrReqRelEnb_Normal, ERAB_NbrReqRelEnb_Normal_1, 
+      ERAB_NbrReqRelEnb_Normal_2, ERAB_NbrSuccEstab, 
+      ERAB_NbrSuccEstab_1, ERAB_NbrSuccEstab_2, HO_AttOutInterEnbS1, 
+      HO_AttOutInterEnbS1_1, HO_AttOutInterEnbS1_2, 
+      HO_AttOutInterEnbX2, HO_AttOutInterEnbX2_1, 
+      HO_AttOutInterEnbX2_2, HO_AttOutIntraEnb, 
+      HO_AttOutIntraEnb_1, HO_AttOutIntraEnb_2, HO_SuccExecInc, 
+      HO_SuccOutInterEnbS1, HO_SuccOutInterEnbS1_1, 
+      HO_SuccOutInterEnbS1_2, HO_SuccOutInterEnbX2, 
+      HO_SuccOutInterEnbX2_1, HO_SuccOutInterEnbX2_2, 
+      HO_SuccOutIntraEnb, HO_SuccOutIntraEnb_1, 
+      HO_SuccOutIntraEnb_2, IRATHO_AttOutGeran, 
+      IRATHO_SuccOutGeran, PDCP_NbrPktDl_1, PDCP_NbrPktLossDl_1, 
+      PDCP_ThrpTimeDL, PDCP_ThrpTimeUL, PDCP_UpOctDl, 
+      PDCP_UpOctUl, PDCP_UpPktTotDelayDl_1, RRC_AttConnEstab, 
+      RRC_ConnMax, RRC_ConnMean, RRC_EffectiveConnMax, 
+      RRC_EffectiveConnMean, RRC_SuccConnEstab, 
+      RRC_SuccConnReestab_NonSrccell, RRU_BorrowFromScellPrbTotDl, 
+      RRU_DtchPrbAssnMeanUl, RRU_DtchPrbAssnMeanDl, 
+      RRU_LendToPCellPrbTotDl, RRU_PdcchCceUtilRatio, 
+      RRU_PdschPrbMeanTot, RRU_PuschPrbMeanTot, 
+      RRU_TtiTotDl, RRU_PdcchCceUtil, RRU_PdcchCceAvail, 
+      PDCP_UpLastTtiOctUl, PDCP_UpLastTtiOctDl, 
+      RRU_PdschPrbTot, RRU_PuschPrbAssn, RRU_PuschPrbTot, 
+      RRU_DtchPrbAssnUl, RRU_DtchPrbAssnDl, RRU_TtiTotUl, 
+      data_status)
+    values (#{province,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR}, #{vendor,jdbcType=VARCHAR}, 
+      #{pmversion,jdbcType=VARCHAR}, #{elementtype,jdbcType=VARCHAR}, #{dateTime,jdbcType=VARCHAR}, 
+      #{contextAttrelenb,jdbcType=VARCHAR},
+      #{contextAttrelenbCauseuserinactivity,jdbcType=VARCHAR}, #{contextAttrelenbNormal,jdbcType=VARCHAR}, 
+      #{contextNbrleft,jdbcType=VARCHAR}, #{contextSuccinitalsetup,jdbcType=VARCHAR}, 
+      #{erabHofail,jdbcType=VARCHAR}, #{erabHofail1,jdbcType=VARCHAR}, #{erabHofail2,jdbcType=VARCHAR}, 
+      #{erabNbrattestab,jdbcType=VARCHAR}, #{erabNbrattestab1,jdbcType=VARCHAR}, #{erabNbrattestab2,jdbcType=VARCHAR}, 
+      #{erabNbrhoinc,jdbcType=VARCHAR}, #{erabNbrleft,jdbcType=VARCHAR}, #{erabNbrleft1,jdbcType=VARCHAR}, 
+      #{erabNbrleft2,jdbcType=VARCHAR}, #{erabNbrreqrelenb,jdbcType=VARCHAR}, #{erabNbrreqrelenb1,jdbcType=VARCHAR}, 
+      #{erabNbrreqrelenb2,jdbcType=VARCHAR}, #{erabNbrreqrelenbCauseuserinactivity,jdbcType=VARCHAR}, 
+      #{erabNbrreqrelenbNormal,jdbcType=VARCHAR}, #{erabNbrreqrelenbNormal1,jdbcType=VARCHAR}, 
+      #{erabNbrreqrelenbNormal2,jdbcType=VARCHAR}, #{erabNbrsuccestab,jdbcType=VARCHAR}, 
+      #{erabNbrsuccestab1,jdbcType=VARCHAR}, #{erabNbrsuccestab2,jdbcType=VARCHAR}, #{hoAttoutinterenbs1,jdbcType=VARCHAR}, 
+      #{hoAttoutinterenbs11,jdbcType=VARCHAR}, #{hoAttoutinterenbs12,jdbcType=VARCHAR}, 
+      #{hoAttoutinterenbx2,jdbcType=VARCHAR}, #{hoAttoutinterenbx21,jdbcType=VARCHAR}, 
+      #{hoAttoutinterenbx22,jdbcType=VARCHAR}, #{hoAttoutintraenb,jdbcType=VARCHAR}, 
+      #{hoAttoutintraenb1,jdbcType=VARCHAR}, #{hoAttoutintraenb2,jdbcType=VARCHAR}, #{hoSuccexecinc,jdbcType=VARCHAR}, 
+      #{hoSuccoutinterenbs1,jdbcType=VARCHAR}, #{hoSuccoutinterenbs11,jdbcType=VARCHAR}, 
+      #{hoSuccoutinterenbs12,jdbcType=VARCHAR}, #{hoSuccoutinterenbx2,jdbcType=VARCHAR}, 
+      #{hoSuccoutinterenbx21,jdbcType=VARCHAR}, #{hoSuccoutinterenbx22,jdbcType=VARCHAR}, 
+      #{hoSuccoutintraenb,jdbcType=VARCHAR}, #{hoSuccoutintraenb1,jdbcType=VARCHAR}, 
+      #{hoSuccoutintraenb2,jdbcType=VARCHAR}, #{irathoAttoutgeran,jdbcType=VARCHAR}, 
+      #{irathoSuccoutgeran,jdbcType=VARCHAR}, #{pdcpNbrpktdl1,jdbcType=VARCHAR}, #{pdcpNbrpktlossdl1,jdbcType=VARCHAR}, 
+      #{pdcpThrptimedl,jdbcType=VARCHAR}, #{pdcpThrptimeul,jdbcType=VARCHAR}, #{pdcpUpoctdl,jdbcType=VARCHAR}, 
+      #{pdcpUpoctul,jdbcType=VARCHAR}, #{pdcpUppkttotdelaydl1,jdbcType=VARCHAR}, #{rrcAttconnestab,jdbcType=VARCHAR}, 
+      #{rrcConnmax,jdbcType=VARCHAR}, #{rrcConnmean,jdbcType=VARCHAR}, #{rrcEffectiveconnmax,jdbcType=VARCHAR}, 
+      #{rrcEffectiveconnmean,jdbcType=VARCHAR}, #{rrcSuccconnestab,jdbcType=VARCHAR}, 
+      #{rrcSuccconnreestabNonsrccell,jdbcType=VARCHAR}, #{rruBorrowfromscellprbtotdl,jdbcType=VARCHAR}, 
+      #{rruDtchprbassnmeanul,jdbcType=VARCHAR}, #{rruDtchprbassnmeandl,jdbcType=VARCHAR}, 
+      #{rruLendtopcellprbtotdl,jdbcType=VARCHAR}, #{rruPdcchcceutilratio,jdbcType=VARCHAR}, 
+      #{rruPdschprbmeantot,jdbcType=VARCHAR}, #{rruPuschprbmeantot,jdbcType=VARCHAR}, 
+      #{rruTtitotdl,jdbcType=VARCHAR}, #{rruPdcchcceutil,jdbcType=VARCHAR}, #{rruPdcchcceavail,jdbcType=VARCHAR}, 
+      #{pdcpUplastttioctul,jdbcType=VARCHAR}, #{pdcpUplastttioctdl,jdbcType=VARCHAR}, 
+      #{rruPdschprbtot,jdbcType=VARCHAR}, #{rruPuschprbassn,jdbcType=VARCHAR}, #{rruPuschprbtot,jdbcType=VARCHAR}, 
+      #{rruDtchprbassnul,jdbcType=VARCHAR}, #{rruDtchprbassndl,jdbcType=VARCHAR}, #{rruTtitotul,jdbcType=VARCHAR}, 
+      #{dataStatus,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.Td_lte" >
+    insert into td_lte
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="province != null" >
+        province,
+      </if>
+      <if test="city != null" >
+        city,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="pmversion != null" >
+        pmversion,
+      </if>
+      <if test="elementtype != null" >
+        elementtype,
+      </if>
+      <if test="dateTime != null" >
+        date_time,
+      </if>
+      <if test="contextAttrelenb != null" >
+        CONTEXT_AttRelEnb,
+      </if>
+      <if test="contextAttrelenbCauseuserinactivity != null" >
+        CONTEXT_AttRelEnb_CauseUserInactivity,
+      </if>
+      <if test="contextAttrelenbNormal != null" >
+        CONTEXT_AttRelEnb_Normal,
+      </if>
+      <if test="contextNbrleft != null" >
+        CONTEXT_NbrLeft,
+      </if>
+      <if test="contextSuccinitalsetup != null" >
+        CONTEXT_SuccInitalSetup,
+      </if>
+      <if test="erabHofail != null" >
+        ERAB_HoFail,
+      </if>
+      <if test="erabHofail1 != null" >
+        ERAB_HoFail_1,
+      </if>
+      <if test="erabHofail2 != null" >
+        ERAB_HoFail_2,
+      </if>
+      <if test="erabNbrattestab != null" >
+        ERAB_NbrAttEstab,
+      </if>
+      <if test="erabNbrattestab1 != null" >
+        ERAB_NbrAttEstab_1,
+      </if>
+      <if test="erabNbrattestab2 != null" >
+        ERAB_NbrAttEstab_2,
+      </if>
+      <if test="erabNbrhoinc != null" >
+        ERAB_NbrHoInc,
+      </if>
+      <if test="erabNbrleft != null" >
+        ERAB_NbrLeft,
+      </if>
+      <if test="erabNbrleft1 != null" >
+        ERAB_NbrLeft_1,
+      </if>
+      <if test="erabNbrleft2 != null" >
+        ERAB_NbrLeft_2,
+      </if>
+      <if test="erabNbrreqrelenb != null" >
+        ERAB_NbrReqRelEnb,
+      </if>
+      <if test="erabNbrreqrelenb1 != null" >
+        ERAB_NbrReqRelEnb_1,
+      </if>
+      <if test="erabNbrreqrelenb2 != null" >
+        ERAB_NbrReqRelEnb_2,
+      </if>
+      <if test="erabNbrreqrelenbCauseuserinactivity != null" >
+        ERAB_NbrReqRelEnb_CauseUserInactivity,
+      </if>
+      <if test="erabNbrreqrelenbNormal != null" >
+        ERAB_NbrReqRelEnb_Normal,
+      </if>
+      <if test="erabNbrreqrelenbNormal1 != null" >
+        ERAB_NbrReqRelEnb_Normal_1,
+      </if>
+      <if test="erabNbrreqrelenbNormal2 != null" >
+        ERAB_NbrReqRelEnb_Normal_2,
+      </if>
+      <if test="erabNbrsuccestab != null" >
+        ERAB_NbrSuccEstab,
+      </if>
+      <if test="erabNbrsuccestab1 != null" >
+        ERAB_NbrSuccEstab_1,
+      </if>
+      <if test="erabNbrsuccestab2 != null" >
+        ERAB_NbrSuccEstab_2,
+      </if>
+      <if test="hoAttoutinterenbs1 != null" >
+        HO_AttOutInterEnbS1,
+      </if>
+      <if test="hoAttoutinterenbs11 != null" >
+        HO_AttOutInterEnbS1_1,
+      </if>
+      <if test="hoAttoutinterenbs12 != null" >
+        HO_AttOutInterEnbS1_2,
+      </if>
+      <if test="hoAttoutinterenbx2 != null" >
+        HO_AttOutInterEnbX2,
+      </if>
+      <if test="hoAttoutinterenbx21 != null" >
+        HO_AttOutInterEnbX2_1,
+      </if>
+      <if test="hoAttoutinterenbx22 != null" >
+        HO_AttOutInterEnbX2_2,
+      </if>
+      <if test="hoAttoutintraenb != null" >
+        HO_AttOutIntraEnb,
+      </if>
+      <if test="hoAttoutintraenb1 != null" >
+        HO_AttOutIntraEnb_1,
+      </if>
+      <if test="hoAttoutintraenb2 != null" >
+        HO_AttOutIntraEnb_2,
+      </if>
+      <if test="hoSuccexecinc != null" >
+        HO_SuccExecInc,
+      </if>
+      <if test="hoSuccoutinterenbs1 != null" >
+        HO_SuccOutInterEnbS1,
+      </if>
+      <if test="hoSuccoutinterenbs11 != null" >
+        HO_SuccOutInterEnbS1_1,
+      </if>
+      <if test="hoSuccoutinterenbs12 != null" >
+        HO_SuccOutInterEnbS1_2,
+      </if>
+      <if test="hoSuccoutinterenbx2 != null" >
+        HO_SuccOutInterEnbX2,
+      </if>
+      <if test="hoSuccoutinterenbx21 != null" >
+        HO_SuccOutInterEnbX2_1,
+      </if>
+      <if test="hoSuccoutinterenbx22 != null" >
+        HO_SuccOutInterEnbX2_2,
+      </if>
+      <if test="hoSuccoutintraenb != null" >
+        HO_SuccOutIntraEnb,
+      </if>
+      <if test="hoSuccoutintraenb1 != null" >
+        HO_SuccOutIntraEnb_1,
+      </if>
+      <if test="hoSuccoutintraenb2 != null" >
+        HO_SuccOutIntraEnb_2,
+      </if>
+      <if test="irathoAttoutgeran != null" >
+        IRATHO_AttOutGeran,
+      </if>
+      <if test="irathoSuccoutgeran != null" >
+        IRATHO_SuccOutGeran,
+      </if>
+      <if test="pdcpNbrpktdl1 != null" >
+        PDCP_NbrPktDl_1,
+      </if>
+      <if test="pdcpNbrpktlossdl1 != null" >
+        PDCP_NbrPktLossDl_1,
+      </if>
+      <if test="pdcpThrptimedl != null" >
+        PDCP_ThrpTimeDL,
+      </if>
+      <if test="pdcpThrptimeul != null" >
+        PDCP_ThrpTimeUL,
+      </if>
+      <if test="pdcpUpoctdl != null" >
+        PDCP_UpOctDl,
+      </if>
+      <if test="pdcpUpoctul != null" >
+        PDCP_UpOctUl,
+      </if>
+      <if test="pdcpUppkttotdelaydl1 != null" >
+        PDCP_UpPktTotDelayDl_1,
+      </if>
+      <if test="rrcAttconnestab != null" >
+        RRC_AttConnEstab,
+      </if>
+      <if test="rrcConnmax != null" >
+        RRC_ConnMax,
+      </if>
+      <if test="rrcConnmean != null" >
+        RRC_ConnMean,
+      </if>
+      <if test="rrcEffectiveconnmax != null" >
+        RRC_EffectiveConnMax,
+      </if>
+      <if test="rrcEffectiveconnmean != null" >
+        RRC_EffectiveConnMean,
+      </if>
+      <if test="rrcSuccconnestab != null" >
+        RRC_SuccConnEstab,
+      </if>
+      <if test="rrcSuccconnreestabNonsrccell != null" >
+        RRC_SuccConnReestab_NonSrccell,
+      </if>
+      <if test="rruBorrowfromscellprbtotdl != null" >
+        RRU_BorrowFromScellPrbTotDl,
+      </if>
+      <if test="rruDtchprbassnmeanul != null" >
+        RRU_DtchPrbAssnMeanUl,
+      </if>
+      <if test="rruDtchprbassnmeandl != null" >
+        RRU_DtchPrbAssnMeanDl,
+      </if>
+      <if test="rruLendtopcellprbtotdl != null" >
+        RRU_LendToPCellPrbTotDl,
+      </if>
+      <if test="rruPdcchcceutilratio != null" >
+        RRU_PdcchCceUtilRatio,
+      </if>
+      <if test="rruPdschprbmeantot != null" >
+        RRU_PdschPrbMeanTot,
+      </if>
+      <if test="rruPuschprbmeantot != null" >
+        RRU_PuschPrbMeanTot,
+      </if>
+      <if test="rruTtitotdl != null" >
+        RRU_TtiTotDl,
+      </if>
+      <if test="rruPdcchcceutil != null" >
+        RRU_PdcchCceUtil,
+      </if>
+      <if test="rruPdcchcceavail != null" >
+        RRU_PdcchCceAvail,
+      </if>
+      <if test="pdcpUplastttioctul != null" >
+        PDCP_UpLastTtiOctUl,
+      </if>
+      <if test="pdcpUplastttioctdl != null" >
+        PDCP_UpLastTtiOctDl,
+      </if>
+      <if test="rruPdschprbtot != null" >
+        RRU_PdschPrbTot,
+      </if>
+      <if test="rruPuschprbassn != null" >
+        RRU_PuschPrbAssn,
+      </if>
+      <if test="rruPuschprbtot != null" >
+        RRU_PuschPrbTot,
+      </if>
+      <if test="rruDtchprbassnul != null" >
+        RRU_DtchPrbAssnUl,
+      </if>
+      <if test="rruDtchprbassndl != null" >
+        RRU_DtchPrbAssnDl,
+      </if>
+      <if test="rruTtitotul != null" >
+        RRU_TtiTotUl,
+      </if>
+      <if test="dataStatus != null" >
+        data_status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="province != null" >
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="pmversion != null" >
+        #{pmversion,jdbcType=VARCHAR},
+      </if>
+      <if test="elementtype != null" >
+        #{elementtype,jdbcType=VARCHAR},
+      </if>
+      <if test="dateTime != null" >
+        #{dateTime,jdbcType=VARCHAR},
+      </if>
+      <if test="contextAttrelenb != null" >
+        #{contextAttrelenb,jdbcType=VARCHAR},
+      </if>
+      <if test="contextAttrelenbCauseuserinactivity != null" >
+        #{contextAttrelenbCauseuserinactivity,jdbcType=VARCHAR},
+      </if>
+      <if test="contextAttrelenbNormal != null" >
+        #{contextAttrelenbNormal,jdbcType=VARCHAR},
+      </if>
+      <if test="contextNbrleft != null" >
+        #{contextNbrleft,jdbcType=VARCHAR},
+      </if>
+      <if test="contextSuccinitalsetup != null" >
+        #{contextSuccinitalsetup,jdbcType=VARCHAR},
+      </if>
+      <if test="erabHofail != null" >
+        #{erabHofail,jdbcType=VARCHAR},
+      </if>
+      <if test="erabHofail1 != null" >
+        #{erabHofail1,jdbcType=VARCHAR},
+      </if>
+      <if test="erabHofail2 != null" >
+        #{erabHofail2,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrattestab != null" >
+        #{erabNbrattestab,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrattestab1 != null" >
+        #{erabNbrattestab1,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrattestab2 != null" >
+        #{erabNbrattestab2,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrhoinc != null" >
+        #{erabNbrhoinc,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrleft != null" >
+        #{erabNbrleft,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrleft1 != null" >
+        #{erabNbrleft1,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrleft2 != null" >
+        #{erabNbrleft2,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenb != null" >
+        #{erabNbrreqrelenb,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenb1 != null" >
+        #{erabNbrreqrelenb1,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenb2 != null" >
+        #{erabNbrreqrelenb2,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenbCauseuserinactivity != null" >
+        #{erabNbrreqrelenbCauseuserinactivity,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenbNormal != null" >
+        #{erabNbrreqrelenbNormal,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenbNormal1 != null" >
+        #{erabNbrreqrelenbNormal1,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrreqrelenbNormal2 != null" >
+        #{erabNbrreqrelenbNormal2,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrsuccestab != null" >
+        #{erabNbrsuccestab,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrsuccestab1 != null" >
+        #{erabNbrsuccestab1,jdbcType=VARCHAR},
+      </if>
+      <if test="erabNbrsuccestab2 != null" >
+        #{erabNbrsuccestab2,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutinterenbs1 != null" >
+        #{hoAttoutinterenbs1,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutinterenbs11 != null" >
+        #{hoAttoutinterenbs11,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutinterenbs12 != null" >
+        #{hoAttoutinterenbs12,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutinterenbx2 != null" >
+        #{hoAttoutinterenbx2,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutinterenbx21 != null" >
+        #{hoAttoutinterenbx21,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutinterenbx22 != null" >
+        #{hoAttoutinterenbx22,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutintraenb != null" >
+        #{hoAttoutintraenb,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutintraenb1 != null" >
+        #{hoAttoutintraenb1,jdbcType=VARCHAR},
+      </if>
+      <if test="hoAttoutintraenb2 != null" >
+        #{hoAttoutintraenb2,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccexecinc != null" >
+        #{hoSuccexecinc,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutinterenbs1 != null" >
+        #{hoSuccoutinterenbs1,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutinterenbs11 != null" >
+        #{hoSuccoutinterenbs11,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutinterenbs12 != null" >
+        #{hoSuccoutinterenbs12,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutinterenbx2 != null" >
+        #{hoSuccoutinterenbx2,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutinterenbx21 != null" >
+        #{hoSuccoutinterenbx21,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutinterenbx22 != null" >
+        #{hoSuccoutinterenbx22,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutintraenb != null" >
+        #{hoSuccoutintraenb,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutintraenb1 != null" >
+        #{hoSuccoutintraenb1,jdbcType=VARCHAR},
+      </if>
+      <if test="hoSuccoutintraenb2 != null" >
+        #{hoSuccoutintraenb2,jdbcType=VARCHAR},
+      </if>
+      <if test="irathoAttoutgeran != null" >
+        #{irathoAttoutgeran,jdbcType=VARCHAR},
+      </if>
+      <if test="irathoSuccoutgeran != null" >
+        #{irathoSuccoutgeran,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpNbrpktdl1 != null" >
+        #{pdcpNbrpktdl1,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpNbrpktlossdl1 != null" >
+        #{pdcpNbrpktlossdl1,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpThrptimedl != null" >
+        #{pdcpThrptimedl,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpThrptimeul != null" >
+        #{pdcpThrptimeul,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpUpoctdl != null" >
+        #{pdcpUpoctdl,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpUpoctul != null" >
+        #{pdcpUpoctul,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpUppkttotdelaydl1 != null" >
+        #{pdcpUppkttotdelaydl1,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcAttconnestab != null" >
+        #{rrcAttconnestab,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcConnmax != null" >
+        #{rrcConnmax,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcConnmean != null" >
+        #{rrcConnmean,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcEffectiveconnmax != null" >
+        #{rrcEffectiveconnmax,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcEffectiveconnmean != null" >
+        #{rrcEffectiveconnmean,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcSuccconnestab != null" >
+        #{rrcSuccconnestab,jdbcType=VARCHAR},
+      </if>
+      <if test="rrcSuccconnreestabNonsrccell != null" >
+        #{rrcSuccconnreestabNonsrccell,jdbcType=VARCHAR},
+      </if>
+      <if test="rruBorrowfromscellprbtotdl != null" >
+        #{rruBorrowfromscellprbtotdl,jdbcType=VARCHAR},
+      </if>
+      <if test="rruDtchprbassnmeanul != null" >
+        #{rruDtchprbassnmeanul,jdbcType=VARCHAR},
+      </if>
+      <if test="rruDtchprbassnmeandl != null" >
+        #{rruDtchprbassnmeandl,jdbcType=VARCHAR},
+      </if>
+      <if test="rruLendtopcellprbtotdl != null" >
+        #{rruLendtopcellprbtotdl,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPdcchcceutilratio != null" >
+        #{rruPdcchcceutilratio,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPdschprbmeantot != null" >
+        #{rruPdschprbmeantot,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPuschprbmeantot != null" >
+        #{rruPuschprbmeantot,jdbcType=VARCHAR},
+      </if>
+      <if test="rruTtitotdl != null" >
+        #{rruTtitotdl,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPdcchcceutil != null" >
+        #{rruPdcchcceutil,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPdcchcceavail != null" >
+        #{rruPdcchcceavail,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpUplastttioctul != null" >
+        #{pdcpUplastttioctul,jdbcType=VARCHAR},
+      </if>
+      <if test="pdcpUplastttioctdl != null" >
+        #{pdcpUplastttioctdl,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPdschprbtot != null" >
+        #{rruPdschprbtot,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPuschprbassn != null" >
+        #{rruPuschprbassn,jdbcType=VARCHAR},
+      </if>
+      <if test="rruPuschprbtot != null" >
+        #{rruPuschprbtot,jdbcType=VARCHAR},
+      </if>
+      <if test="rruDtchprbassnul != null" >
+        #{rruDtchprbassnul,jdbcType=VARCHAR},
+      </if>
+      <if test="rruDtchprbassndl != null" >
+        #{rruDtchprbassndl,jdbcType=VARCHAR},
+      </if>
+      <if test="rruTtitotul != null" >
+        #{rruTtitotul,jdbcType=VARCHAR},
+      </if>
+      <if test="dataStatus != null" >
+        #{dataStatus,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <!--通过EnbCounterPm 与EnbNbiPm 传值-->
+  <insert id="insertByEnbCounterPm" >
+    insert into td_lte (province, city, vendor,
+      pmversion, elementtype, date_time,
+      CONTEXT_AttRelEnb,
+      CONTEXT_AttRelEnb_CauseUserInactivity, CONTEXT_AttRelEnb_Normal,
+      CONTEXT_NbrLeft, CONTEXT_SuccInitalSetup,
+      ERAB_HoFail, ERAB_HoFail_1, ERAB_HoFail_2,
+      ERAB_NbrAttEstab, ERAB_NbrAttEstab_1, ERAB_NbrAttEstab_2,
+      ERAB_NbrHoInc, ERAB_NbrLeft, ERAB_NbrLeft_1,
+      ERAB_NbrLeft_2, ERAB_NbrReqRelEnb, ERAB_NbrReqRelEnb_1,
+      ERAB_NbrReqRelEnb_2, ERAB_NbrReqRelEnb_CauseUserInactivity,
+      ERAB_NbrReqRelEnb_Normal, ERAB_NbrReqRelEnb_Normal_1,
+      ERAB_NbrReqRelEnb_Normal_2, ERAB_NbrSuccEstab,
+      ERAB_NbrSuccEstab_1, ERAB_NbrSuccEstab_2, HO_AttOutInterEnbS1,
+      HO_AttOutInterEnbS1_1, HO_AttOutInterEnbS1_2,
+      HO_AttOutInterEnbX2, HO_AttOutInterEnbX2_1,
+      HO_AttOutInterEnbX2_2, HO_AttOutIntraEnb,
+      HO_AttOutIntraEnb_1, HO_AttOutIntraEnb_2, HO_SuccExecInc,
+      HO_SuccOutInterEnbS1, HO_SuccOutInterEnbS1_1,
+      HO_SuccOutInterEnbS1_2, HO_SuccOutInterEnbX2,
+      HO_SuccOutInterEnbX2_1, HO_SuccOutInterEnbX2_2,
+      HO_SuccOutIntraEnb, HO_SuccOutIntraEnb_1,
+      HO_SuccOutIntraEnb_2, IRATHO_AttOutGeran,
+      IRATHO_SuccOutGeran, PDCP_NbrPktDl_1, PDCP_NbrPktLossDl_1,
+      PDCP_ThrpTimeDL, PDCP_ThrpTimeUL, PDCP_UpOctDl,
+      PDCP_UpOctUl, PDCP_UpPktTotDelayDl_1, RRC_AttConnEstab,
+      RRC_ConnMax, RRC_ConnMean, RRC_EffectiveConnMax,
+      RRC_EffectiveConnMean, RRC_SuccConnEstab,
+      RRC_SuccConnReestab_NonSrccell, RRU_BorrowFromScellPrbTotDl,
+      RRU_DtchPrbAssnMeanUl, RRU_DtchPrbAssnMeanDl,
+      RRU_LendToPCellPrbTotDl, RRU_PdcchCceUtilRatio,
+      RRU_PdschPrbMeanTot, RRU_PuschPrbMeanTot,
+      RRU_TtiTotDl, RRU_PdcchCceUtil,
+      PDCP_UpLastTtiOctUl, PDCP_UpLastTtiOctDl,
+      RRU_PdschPrbTot,RRU_PuschPrbTot,
+      RRU_DtchPrbAssnUl, RRU_DtchPrbAssnDl, RRU_TtiTotUl,
+      data_status)
+    values (#{ecp.province,jdbcType=VARCHAR}, #{ecp.city,jdbcType=VARCHAR}, #{ecp.vendor,jdbcType=VARCHAR},
+      #{ecp.pmversion,jdbcType=VARCHAR}, #{ecp.elementtype,jdbcType=VARCHAR}, #{ecp.dateTime,jdbcType=VARCHAR},
+      #{ecp.contextAttrelenb,jdbcType=VARCHAR},
+      #{ecp.contextAttrelenbCauseuserinactivity,jdbcType=VARCHAR}, #{ecp.contextAttrelenbNormal,jdbcType=VARCHAR},
+      #{ecp.contextNbrleft,jdbcType=VARCHAR}, #{ecp.contextSuccinitalsetup,jdbcType=VARCHAR},
+      #{ecp.erabHofail,jdbcType=VARCHAR}, #{ecp.erabHofail1,jdbcType=VARCHAR}, #{ecp.erabHofail2,jdbcType=VARCHAR},
+      #{ecp.erabNbrattestab,jdbcType=VARCHAR}, #{ecp.erabNbrattestab1,jdbcType=VARCHAR}, #{ecp.erabNbrattestab2,jdbcType=VARCHAR},
+      #{ecp.erabNbrhoinc,jdbcType=VARCHAR}, #{ecp.erabNbrleft,jdbcType=VARCHAR}, #{ecp.erabNbrleft1,jdbcType=VARCHAR},
+      #{ecp.erabNbrleft2,jdbcType=VARCHAR}, #{ecp.erabNbrreqrelenb,jdbcType=VARCHAR}, #{ecp.erabNbrreqrelenb1,jdbcType=VARCHAR},
+      #{ecp.erabNbrreqrelenb2,jdbcType=VARCHAR}, #{ecp.erabNbrreqrelenbCauseuserinactivity,jdbcType=VARCHAR},
+      #{ecp.erabNbrreqrelenbNormal,jdbcType=VARCHAR}, #{ecp.erabNbrreqrelenbNormal1,jdbcType=VARCHAR},
+      #{ecp.erabNbrreqrelenbNormal2,jdbcType=VARCHAR}, #{ecp.erabNbrsuccestab,jdbcType=VARCHAR},
+      #{ecp.erabNbrsuccestab1,jdbcType=VARCHAR}, #{ecp.erabNbrsuccestab2,jdbcType=VARCHAR}, #{ecp.hoAttoutinterenbs1,jdbcType=VARCHAR},
+      #{ecp.hoAttoutinterenbs11,jdbcType=VARCHAR}, #{ecp.hoAttoutinterenbs12,jdbcType=VARCHAR},
+      #{ecp.hoAttoutinterenbx2,jdbcType=VARCHAR}, #{ecp.hoAttoutinterenbx21,jdbcType=VARCHAR},
+      #{ecp.hoAttoutinterenbx22,jdbcType=VARCHAR}, #{ecp.hoAttoutintraenb,jdbcType=VARCHAR},
+      #{ecp.hoAttoutintraenb1,jdbcType=VARCHAR}, #{ecp.hoAttoutintraenb2,jdbcType=VARCHAR}, #{ecp.hoSuccexecinc,jdbcType=VARCHAR},
+      #{ecp.hoSuccoutinterenbs1,jdbcType=VARCHAR}, #{ecp.hoSuccoutinterenbs11,jdbcType=VARCHAR},
+      #{ecp.hoSuccoutinterenbs12,jdbcType=VARCHAR}, #{ecp.hoSuccoutinterenbx2,jdbcType=VARCHAR},
+      #{ecp.hoSuccoutinterenbx21,jdbcType=VARCHAR}, #{ecp.hoSuccoutinterenbx22,jdbcType=VARCHAR},
+      #{ecp.hoSuccoutintraenb,jdbcType=VARCHAR}, #{ecp.hoSuccoutintraenb1,jdbcType=VARCHAR},
+      #{ecp.hoSuccoutintraenb2,jdbcType=VARCHAR}, #{ecp.irathoAttoutgeran,jdbcType=VARCHAR},
+      #{ecp.irathoSuccoutgeran,jdbcType=VARCHAR}, #{ecp.pdcpNbrpktdl1,jdbcType=VARCHAR}, #{ecp.pdcpNbrpktlossdl1,jdbcType=VARCHAR},
+      #{ecp.pdcpThrptimedl,jdbcType=VARCHAR}, #{ecp.pdcpThrptimeul,jdbcType=VARCHAR}, #{ecp.pdcpUpoctdl,jdbcType=VARCHAR},
+      #{ecp.pdcpUpoctul,jdbcType=VARCHAR}, #{ecp.pdcpUppkttotdelaydl1,jdbcType=VARCHAR}, #{ecp.rrcAttconnestab,jdbcType=VARCHAR},
+      #{ecp.rrcConnmax,jdbcType=VARCHAR}, #{ecp.rrcConnmean,jdbcType=VARCHAR}, #{ecp.rrcEffectiveconnmax,jdbcType=VARCHAR},
+      #{ecp.rrcEffectiveconnmean,jdbcType=VARCHAR}, #{ecp.rrcSuccconnestab,jdbcType=VARCHAR},
+      #{ecp.rrcSuccconnreestabNonsrccell,jdbcType=VARCHAR}, #{ecp.rruBorrowfromscellprbtotdl,jdbcType=VARCHAR},
+      #{ecp.rruDtchprbassnmeanul,jdbcType=VARCHAR}, #{ecp.rruDtchprbassnmeandl,jdbcType=VARCHAR},
+      #{ecp.rruLendtopcellprbtotdl,jdbcType=VARCHAR}, #{ecp.rruPdcchcceutilratio,jdbcType=VARCHAR},
+      #{ecp.rruPdschprbmeantot,jdbcType=VARCHAR}, #{ecp.rruPuschprbmeantot,jdbcType=VARCHAR},
+      #{ecp.rruTtitotdl,jdbcType=VARCHAR}, #{ecp.rruPdcchcceutil,jdbcType=VARCHAR},
+      #{ecp.pdcpUplastttioctul,jdbcType=VARCHAR}, #{ecp.pdcpUplastttioctdl,jdbcType=VARCHAR},
+      #{ecp.rruPdschprbtot,jdbcType=VARCHAR},#{ecp.rruPuschprbtot,jdbcType=VARCHAR},
+      #{ecp.rruDtchprbassnul,jdbcType=VARCHAR}, #{ecp.rruDtchprbassndl,jdbcType=VARCHAR}, #{ecp.rruTtitotul,jdbcType=VARCHAR},
+      #{dataStatus,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertByEnbNbiPm">
+    insert into td_lte (province, city, vendor,
+      pmversion, elementtype, date_time,
+      CONTEXT_AttRelEnb,
+      CONTEXT_AttRelEnb_CauseUserInactivity, CONTEXT_AttRelEnb_Normal,
+      CONTEXT_NbrLeft, CONTEXT_SuccInitalSetup,
+      ERAB_HoFail, ERAB_HoFail_1, ERAB_HoFail_2,
+      ERAB_NbrAttEstab, ERAB_NbrAttEstab_1, ERAB_NbrAttEstab_2,
+      ERAB_NbrHoInc, ERAB_NbrLeft, ERAB_NbrLeft_1,
+      ERAB_NbrLeft_2, ERAB_NbrReqRelEnb, ERAB_NbrReqRelEnb_1,
+      ERAB_NbrReqRelEnb_2, ERAB_NbrReqRelEnb_CauseUserInactivity,
+      ERAB_NbrReqRelEnb_Normal, ERAB_NbrReqRelEnb_Normal_1,
+      ERAB_NbrReqRelEnb_Normal_2, ERAB_NbrSuccEstab,
+      ERAB_NbrSuccEstab_1, ERAB_NbrSuccEstab_2, HO_AttOutInterEnbS1,
+      HO_AttOutInterEnbS1_1, HO_AttOutInterEnbS1_2,
+      HO_AttOutInterEnbX2, HO_AttOutInterEnbX2_1,
+      HO_AttOutInterEnbX2_2, HO_AttOutIntraEnb,
+      HO_AttOutIntraEnb_1, HO_AttOutIntraEnb_2, HO_SuccExecInc,
+      HO_SuccOutInterEnbS1, HO_SuccOutInterEnbS1_1,
+      HO_SuccOutInterEnbS1_2, HO_SuccOutInterEnbX2,
+      HO_SuccOutInterEnbX2_1, HO_SuccOutInterEnbX2_2,
+      HO_SuccOutIntraEnb, HO_SuccOutIntraEnb_1,
+      HO_SuccOutIntraEnb_2, IRATHO_AttOutGeran,
+      IRATHO_SuccOutGeran, PDCP_NbrPktDl_1, PDCP_NbrPktLossDl_1,
+      PDCP_ThrpTimeDL, PDCP_ThrpTimeUL, PDCP_UpOctDl,
+      PDCP_UpOctUl, PDCP_UpPktTotDelayDl_1, RRC_AttConnEstab,
+      RRC_ConnMax, RRC_ConnMean, RRC_EffectiveConnMax,
+      RRC_EffectiveConnMean, RRC_SuccConnEstab,
+      RRC_SuccConnReestab_NonSrccell, RRU_BorrowFromScellPrbTotDl,
+      RRU_DtchPrbAssnMeanUl, RRU_DtchPrbAssnMeanDl,
+      RRU_LendToPCellPrbTotDl, RRU_PdcchCceUtilRatio,
+      RRU_PdschPrbMeanTot, RRU_PuschPrbMeanTot,
+      RRU_TtiTotDl, RRU_PdcchCceUtil, RRU_PdcchCceAvail,
+      PDCP_UpLastTtiOctUl, PDCP_UpLastTtiOctDl,
+      RRU_PdschPrbTot, RRU_PuschPrbAssn, RRU_PuschPrbTot,
+      RRU_DtchPrbAssnUl, RRU_DtchPrbAssnDl, RRU_TtiTotUl,
+      data_status)
+    values (#{enp.province,jdbcType=VARCHAR}, #{enp.city,jdbcType=VARCHAR}, #{enp.vendor,jdbcType=VARCHAR},
+      #{enp.pmversion,jdbcType=VARCHAR}, #{enp.elementtype,jdbcType=VARCHAR}, #{enp.dateTime,jdbcType=VARCHAR},
+      #{enp.contextAttrelenb,jdbcType=VARCHAR},
+      #{enp.contextAttrelenbCauseuserinactivity,jdbcType=VARCHAR}, #{enp.contextAttrelenbNormal,jdbcType=VARCHAR},
+      #{enp.contextNbrleft,jdbcType=VARCHAR}, #{enp.contextSuccinitalsetup,jdbcType=VARCHAR},
+      #{enp.erabHofail,jdbcType=VARCHAR}, #{enp.erabHofail1,jdbcType=VARCHAR}, #{enp.erabHofail2,jdbcType=VARCHAR},
+      #{enp.erabNbrattestab,jdbcType=VARCHAR}, #{enp.erabNbrattestab1,jdbcType=VARCHAR}, #{enp.erabNbrattestab2,jdbcType=VARCHAR},
+      #{enp.erabNbrhoinc,jdbcType=VARCHAR}, #{enp.erabNbrleft,jdbcType=VARCHAR}, #{enp.erabNbrleft1,jdbcType=VARCHAR},
+      #{enp.erabNbrleft2,jdbcType=VARCHAR}, #{enp.erabNbrreqrelenb,jdbcType=VARCHAR}, #{enp.erabNbrreqrelenb1,jdbcType=VARCHAR},
+      #{enp.erabNbrreqrelenb2,jdbcType=VARCHAR}, #{enp.erabNbrreqrelenbCauseuserinactivity,jdbcType=VARCHAR},
+      #{enp.erabNbrreqrelenbNormal,jdbcType=VARCHAR}, #{enp.erabNbrreqrelenbNormal1,jdbcType=VARCHAR},
+      #{enp.erabNbrreqrelenbNormal2,jdbcType=VARCHAR}, #{enp.erabNbrsuccestab,jdbcType=VARCHAR},
+      #{enp.erabNbrsuccestab1,jdbcType=VARCHAR}, #{enp.erabNbrsuccestab2,jdbcType=VARCHAR}, #{enp.hoAttoutinterenbs1,jdbcType=VARCHAR},
+      #{enp.hoAttoutinterenbs11,jdbcType=VARCHAR}, #{enp.hoAttoutinterenbs12,jdbcType=VARCHAR},
+      #{enp.hoAttoutinterenbx2,jdbcType=VARCHAR}, #{enp.hoAttoutinterenbx21,jdbcType=VARCHAR},
+      #{enp.hoAttoutinterenbx22,jdbcType=VARCHAR}, #{enp.hoAttoutintraenb,jdbcType=VARCHAR},
+      #{enp.hoAttoutintraenb1,jdbcType=VARCHAR}, #{enp.hoAttoutintraenb2,jdbcType=VARCHAR}, #{enp.hoSuccexecinc,jdbcType=VARCHAR},
+      #{enp.hoSuccoutinterenbs1,jdbcType=VARCHAR}, #{enp.hoSuccoutinterenbs11,jdbcType=VARCHAR},
+      #{enp.hoSuccoutinterenbs12,jdbcType=VARCHAR}, #{enp.hoSuccoutinterenbx2,jdbcType=VARCHAR},
+      #{enp.hoSuccoutinterenbx21,jdbcType=VARCHAR}, #{enp.hoSuccoutinterenbx22,jdbcType=VARCHAR},
+      #{enp.hoSuccoutintraenb,jdbcType=VARCHAR}, #{enp.hoSuccoutintraenb1,jdbcType=VARCHAR},
+      #{enp.hoSuccoutintraenb2,jdbcType=VARCHAR}, #{enp.irathoAttoutgeran,jdbcType=VARCHAR},
+      #{enp.irathoSuccoutgeran,jdbcType=VARCHAR}, #{enp.pdcpNbrpktdl1,jdbcType=VARCHAR}, #{enp.pdcpNbrpktlossdl1,jdbcType=VARCHAR},
+      #{enp.pdcpThrptimedl,jdbcType=VARCHAR}, #{enp.pdcpThrptimeul,jdbcType=VARCHAR}, #{enp.pdcpUpoctdl,jdbcType=VARCHAR},
+      #{enp.pdcpUpoctul,jdbcType=VARCHAR}, #{enp.pdcpUppkttotdelaydl1,jdbcType=VARCHAR}, #{enp.rrcAttconnestab,jdbcType=VARCHAR},
+      #{enp.rrcConnmax,jdbcType=VARCHAR}, #{enp.rrcConnmean,jdbcType=VARCHAR}, #{enp.rrcEffectiveconnmax,jdbcType=VARCHAR},
+      #{enp.rrcEffectiveconnmean,jdbcType=VARCHAR}, #{enp.rrcSuccconnestab,jdbcType=VARCHAR},
+      #{enp.rrcSuccconnreestabNonsrccell,jdbcType=VARCHAR}, #{enp.rruBorrowfromscellprbtotdl,jdbcType=VARCHAR},
+      #{enp.rruDtchprbassnmeanul,jdbcType=VARCHAR}, #{enp.rruDtchprbassnmeandl,jdbcType=VARCHAR},
+      #{enp.rruLendtopcellprbtotdl,jdbcType=VARCHAR}, #{enp.rruPdcchcceutilratio,jdbcType=VARCHAR},
+      #{enp.rruPdschprbmeantot,jdbcType=VARCHAR}, #{enp.rruPuschprbmeantot,jdbcType=VARCHAR},
+      #{enp.rruTtitotdl,jdbcType=VARCHAR}, #{enp.rruPdcchcceutil,jdbcType=VARCHAR}, #{enp.rruPdcchcceavail,jdbcType=VARCHAR},
+      #{enp.pdcpUplastttioctul,jdbcType=VARCHAR}, #{enp.pdcpUplastttioctdl,jdbcType=VARCHAR},
+      #{enp.rruPdschprbtot,jdbcType=VARCHAR}, #{enp.rruPuschprbassn,jdbcType=VARCHAR}, #{enp.rruPuschprbtot,jdbcType=VARCHAR},
+      #{enp.rruDtchprbassnul,jdbcType=VARCHAR}, #{enp.rruDtchprbassndl,jdbcType=VARCHAR}, #{enp.rruTtitotul,jdbcType=VARCHAR},
+      #{dataStatus,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertByTdLtePm">
+    insert into td_lte (province, city, vendor,
+      pmversion, elementtype, date_time,
+      CONTEXT_AttRelEnb,
+      CONTEXT_AttRelEnb_CauseUserInactivity, CONTEXT_AttRelEnb_Normal,
+      CONTEXT_NbrLeft, CONTEXT_SuccInitalSetup,
+      ERAB_HoFail, ERAB_HoFail_1, ERAB_HoFail_2,
+      ERAB_NbrAttEstab, ERAB_NbrAttEstab_1, ERAB_NbrAttEstab_2,
+      ERAB_NbrHoInc, ERAB_NbrLeft, ERAB_NbrLeft_1,
+      ERAB_NbrLeft_2, ERAB_NbrReqRelEnb, ERAB_NbrReqRelEnb_1,
+      ERAB_NbrReqRelEnb_2, ERAB_NbrReqRelEnb_CauseUserInactivity,
+      ERAB_NbrReqRelEnb_Normal, ERAB_NbrReqRelEnb_Normal_1,
+      ERAB_NbrReqRelEnb_Normal_2, ERAB_NbrSuccEstab,
+      ERAB_NbrSuccEstab_1, ERAB_NbrSuccEstab_2, HO_AttOutInterEnbS1,
+      HO_AttOutInterEnbS1_1, HO_AttOutInterEnbS1_2,
+      HO_AttOutInterEnbX2, HO_AttOutInterEnbX2_1,
+      HO_AttOutInterEnbX2_2, HO_AttOutIntraEnb,
+      HO_AttOutIntraEnb_1, HO_AttOutIntraEnb_2, HO_SuccExecInc,
+      HO_SuccOutInterEnbS1, HO_SuccOutInterEnbS1_1,
+      HO_SuccOutInterEnbS1_2, HO_SuccOutInterEnbX2,
+      HO_SuccOutInterEnbX2_1, HO_SuccOutInterEnbX2_2,
+      HO_SuccOutIntraEnb, HO_SuccOutIntraEnb_1,
+      HO_SuccOutIntraEnb_2, IRATHO_AttOutGeran,
+      IRATHO_SuccOutGeran, PDCP_NbrPktDl_1, PDCP_NbrPktLossDl_1,
+      PDCP_ThrpTimeDL, PDCP_ThrpTimeUL, PDCP_UpOctDl,
+      PDCP_UpOctUl, PDCP_UpPktTotDelayDl_1, RRC_AttConnEstab,
+      RRC_ConnMax, RRC_ConnMean, RRC_EffectiveConnMax,
+      RRC_EffectiveConnMean, RRC_SuccConnEstab,
+      RRC_SuccConnReestab_NonSrccell, RRU_BorrowFromScellPrbTotDl,
+      RRU_DtchPrbAssnMeanUl, RRU_DtchPrbAssnMeanDl,
+      RRU_LendToPCellPrbTotDl, RRU_PdcchCceUtilRatio,
+      RRU_PdschPrbMeanTot, RRU_PuschPrbMeanTot,
+      RRU_TtiTotDl, RRU_PdcchCceUtil, RRU_PdcchCceAvail,
+      PDCP_UpLastTtiOctUl, PDCP_UpLastTtiOctDl,
+      RRU_PdschPrbTot, RRU_PuschPrbAssn, RRU_PuschPrbTot,
+      RRU_DtchPrbAssnUl, RRU_DtchPrbAssnDl, RRU_TtiTotUl,
+      data_status)
+    values
+    <foreach item="item" collection="tlp" open="(" separator="," close=")">
+      #{item}
+    </foreach>
+  </insert>
+</mapper>

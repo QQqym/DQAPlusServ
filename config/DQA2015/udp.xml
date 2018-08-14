@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<VendorName name="NRM">
+		<pmversion name="ENB-NRM-V2.7.0" file="eNB网元统计数据需求规范-NRM(V2.7).xlsx">
+		</pmversion>
+		<pmversion name="ENB-NRM-V2.6.0" file="eNB网元统计数据需求规范-NRM(V2.6).xlsx">
+		</pmversion>
+	</VendorName>
+	<VendorName name="PM">
+		<pmversion name="ENB-PM-V2.7.0" file="eNB网元统计数据需求规范-PM(V2.7).xlsx">
+		</pmversion>
+		<pmversion name="ENB-PM-V2.6.0" file="eNB网元统计数据需求规范-PM(V2.6).xlsx">
+		</pmversion>
+	</VendorName>	
+</file>

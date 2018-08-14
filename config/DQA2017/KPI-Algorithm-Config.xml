@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd-无线网ENB">
+		<VendorName name="HW">
+			<pmversion name="V2.7.0" file="KPI-enb-2.7.txt"/>
+			<pmversion name="V2.6.0" file="KPI-enb-2.6.txt"/>
+			<pmversion name="V2.8.1" file="KPI-enb-2.8.1.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.7.0" file="KPI-enb-2.7.txt"/>
+			<pmversion name="V2.6.0" file="KPI-enb-2.6.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.7.0" file="KPI-enb-2.7.txt"/>
+			<pmversion name="V2.6.0" file="KPI-enb-2.6.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.7.0" file="KPI-enb-2.7.txt"/>
+			<pmversion name="V2.6.0" file="KPI-enb-2.6.txt"/>
+		</VendorName>
+		<VendorName name="DT">
+			<pmversion name="V2.7.0" file="KPI-enb-2.7.txt"/>
+			<pmversion name="V2.6.0" file="KPI-enb-2.6.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="V2.7.0" file="KPI-enb-2.7.txt"/>
+			<pmversion name="V2.6.0" file="KPI-enb-2.6.txt"/>
+			<pmversion name="V2.6.1" file="KPI-enb-2.6.txt"/>
+			<pmversion name="V2.6.2" file="KPI-enb-2.6.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="MmeFunction-核心网MME">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-mme.txt"/>
+			<pmversion name="V2.0.2" file="KPI-mme.txt"/>
+			<pmversion name="V2.1.1" file="KPI-mme.txt"/>
+			<pmversion name="V2.8.0" file="KPI-mme.txt"/>
+			<pmversion name="V3.0.0" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-mme.txt"/>
+			<pmversion name="V4.10.19" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.2" file="KPI-mme.txt"/>
+			<pmversion name="V2.1.0" file="KPI-mme.txt"/>
+			<pmversion name="V3.0.0" file="KPI-mme.txt"/>
+			<pmversion name="V2.0.0" file="KPI-mme.txt"/>
+			<pmversion name="V2.1.1" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.2" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="KPI-mme.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS11Mme-核心网MME(专用承载)">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-mme.txt"/>
+			<pmversion name="V2.0.2" file="KPI-mme.txt"/>
+			<pmversion name="V2.1.1" file="KPI-mme.txt"/>
+			<pmversion name="V2.8.0" file="KPI-mme.txt"/>
+			<pmversion name="V3.0.0" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-mme.txt"/>
+			<pmversion name="V4.10.19" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.2" file="KPI-mme.txt"/>
+			<pmversion name="V2.1.0" file="KPI-mme.txt"/>
+			<pmversion name="V3.0.0" file="KPI-mme.txt"/>
+			<pmversion name="V2.0.0" file="KPI-mme.txt"/>
+			<pmversion name="V2.1.1" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.2" file="KPI-mme.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="KPI-mme.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS11Sgw-核心网SGW">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-sgw.txt"/>
+			<pmversion name="V2.0.1" file="KPI-sgw.txt"/>
+			<pmversion name="V3.0.0" file="KPI-sgw.txt"/>
+			<pmversion name="V1.3.0" file="KPI-sgw.txt"/>
+			<pmversion name="V2.8.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-sgw.txt"/>
+			<pmversion name="V2.0.0" file="KPI-sgw.txt"/>
+			<pmversion name="V4.10.21" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.0" file="KPI-sgw.txt"/>
+			<pmversion name="V2.0.1" file="KPI-sgw.txt"/>
+			<pmversion name="V2.1.0" file="KPI-sgw.txt"/>
+			<pmversion name="V3.0.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.1" file="KPI-sgw.txt"/>
+			<pmversion name="V2.0.0" file="KPI-sgw.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="KPI-sgw.txt"/>
+		</VendorName>
+	</PmType>	
+	
+	<PmType name="EpRpDynS5S8Pgw-核心网PGW">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-pgw.txt"/>
+			<pmversion name="V2.0.1" file="KPI-pgw.txt"/>
+			<pmversion name="V2.8.0" file="KPI-pgw.txt"/>
+			<pmversion name="V3.0.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-pgw.txt"/>
+			<pmversion name="V4.10.21" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.0" file="KPI-pgw.txt"/>
+			<pmversion name="V2.0.1" file="KPI-pgw.txt"/>
+			<pmversion name="V2.2.0" file="KPI-pgw.txt"/>
+			<pmversion name="V3.0.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.1" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="PgwFunction-核心网PGW(计费)">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-pgw.txt"/>
+			<pmversion name="V2.0.1" file="KPI-pgw.txt"/>
+			<pmversion name="V2.8.0" file="KPI-pgw.txt"/>
+			<pmversion name="V3.0.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-pgw.txt"/>
+			<pmversion name="V4.10.21" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.0" file="KPI-pgw.txt"/>
+			<pmversion name="V2.0.1" file="KPI-pgw.txt"/>
+			<pmversion name="V2.2.0" file="KPI-pgw.txt"/>
+			<pmversion name="V3.0.0" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.1" file="KPI-pgw.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="KPI-pgw.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="SbcFunction-IMS指标集中式SBC">
+		<VendorName name="HW">
+			<pmversion name="V1.1.1" file="KPI-sbc.txt"/>
+			<pmversion name="V1.1.8" file="KPI-sbc.txt"/>
+			<pmversion name="V2.0.0" file="KPI-sbc.txt"/>
+			<pmversion name="V2.8.0" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.1.1" file="KPI-sbc.txt"/>
+			<pmversion name="V2.0.0" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="SgcFunction-IMS指标分布式SBC">
+		<VendorName name="HW">
+			<pmversion name="V1.1.1" file="KPI-sbc.txt"/>
+			<pmversion name="V1.1.8" file="KPI-sbc.txt"/>
+			<pmversion name="V2.0.0" file="KPI-sbc.txt"/>
+			<pmversion name="V2.8.0" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.1.1" file="KPI-sbc.txt"/>
+			<pmversion name="V2.0.0" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-1.1.8" file="KPI-sbc.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="ScscfFunction-IMS指标SCSCF">
+		<VendorName name="HW">
+			<pmversion name="V1.1.1" file="KPI-scscf.txt"/>
+			<pmversion name="V2.8.0" file="KPI-scscf.txt"/>
+			<pmversion name="V3.0.3" file="KPI-scscf.txt"/>
+			<pmversion name="V3.1.2" file="KPI-scscf.txt"/>
+			<pmversion name="V2.0.0" file="KPI-scscf.txt"/>
+			<pmversion name="V3.1.4" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.0.0" file="KPI-scscf.txt"/>
+			<pmversion name="V3.1.4" file="KPI-scscf.txt"/>
+			<pmversion name="V3.0.3" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-3.1.2" file="KPI-scscf.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="SccAsFunction-IMS指标TAS">
+		<VendorName name="HW">
+			<pmversion name="V1.0.4" file="KPI-tas.txt"/>
+			<pmversion name="V1.0.8" file="KPI-tas.txt"/>
+			<pmversion name="V1.0.9" file="KPI-tas.txt"/>
+			<pmversion name="V2.8.0" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.0.0" file="KPI-tas.txt"/>
+			<pmversion name="V1.0.4" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-1.0.8" file="KPI-tas.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="FeFunction-核心网HSS(分布式)">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.8.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V4.0.2" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.0.5" file="KPI-HssFe.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V4.10.18" file="KPI-HssFe.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.3" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V4.0.2" file="KPI-HssFe.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.4" file="KPI-HssFe.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="HssFunction-核心网HSS(集中式)">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.8.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V4.0.2" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.0.5" file="KPI-HssFe.txt"/>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V4.10.18" file="KPI-HssFe.txt"/>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.3" file="KPI-HssFe.txt"/>
+			<pmversion name="V2.1.0" file="KPI-HssFe.txt"/>
+			<pmversion name="V4.0.2" file="KPI-HssFe.txt"/>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.1.1" file="KPI-HssFe.txt"/>
+			<pmversion name="V1.1.4" file="KPI-HssFe.txt"/>
+		</VendorName>
+	</PmType>
+	
+</file>

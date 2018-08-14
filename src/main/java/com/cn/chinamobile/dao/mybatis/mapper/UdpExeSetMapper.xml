@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpExeSetMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpExeSet" >
+    <constructor >
+      <idArg column="intid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="pmname" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    intid, netype, datatype, pmname
+  </sql>
+
+  <select id="selectByNetype" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udp_exemption_set
+    where netype = #{netype,jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udp_exemption_set
+    where intid = #{intid,jdbcType=INTEGER}
+  </select>
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpExeSet" >
+    insert into udp_exemption_set (intid, netype, datatype, 
+      pmname)
+    values (#{intid,jdbcType=INTEGER}, #{netype,jdbcType=VARCHAR}, #{datatype,jdbcType=VARCHAR}, 
+      #{pmname,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpExeSet" >
+    insert into udp_exemption_set
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        intid,
+      </if>
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="pmname != null" >
+        pmname,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        #{intid,jdbcType=INTEGER},
+      </if>
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmname != null" >
+        #{pmname,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpExeSet" >
+    update udp_exemption_set
+    <set >
+      <if test="netype != null" >
+        netype = #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        datatype = #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmname != null" >
+        pmname = #{pmname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.UdpExeSet" >
+    update udp_exemption_set
+    set netype = #{netype,jdbcType=VARCHAR},
+      datatype = #{datatype,jdbcType=VARCHAR},
+      pmname = #{pmname,jdbcType=VARCHAR}
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+</mapper>

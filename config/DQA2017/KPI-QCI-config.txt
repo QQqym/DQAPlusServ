@@ -1,0 +1,88 @@
+﻿class-EutranCellTdd-无线网ENB
+E-RAB掉线率(QCI=1)
+E-RAB掉线率(QCI=2)
+E-RAB掉线率(剔除UI原因)
+E-RAB掉线率(剔除UI原因)(小区级)
+LTE到2G切换成功率(eSRVCC切换成功率)
+PDCCH信道CCE占用率
+QCI2承载切换成功率
+RRC连接平均数
+RRC连接最大数
+VoLTE下行平均时延
+VoLTE用户切换成功率
+切换成功率
+上行每PRB平均吞吐量
+上行业务信息PRB占用率
+上行用户平均速率
+无线掉线率(剔除UI原因)
+无线掉线率(剔除UI原因)(小区级)
+无线接通率
+无线接通率(QCI=1)
+无线接通率(QCI=2)
+下行每PRB平均吞吐量
+下行业务信息PRB占用率
+下行用户平均速率
+有效RRC连接平均数
+有效RRC连接最大数
+PDCCH信道CCE占用个数
+
+class-MmeFunction-核心网MME
+IMS网络PDN连接建立成功率
+跟踪区更新成功率
+排除用户原因的附着成功率
+缺省承载激活成功率
+寻呼成功率
+
+class-EpRpDynS11Mme-核心网MME(专用承载)
+MME建立专用承载成功率
+
+class-EpRpDynS11Sgw-核心网SGW
+IMS专用承载建立成功率(SGW)
+IMS专用承载更新成功率(SGW)
+专用承载建立成功率(SGW)
+
+class-EpRpDynS5S8Pgw-核心网PGW
+IMS专用承载建立成功率(PGW)
+IMS专用承载更新成功率(PGW)
+
+class-PgwFunction-核心网PGW(计费)
+PGW计费请求成功率
+
+class-HssFunction-核心网HSS(集中式)
+HSS鉴权信息查询成功率
+
+class-FeFunction-核心网HSS(分布式)
+HSS鉴权信息查询成功率
+
+
+class-SbcFunction-IMS指标集中式SBC
+SBC初始注册成功率
+SBC重注册成功率
+SBC接通率
+SBC语音应答话务量
+SBC视频应答话务量
+SBC漫入用户数
+SBC 注册用户数
+
+class-SgcFunction-IMS指标分布式SBC
+SBC初始注册成功率
+SBC重注册成功率
+SBC接通率
+SBC语音应答话务量
+SBC视频应答话务量
+SBC漫入用户数
+SBC 注册用户数
+
+class-ScscfFunction-IMS指标SCSCF
+S-CSCF 语音网络接通率
+S-CSCF 视频网络接通率
+S-CSCF LTE接入初始注册成功率
+S-CSCF LTE接入语音应答话务量
+S-CSCF LTE接入视频应答话务量
+S-CSCF LTE接入注册用户数
+漫出注册用户数
+
+class-SccAsFunction-IMS指标TAS
+eSRVCC切换成功率
+被叫域选至IMS比例
+被叫域选至CS比例

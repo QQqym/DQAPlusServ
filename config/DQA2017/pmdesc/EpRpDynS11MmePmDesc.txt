@@ -1,0 +1,2 @@
+﻿MME建立专用承载成功率#MMEHB04#SM.AttCreateDedicatedS5S8BearerMme#MME请求建立的专用S5S8承载数
+MME建立专用承载成功率#MMEHB05#SM.SuccCreateDedicatedS5S8BearerMme#MME成功建立的专用S5S8承载数

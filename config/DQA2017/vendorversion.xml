@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd-无线网ENB">
+		<VendorName name="HW">
+			<pmversion name="V2.7.0" file="counter-HUAWEI-enb-2.7.txt">
+			</pmversion>
+			<pmversion name="V2.6.0" file="counter-HUAWEI-enb-2.6.txt">
+			</pmversion>
+			<pmversion name="V2.8.1" file="counter-HUAWEI-enb-2.8.1.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.7.0" file="counter-ZTE-enb-2.7.txt">
+			</pmversion>
+			<pmversion name="V2.6.0" file="counter-ZTE-enb-2.6.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.7.0" file="counter-ERICSSON-enb-2.7.txt">
+			</pmversion>
+			<pmversion name="V2.6.0" file="counter-ERICSSON-enb-2.6.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.6.0" file="counter-NOKIA-enb-2.6.txt">
+			</pmversion>
+			<pmversion name="V2.7.0" file="counter-NOKIA-enb-2.7.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="DT">
+			<pmversion name="V2.7.0" file="counter-DATANG-enb-2.7.txt">
+			</pmversion>
+			<pmversion name="V2.6.0" file="counter-DATANG-enb-2.6.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="V2.7.0" file="counter-ALCATEL-enb-2.7.txt">
+			</pmversion>
+			<pmversion name="V2.6.0" file="counter-ALCATEL-enb-2.6.txt">
+			</pmversion>
+			<pmversion name="V2.6.1" file="counter-ALCATEL-enb-2.6.txt">
+			</pmversion>
+			<pmversion name="V2.6.2" file="counter-ALCATEL-enb-2.6.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="MmeFunction-核心网MME">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V2.0.2" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V2.1.1" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="counter-ZTE-mme-old.txt">
+			</pmversion>
+			<pmversion name="V4.10.19" file="counter-ZTE-mme-new.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.2" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V2.1.1" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.2" file="counter-NOKIA-mme.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="counter-ALCATEL-mme.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	
+	<PmType name="EpRpDynS11Mme-核心网MME(专用承载)">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V2.0.2" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V2.1.1" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-HUAWEI-mme.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="counter-ZTE-mme-new.txt">
+			</pmversion>
+			<pmversion name="V4.10.19" file="counter-ZTE-mme-new.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.2" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+			<pmversion name="V2.1.1" file="counter-ERICSSON-mme.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.2" file="counter-NOKIA-mme.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="counter-ALCATEL-mme.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS11Sgw-核心网SGW">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="counter-HUAWEI-sgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.1" file="counter-HUAWEI-sgw.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-HUAWEI-sgw.txt">
+			</pmversion>
+			<pmversion name="V1.3.0" file="counter-HUAWEI-sgw.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-sgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="counter-ZTE-sgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-ZTE-sgw.txt">
+			</pmversion>
+			<pmversion name="V4.10.21" file="counter-ZTE-sgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.0" file="counter-ERICSSON-sgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.1" file="counter-ERICSSON-sgw.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ERICSSON-sgw.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-ERICSSON-sgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.1" file="counter-NOKIA-sgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-NOKIA-sgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="counter-ALCATEL-sgw.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS5S8Pgw-核心网PGW">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.1" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="counter-ZTE-pgw.txt">
+			</pmversion>
+			<pmversion name="V4.10.21" file="counter-ZTE-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.0" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.1" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.2.0" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.1" file="counter-NOKIA-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="counter-ALCATEL-pgw.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>	
+	
+	<PmType name="PgwFunction-核心网PGW(计费)">
+		<VendorName name="HW">
+			<pmversion name="V2.0.0" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.1" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-HUAWEI-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.3.0" file="counter-ZTE-pgw.txt">
+			</pmversion>
+			<pmversion name="V4.10.21" file="counter-ZTE-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.0.0" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.0.1" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+			<pmversion name="V2.2.0" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+			<pmversion name="V3.0.0" file="counter-ERICSSON-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="V2.0.1" file="counter-NOKIA-pgw.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-2.0" file="counter-ALCATEL-pgw.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>	
+		
+	<PmType name="SbcFunction-IMS指标集中式SBC">
+		<VendorName name="HW">
+			<pmversion name="V1.1.1" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+			<pmversion name="V1.1.8" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.1.1" file="counter-ZTE-sbc.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-ZTE-sbc.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-1.1.8" file="counter-NOKIA-sbc.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-1.1.8" file="counter-ALCATEL-sbc.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="SgcFunction-IMS指标分布式SBC">
+		<VendorName name="HW">
+			<pmversion name="V1.1.1" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+			<pmversion name="V1.1.8" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-sbc.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V1.1.1" file="counter-ZTE-sbc.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-ZTE-sbc.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-1.1.8" file="counter-NOKIA-sbc.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-1.1.8" file="counter-ALCATEL-sbc.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="ScscfFunction-IMS指标SCSCF">
+		<VendorName name="HW">		
+			<pmversion name="V1.1.1" file="counter-HUAWEI-scscf.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-scscf.txt">
+			</pmversion>
+			<pmversion name="V3.0.3" file="counter-HUAWEI-scscf.txt">
+			</pmversion>
+			<pmversion name="V3.1.2" file="counter-HUAWEI-scscf.txt">
+			</pmversion>
+			<pmversion name="V3.1.4" file="counter-HUAWEI-scscf.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-HUAWEI-scscf.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.0.0" file="counter-ZTE-scscf.txt">
+			</pmversion>
+			<pmversion name="V3.1.4" file="counter-ZTE-scscf.txt">
+			</pmversion>
+			<pmversion name="V3.0.3" file="counter-ZTE-scscf.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-3.1.2" file="counter-NOKIA-scscf.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-3.1.2" file="counter-ALCATEL-scscf.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="SccAsFunction-IMS指标TAS">
+		<VendorName name="HW">
+			<pmversion name="V1.0.4" file="counter-HUAWEI-tas.txt">
+			</pmversion>
+			<pmversion name="V1.0.8" file="counter-HUAWEI-tas.txt">
+			</pmversion>
+			<pmversion name="V1.0.9" file="counter-HUAWEI-tas.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-tas.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.0.0" file="counter-ZTE-tas.txt">
+			</pmversion>
+			<pmversion name="V1.0.4" file="counter-ZTE-tas.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="NS">
+			<pmversion name="PM-1.0.8" file="counter-NOKIA-tas.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="AS">
+			<pmversion name="PM-1.0.8" file="counter-ALCATEL-tas.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="FeFunction-核心网HSS(分布式)">
+		<VendorName name="NS">
+			<pmversion name="V2.1.1" file="counter-NOKIA-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.4" file="counter-NOKIA-hss.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.1.1" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.1" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.3" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V4.0.2" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.1.1" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.1" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V1.3.0" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V4.10.18" file="counter-ZTE-hss.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="HW">
+			<pmversion name="V2.1.1" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.1" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V1.0.5" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V4.0.2" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+		</VendorName>
+		
+	</PmType>	
+	
+	<PmType name="HssFunction-核心网HSS(集中式)">
+		<VendorName name="NS">
+			<pmversion name="V2.1.1" file="counter-NOKIA-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.4" file="counter-NOKIA-hss.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ER">
+			<pmversion name="V2.1.1" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.1" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.3" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+			<pmversion name="V4.0.2" file="counter-ERICSSON-hss.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="ZT">
+			<pmversion name="V2.1.1" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.1" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V2.1.0" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V1.3.0" file="counter-ZTE-hss.txt">
+			</pmversion>
+			<pmversion name="V4.10.18" file="counter-ZTE-hss.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="HW">
+			<pmversion name="V2.1.1" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V1.1.1" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V2.0.0" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V1.0.5" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V4.0.2" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+			<pmversion name="V2.8.0" file="counter-HUAWEI-hss.txt">
+			</pmversion>
+		</VendorName>
+
+	</PmType>
+	
+</file>

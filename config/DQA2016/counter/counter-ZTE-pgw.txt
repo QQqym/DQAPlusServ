@@ -1,0 +1,4 @@
+SM.AttCreateDedicatedEpsBearer.Ims#C048960049
+SM.SuccCreateDedicatedEpsBearer.Ims#C048960050
+SM.AttUpdateDedicatedEpsBearer.Ims#C048970066
+SM.SuccUpdateDedicatedEpsBearer.Ims#C048970067

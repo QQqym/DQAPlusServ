@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.NbipmMmeMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.NbipmMme" >
+    <id column="pm1" property="pm1" jdbcType="INTEGER" />
+    <result column="pm0" property="pm0" jdbcType="INTEGER" />
+    <result column="pm2" property="pm2" jdbcType="VARCHAR" />
+    <result column="pm3" property="pm3" jdbcType="VARCHAR" />
+    <result column="pm4" property="pm4" jdbcType="VARCHAR" />
+    <result column="pm5" property="pm5" jdbcType="VARCHAR" />
+    <result column="pm6" property="pm6" jdbcType="VARCHAR" />
+    <result column="pm7" property="pm7" jdbcType="VARCHAR" />
+    <result column="pm8" property="pm8" jdbcType="VARCHAR" />
+    <result column="pm9" property="pm9" jdbcType="VARCHAR" />
+    <result column="pm10" property="pm10" jdbcType="VARCHAR" />
+    <result column="pm11" property="pm11" jdbcType="VARCHAR" />
+    <result column="pm12" property="pm12" jdbcType="VARCHAR" />
+    <result column="pm13" property="pm13" jdbcType="VARCHAR" />
+    <result column="pm14" property="pm14" jdbcType="VARCHAR" />
+    <result column="pm15" property="pm15" jdbcType="DOUBLE" />
+    <result column="pm16" property="pm16" jdbcType="DOUBLE" />
+    <result column="pm17" property="pm17" jdbcType="DOUBLE" />
+    <result column="pm18" property="pm18" jdbcType="DOUBLE" />
+    <result column="pm19" property="pm19" jdbcType="DOUBLE" />
+    <result column="pm20" property="pm20" jdbcType="DOUBLE" />
+    <result column="pm21" property="pm21" jdbcType="DOUBLE" />
+    <result column="pm22" property="pm22" jdbcType="DOUBLE" />
+    <result column="pm23" property="pm23" jdbcType="DOUBLE" />
+    <result column="pm24" property="pm24" jdbcType="DOUBLE" />
+    <result column="pm25" property="pm25" jdbcType="DOUBLE" />
+    <result column="pm26" property="pm26" jdbcType="DOUBLE" />
+    <result column="pm27" property="pm27" jdbcType="DOUBLE" />
+    <result column="pm28" property="pm28" jdbcType="DOUBLE" />
+    <result column="pm29" property="pm29" jdbcType="DOUBLE" />
+    <result column="pm30" property="pm30" jdbcType="DOUBLE" />
+    <result column="pm31" property="pm31" jdbcType="DOUBLE" />
+    <result column="pm32" property="pm32" jdbcType="DOUBLE" />
+    <result column="pm33" property="pm33" jdbcType="DOUBLE" />
+    <result column="pm34" property="pm34" jdbcType="DOUBLE" />
+    <result column="pm35" property="pm35" jdbcType="DOUBLE" />
+    <result column="pm36" property="pm36" jdbcType="DOUBLE" />
+    <result column="pm37" property="pm37" jdbcType="DOUBLE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    pm1, pm0, pm2, pm3, pm4, pm5, pm6, pm7, pm8, pm9, pm10, pm11, pm12, pm13, pm14, pm15, 
+    pm16, pm17, pm18, pm19, pm20, pm21, pm22, pm23, pm24, pm25, pm26, pm27, pm28, pm29, 
+    pm30, pm31, pm32, pm33, pm34, pm35, pm36, pm37
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from nbipm_1h_mme
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from nbipm_1h_mme
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmMme" >
+    insert into nbipm_1h_mme (pm1, pm0, pm2, 
+      pm3, pm4, pm5, pm6, 
+      pm7, pm8, pm9, pm10, 
+      pm11, pm12, pm13, pm14, 
+      pm15, pm16, pm17, pm18, 
+      pm19, pm20, pm21, pm22, 
+      pm23, pm24, pm25, pm26, 
+      pm27, pm28, pm29, pm30, 
+      pm31, pm32, pm33, pm34, 
+      pm35, pm36, pm37)
+    values (#{pm1,jdbcType=INTEGER}, #{pm0,jdbcType=INTEGER}, #{pm2,jdbcType=VARCHAR}, 
+      #{pm3,jdbcType=VARCHAR}, #{pm4,jdbcType=VARCHAR}, #{pm5,jdbcType=VARCHAR}, #{pm6,jdbcType=VARCHAR}, 
+      #{pm7,jdbcType=VARCHAR}, #{pm8,jdbcType=VARCHAR}, #{pm9,jdbcType=VARCHAR}, #{pm10,jdbcType=VARCHAR}, 
+      #{pm11,jdbcType=VARCHAR}, #{pm12,jdbcType=VARCHAR}, #{pm13,jdbcType=VARCHAR}, #{pm14,jdbcType=VARCHAR}, 
+      #{pm15,jdbcType=DOUBLE}, #{pm16,jdbcType=DOUBLE}, #{pm17,jdbcType=DOUBLE}, #{pm18,jdbcType=DOUBLE}, 
+      #{pm19,jdbcType=DOUBLE}, #{pm20,jdbcType=DOUBLE}, #{pm21,jdbcType=DOUBLE}, #{pm22,jdbcType=DOUBLE}, 
+      #{pm23,jdbcType=DOUBLE}, #{pm24,jdbcType=DOUBLE}, #{pm25,jdbcType=DOUBLE}, #{pm26,jdbcType=DOUBLE}, 
+      #{pm27,jdbcType=DOUBLE}, #{pm28,jdbcType=DOUBLE}, #{pm29,jdbcType=DOUBLE}, #{pm30,jdbcType=DOUBLE}, 
+      #{pm31,jdbcType=DOUBLE}, #{pm32,jdbcType=DOUBLE}, #{pm33,jdbcType=DOUBLE}, #{pm34,jdbcType=DOUBLE}, 
+      #{pm35,jdbcType=DOUBLE}, #{pm36,jdbcType=DOUBLE}, #{pm37,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmMme" >
+    insert into nbipm_1h_mme
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="pm1 != null" >
+        pm1,
+      </if>
+      <if test="pm0 != null" >
+        pm0,
+      </if>
+      <if test="pm2 != null" >
+        pm2,
+      </if>
+      <if test="pm3 != null" >
+        pm3,
+      </if>
+      <if test="pm4 != null" >
+        pm4,
+      </if>
+      <if test="pm5 != null" >
+        pm5,
+      </if>
+      <if test="pm6 != null" >
+        pm6,
+      </if>
+      <if test="pm7 != null" >
+        pm7,
+      </if>
+      <if test="pm8 != null" >
+        pm8,
+      </if>
+      <if test="pm9 != null" >
+        pm9,
+      </if>
+      <if test="pm10 != null" >
+        pm10,
+      </if>
+      <if test="pm11 != null" >
+        pm11,
+      </if>
+      <if test="pm12 != null" >
+        pm12,
+      </if>
+      <if test="pm13 != null" >
+        pm13,
+      </if>
+      <if test="pm14 != null" >
+        pm14,
+      </if>
+      <if test="pm15 != null" >
+        pm15,
+      </if>
+      <if test="pm16 != null" >
+        pm16,
+      </if>
+      <if test="pm17 != null" >
+        pm17,
+      </if>
+      <if test="pm18 != null" >
+        pm18,
+      </if>
+      <if test="pm19 != null" >
+        pm19,
+      </if>
+      <if test="pm20 != null" >
+        pm20,
+      </if>
+      <if test="pm21 != null" >
+        pm21,
+      </if>
+      <if test="pm22 != null" >
+        pm22,
+      </if>
+      <if test="pm23 != null" >
+        pm23,
+      </if>
+      <if test="pm24 != null" >
+        pm24,
+      </if>
+      <if test="pm25 != null" >
+        pm25,
+      </if>
+      <if test="pm26 != null" >
+        pm26,
+      </if>
+      <if test="pm27 != null" >
+        pm27,
+      </if>
+      <if test="pm28 != null" >
+        pm28,
+      </if>
+      <if test="pm29 != null" >
+        pm29,
+      </if>
+      <if test="pm30 != null" >
+        pm30,
+      </if>
+      <if test="pm31 != null" >
+        pm31,
+      </if>
+      <if test="pm32 != null" >
+        pm32,
+      </if>
+      <if test="pm33 != null" >
+        pm33,
+      </if>
+      <if test="pm34 != null" >
+        pm34,
+      </if>
+      <if test="pm35 != null" >
+        pm35,
+      </if>
+      <if test="pm36 != null" >
+        pm36,
+      </if>
+      <if test="pm37 != null" >
+        pm37,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="pm1 != null" >
+        #{pm1,jdbcType=INTEGER},
+      </if>
+      <if test="pm0 != null" >
+        #{pm0,jdbcType=INTEGER},
+      </if>
+      <if test="pm2 != null" >
+        #{pm2,jdbcType=VARCHAR},
+      </if>
+      <if test="pm3 != null" >
+        #{pm3,jdbcType=VARCHAR},
+      </if>
+      <if test="pm4 != null" >
+        #{pm4,jdbcType=VARCHAR},
+      </if>
+      <if test="pm5 != null" >
+        #{pm5,jdbcType=VARCHAR},
+      </if>
+      <if test="pm6 != null" >
+        #{pm6,jdbcType=VARCHAR},
+      </if>
+      <if test="pm7 != null" >
+        #{pm7,jdbcType=VARCHAR},
+      </if>
+      <if test="pm8 != null" >
+        #{pm8,jdbcType=VARCHAR},
+      </if>
+      <if test="pm9 != null" >
+        #{pm9,jdbcType=VARCHAR},
+      </if>
+      <if test="pm10 != null" >
+        #{pm10,jdbcType=VARCHAR},
+      </if>
+      <if test="pm11 != null" >
+        #{pm11,jdbcType=VARCHAR},
+      </if>
+      <if test="pm12 != null" >
+        #{pm12,jdbcType=VARCHAR},
+      </if>
+      <if test="pm13 != null" >
+        #{pm13,jdbcType=VARCHAR},
+      </if>
+      <if test="pm14 != null" >
+        #{pm14,jdbcType=VARCHAR},
+      </if>
+      <if test="pm15 != null" >
+        #{pm15,jdbcType=DOUBLE},
+      </if>
+      <if test="pm16 != null" >
+        #{pm16,jdbcType=DOUBLE},
+      </if>
+      <if test="pm17 != null" >
+        #{pm17,jdbcType=DOUBLE},
+      </if>
+      <if test="pm18 != null" >
+        #{pm18,jdbcType=DOUBLE},
+      </if>
+      <if test="pm19 != null" >
+        #{pm19,jdbcType=DOUBLE},
+      </if>
+      <if test="pm20 != null" >
+        #{pm20,jdbcType=DOUBLE},
+      </if>
+      <if test="pm21 != null" >
+        #{pm21,jdbcType=DOUBLE},
+      </if>
+      <if test="pm22 != null" >
+        #{pm22,jdbcType=DOUBLE},
+      </if>
+      <if test="pm23 != null" >
+        #{pm23,jdbcType=DOUBLE},
+      </if>
+      <if test="pm24 != null" >
+        #{pm24,jdbcType=DOUBLE},
+      </if>
+      <if test="pm25 != null" >
+        #{pm25,jdbcType=DOUBLE},
+      </if>
+      <if test="pm26 != null" >
+        #{pm26,jdbcType=DOUBLE},
+      </if>
+      <if test="pm27 != null" >
+        #{pm27,jdbcType=DOUBLE},
+      </if>
+      <if test="pm28 != null" >
+        #{pm28,jdbcType=DOUBLE},
+      </if>
+      <if test="pm29 != null" >
+        #{pm29,jdbcType=DOUBLE},
+      </if>
+      <if test="pm30 != null" >
+        #{pm30,jdbcType=DOUBLE},
+      </if>
+      <if test="pm31 != null" >
+        #{pm31,jdbcType=DOUBLE},
+      </if>
+      <if test="pm32 != null" >
+        #{pm32,jdbcType=DOUBLE},
+      </if>
+      <if test="pm33 != null" >
+        #{pm33,jdbcType=DOUBLE},
+      </if>
+      <if test="pm34 != null" >
+        #{pm34,jdbcType=DOUBLE},
+      </if>
+      <if test="pm35 != null" >
+        #{pm35,jdbcType=DOUBLE},
+      </if>
+      <if test="pm36 != null" >
+        #{pm36,jdbcType=DOUBLE},
+      </if>
+      <if test="pm37 != null" >
+        #{pm37,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmMme" >
+    update nbipm_1h_mme
+    <set >
+      <if test="pm0 != null" >
+        pm0 = #{pm0,jdbcType=INTEGER},
+      </if>
+      <if test="pm2 != null" >
+        pm2 = #{pm2,jdbcType=VARCHAR},
+      </if>
+      <if test="pm3 != null" >
+        pm3 = #{pm3,jdbcType=VARCHAR},
+      </if>
+      <if test="pm4 != null" >
+        pm4 = #{pm4,jdbcType=VARCHAR},
+      </if>
+      <if test="pm5 != null" >
+        pm5 = #{pm5,jdbcType=VARCHAR},
+      </if>
+      <if test="pm6 != null" >
+        pm6 = #{pm6,jdbcType=VARCHAR},
+      </if>
+      <if test="pm7 != null" >
+        pm7 = #{pm7,jdbcType=VARCHAR},
+      </if>
+      <if test="pm8 != null" >
+        pm8 = #{pm8,jdbcType=VARCHAR},
+      </if>
+      <if test="pm9 != null" >
+        pm9 = #{pm9,jdbcType=VARCHAR},
+      </if>
+      <if test="pm10 != null" >
+        pm10 = #{pm10,jdbcType=VARCHAR},
+      </if>
+      <if test="pm11 != null" >
+        pm11 = #{pm11,jdbcType=VARCHAR},
+      </if>
+      <if test="pm12 != null" >
+        pm12 = #{pm12,jdbcType=VARCHAR},
+      </if>
+      <if test="pm13 != null" >
+        pm13 = #{pm13,jdbcType=VARCHAR},
+      </if>
+      <if test="pm14 != null" >
+        pm14 = #{pm14,jdbcType=VARCHAR},
+      </if>
+      <if test="pm15 != null" >
+        pm15 = #{pm15,jdbcType=DOUBLE},
+      </if>
+      <if test="pm16 != null" >
+        pm16 = #{pm16,jdbcType=DOUBLE},
+      </if>
+      <if test="pm17 != null" >
+        pm17 = #{pm17,jdbcType=DOUBLE},
+      </if>
+      <if test="pm18 != null" >
+        pm18 = #{pm18,jdbcType=DOUBLE},
+      </if>
+      <if test="pm19 != null" >
+        pm19 = #{pm19,jdbcType=DOUBLE},
+      </if>
+      <if test="pm20 != null" >
+        pm20 = #{pm20,jdbcType=DOUBLE},
+      </if>
+      <if test="pm21 != null" >
+        pm21 = #{pm21,jdbcType=DOUBLE},
+      </if>
+      <if test="pm22 != null" >
+        pm22 = #{pm22,jdbcType=DOUBLE},
+      </if>
+      <if test="pm23 != null" >
+        pm23 = #{pm23,jdbcType=DOUBLE},
+      </if>
+      <if test="pm24 != null" >
+        pm24 = #{pm24,jdbcType=DOUBLE},
+      </if>
+      <if test="pm25 != null" >
+        pm25 = #{pm25,jdbcType=DOUBLE},
+      </if>
+      <if test="pm26 != null" >
+        pm26 = #{pm26,jdbcType=DOUBLE},
+      </if>
+      <if test="pm27 != null" >
+        pm27 = #{pm27,jdbcType=DOUBLE},
+      </if>
+      <if test="pm28 != null" >
+        pm28 = #{pm28,jdbcType=DOUBLE},
+      </if>
+      <if test="pm29 != null" >
+        pm29 = #{pm29,jdbcType=DOUBLE},
+      </if>
+      <if test="pm30 != null" >
+        pm30 = #{pm30,jdbcType=DOUBLE},
+      </if>
+      <if test="pm31 != null" >
+        pm31 = #{pm31,jdbcType=DOUBLE},
+      </if>
+      <if test="pm32 != null" >
+        pm32 = #{pm32,jdbcType=DOUBLE},
+      </if>
+      <if test="pm33 != null" >
+        pm33 = #{pm33,jdbcType=DOUBLE},
+      </if>
+      <if test="pm34 != null" >
+        pm34 = #{pm34,jdbcType=DOUBLE},
+      </if>
+      <if test="pm35 != null" >
+        pm35 = #{pm35,jdbcType=DOUBLE},
+      </if>
+      <if test="pm36 != null" >
+        pm36 = #{pm36,jdbcType=DOUBLE},
+      </if>
+      <if test="pm37 != null" >
+        pm37 = #{pm37,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmMme" >
+    update nbipm_1h_mme
+    set pm0 = #{pm0,jdbcType=INTEGER},
+      pm2 = #{pm2,jdbcType=VARCHAR},
+      pm3 = #{pm3,jdbcType=VARCHAR},
+      pm4 = #{pm4,jdbcType=VARCHAR},
+      pm5 = #{pm5,jdbcType=VARCHAR},
+      pm6 = #{pm6,jdbcType=VARCHAR},
+      pm7 = #{pm7,jdbcType=VARCHAR},
+      pm8 = #{pm8,jdbcType=VARCHAR},
+      pm9 = #{pm9,jdbcType=VARCHAR},
+      pm10 = #{pm10,jdbcType=VARCHAR},
+      pm11 = #{pm11,jdbcType=VARCHAR},
+      pm12 = #{pm12,jdbcType=VARCHAR},
+      pm13 = #{pm13,jdbcType=VARCHAR},
+      pm14 = #{pm14,jdbcType=VARCHAR},
+      pm15 = #{pm15,jdbcType=DOUBLE},
+      pm16 = #{pm16,jdbcType=DOUBLE},
+      pm17 = #{pm17,jdbcType=DOUBLE},
+      pm18 = #{pm18,jdbcType=DOUBLE},
+      pm19 = #{pm19,jdbcType=DOUBLE},
+      pm20 = #{pm20,jdbcType=DOUBLE},
+      pm21 = #{pm21,jdbcType=DOUBLE},
+      pm22 = #{pm22,jdbcType=DOUBLE},
+      pm23 = #{pm23,jdbcType=DOUBLE},
+      pm24 = #{pm24,jdbcType=DOUBLE},
+      pm25 = #{pm25,jdbcType=DOUBLE},
+      pm26 = #{pm26,jdbcType=DOUBLE},
+      pm27 = #{pm27,jdbcType=DOUBLE},
+      pm28 = #{pm28,jdbcType=DOUBLE},
+      pm29 = #{pm29,jdbcType=DOUBLE},
+      pm30 = #{pm30,jdbcType=DOUBLE},
+      pm31 = #{pm31,jdbcType=DOUBLE},
+      pm32 = #{pm32,jdbcType=DOUBLE},
+      pm33 = #{pm33,jdbcType=DOUBLE},
+      pm34 = #{pm34,jdbcType=DOUBLE},
+      pm35 = #{pm35,jdbcType=DOUBLE},
+      pm36 = #{pm36,jdbcType=DOUBLE},
+      pm37 = #{pm37,jdbcType=DOUBLE}
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </update>
+</mapper>

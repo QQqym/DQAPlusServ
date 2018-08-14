@@ -1,0 +1,5 @@
+SCC.eSRVCCsuccTimes#VS.SCG_DomainTransferESRVCCSuccess
+SCC.eSRVCCTimes#VS.SCG_DomainTransferESRVCCAttempt
+SCC.ReqTADS#VS.SCGCallDeliveryRequestAttempt
+SCC.TADStoIMS#VS.SCGCallDeliveryAttempttoIMS
+SCC.TADStoCS#VS.SCGCallDeliveryAttempttoCircuit

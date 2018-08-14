@@ -1,0 +1,18 @@
+开始时间
+结束时间
+周期
+省份
+地市
+厂家
+设备名称
+S-CSCF 初始注册成功率
+UR.AttInitReg
+UR.SuccInitReg
+S-CSCF重注册成功率
+UR.AttReReg
+UR.SuccReReg
+S-CSCF接通率
+SC.AttSessionOrig
+SC.SuccSessionOrig
+SC.AttSessionTerm
+SC.SuccSessionTerm

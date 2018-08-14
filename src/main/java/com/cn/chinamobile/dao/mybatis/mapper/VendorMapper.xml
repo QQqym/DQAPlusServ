@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.VendorMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.Vendor" >
+    <constructor >
+      <arg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="abridge" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, vendor, abridge
+  </sql>
+
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from vendor_mapper
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.Vendor" >
+    insert into vendor_mapper (id, vendor, abridge
+      )
+    values (#{id,jdbcType=INTEGER}, #{vendor,jdbcType=VARCHAR}, #{abridge,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.Vendor" >
+    insert into vendor_mapper
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="abridge != null" >
+        abridge,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="abridge != null" >
+        #{abridge,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

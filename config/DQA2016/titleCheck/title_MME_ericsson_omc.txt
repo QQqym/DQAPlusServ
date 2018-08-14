@@ -1,0 +1,10 @@
+开始时间
+结束时间
+周期
+省份
+地市
+厂家
+网元版本
+网元设备名称
+SM.PdnConnectivityRequest.Ims
+SM.PdnConnectivityComplete.Ims

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="ENB">
+		<vendorname name="DT" filename="OMC-ENB-DT--15.csv"></vendorname>
+		<vendorname name="ER" filename="OMC-ENB-ER--15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-ENB-HW--15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-ENB-NOKIA--15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-ENB-ZT--15.csv"></vendorname>
+		<vendorname name="AS" filename="OMC-ENB-AS-15.csv"></vendorname>
+	
+	</PmType>
+
+	<PmType name="MME">
+		<vendorname name="AS" filename="OMC-MME-AS-15.csv"></vendorname>
+		<vendorname name="ER" filename="OMC-MME-ER-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-MME-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-MME-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-MME-ZT-15.csv"></vendorname>
+
+	</PmType>
+
+		<PmType name="HSS">
+		<vendorname name="ER" filename="OMC-HSS-ER-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-HSS-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-HSS-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-HSS-ZT-15.csv"></vendorname>
+
+	</PmType>
+
+	<PmType name="PGW">
+		<vendorname name="AS" filename="OMC-PGW-AS-15.csv"></vendorname>
+		<vendorname name="ER" filename="OMC-PGW-ER-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-PGW-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-PGW-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-PGW-ZT-15.csv"></vendorname>
+
+	</PmType>
+
+		<PmType name="SCSCF">
+		<vendorname name="AS" filename="OMC-SCSCF-AS-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-SCSCF-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-SCSCF-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-SCSCF-ZT-15.csv"></vendorname>
+
+	</PmType>
+
+	<PmType name="SGW">
+		<vendorname name="AS" filename="OMC-SGW-AS-15.csv"></vendorname>
+		<vendorname name="ER" filename="OMC-SGW-ER-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-SGW-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-SGW-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-SGW-ZT-15.csv"></vendorname>
+
+	</PmType>
+
+	<PmType name="TAS">
+		<vendorname name="AS" filename="OMC-TAS-AS-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-TAS-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-TAS-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-TAS-ZT-15.csv"></vendorname>
+
+	</PmType>
+
+	<PmType name="VOLTESBC">
+		<vendorname name="AS" filename="OMC-VOLTESBC-AS-15.csv"></vendorname>
+		<vendorname name="HW" filename="OMC-VOLTESBC-HW-15.csv"></vendorname>
+		<vendorname name="NS" filename="OMC-VOLTESBC-NOKIA-15.csv"></vendorname>
+		<vendorname name="ZT" filename="OMC-VOLTESBC-ZT-15.csv"></vendorname>
+
+	</PmType>
+	
+	
+</file>

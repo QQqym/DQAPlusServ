@@ -1,0 +1,4 @@
+SM.AttCreateDedicatedEpsBearer.Ims#VS.CreateBearrReq.Ims
+SM.SuccCreateDedicatedEpsBearer.Ims#VS.CreateBearrRspSuccess.Ims
+SM.AttUpdateDedicatedEpsBearer.Ims#VS.UpdateBearrReq.Ims
+SM.SuccUpdateDedicatedEpsBearer.Ims#VS.UpdateBearrRspSuccess.Ims

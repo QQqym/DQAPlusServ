@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.NbipmScscfMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.NbipmScscf" >
+    <id column="pm1" property="pm1" jdbcType="INTEGER" />
+    <result column="pm0" property="pm0" jdbcType="INTEGER" />
+    <result column="pm2" property="pm2" jdbcType="VARCHAR" />
+    <result column="pm3" property="pm3" jdbcType="VARCHAR" />
+    <result column="pm4" property="pm4" jdbcType="VARCHAR" />
+    <result column="pm5" property="pm5" jdbcType="VARCHAR" />
+    <result column="pm6" property="pm6" jdbcType="VARCHAR" />
+    <result column="pm7" property="pm7" jdbcType="VARCHAR" />
+    <result column="pm8" property="pm8" jdbcType="VARCHAR" />
+    <result column="pm9" property="pm9" jdbcType="VARCHAR" />
+    <result column="pm10" property="pm10" jdbcType="VARCHAR" />
+    <result column="pm11" property="pm11" jdbcType="VARCHAR" />
+    <result column="pm12" property="pm12" jdbcType="VARCHAR" />
+    <result column="pm13" property="pm13" jdbcType="VARCHAR" />
+    <result column="pm14" property="pm14" jdbcType="VARCHAR" />
+    <result column="pm15" property="pm15" jdbcType="DOUBLE" />
+    <result column="pm16" property="pm16" jdbcType="DOUBLE" />
+    <result column="pm17" property="pm17" jdbcType="DOUBLE" />
+    <result column="pm18" property="pm18" jdbcType="DOUBLE" />
+    <result column="pm19" property="pm19" jdbcType="DOUBLE" />
+    <result column="pm20" property="pm20" jdbcType="DOUBLE" />
+    <result column="pm21" property="pm21" jdbcType="DOUBLE" />
+    <result column="pm22" property="pm22" jdbcType="DOUBLE" />
+    <result column="pm23" property="pm23" jdbcType="DOUBLE" />
+    <result column="pm24" property="pm24" jdbcType="DOUBLE" />
+    <result column="pm25" property="pm25" jdbcType="DOUBLE" />
+    <result column="pm26" property="pm26" jdbcType="DOUBLE" />
+    <result column="pm27" property="pm27" jdbcType="DOUBLE" />
+    <result column="pm28" property="pm28" jdbcType="DOUBLE" />
+    <result column="pm29" property="pm29" jdbcType="DOUBLE" />
+    <result column="pm30" property="pm30" jdbcType="DOUBLE" />
+    <result column="pm31" property="pm31" jdbcType="DOUBLE" />
+    <result column="pm32" property="pm32" jdbcType="DOUBLE" />
+    <result column="pm33" property="pm33" jdbcType="DOUBLE" />
+    <result column="pm34" property="pm34" jdbcType="DOUBLE" />
+    <result column="pm35" property="pm35" jdbcType="DOUBLE" />
+    <result column="pm36" property="pm36" jdbcType="DOUBLE" />
+    <result column="pm37" property="pm37" jdbcType="DOUBLE" />
+    <result column="pm38" property="pm38" jdbcType="DOUBLE" />
+    <result column="pm39" property="pm39" jdbcType="DOUBLE" />
+    <result column="pm40" property="pm40" jdbcType="DOUBLE" />
+    <result column="pm41" property="pm41" jdbcType="DOUBLE" />
+    <result column="pm42" property="pm42" jdbcType="DOUBLE" />
+    <result column="pm43" property="pm43" jdbcType="DOUBLE" />
+    <result column="pm44" property="pm44" jdbcType="DOUBLE" />
+    <result column="pm45" property="pm45" jdbcType="DOUBLE" />
+    <result column="pm46" property="pm46" jdbcType="DOUBLE" />
+    <result column="pm47" property="pm47" jdbcType="DOUBLE" />
+    <result column="pm48" property="pm48" jdbcType="DOUBLE" />
+    <result column="pm49" property="pm49" jdbcType="DOUBLE" />
+    <result column="pm50" property="pm50" jdbcType="DOUBLE" />
+    <result column="pm51" property="pm51" jdbcType="DOUBLE" />
+    <result column="pm52" property="pm52" jdbcType="DOUBLE" />
+    <result column="pm53" property="pm53" jdbcType="DOUBLE" />
+    <result column="pm54" property="pm54" jdbcType="DOUBLE" />
+    <result column="pm55" property="pm55" jdbcType="DOUBLE" />
+    <result column="pm56" property="pm56" jdbcType="DOUBLE" />
+    <result column="pm57" property="pm57" jdbcType="DOUBLE" />
+    <result column="pm58" property="pm58" jdbcType="DOUBLE" />
+    <result column="pm59" property="pm59" jdbcType="DOUBLE" />
+    <result column="pm60" property="pm60" jdbcType="DOUBLE" />
+    <result column="pm61" property="pm61" jdbcType="DOUBLE" />
+    <result column="pm62" property="pm62" jdbcType="DOUBLE" />
+    <result column="pm63" property="pm63" jdbcType="DOUBLE" />
+    <result column="pm64" property="pm64" jdbcType="DOUBLE" />
+    <result column="pm65" property="pm65" jdbcType="DOUBLE" />
+    <result column="pm66" property="pm66" jdbcType="DOUBLE" />
+    <result column="pm67" property="pm67" jdbcType="DOUBLE" />
+    <result column="pm68" property="pm68" jdbcType="DOUBLE" />
+    <result column="pm69" property="pm69" jdbcType="DOUBLE" />
+    <result column="pm70" property="pm70" jdbcType="DOUBLE" />
+    <result column="pm71" property="pm71" jdbcType="DOUBLE" />
+    <result column="pm72" property="pm72" jdbcType="DOUBLE" />
+    <result column="pm73" property="pm73" jdbcType="DOUBLE" />
+    <result column="pm74" property="pm74" jdbcType="DOUBLE" />
+    <result column="pm75" property="pm75" jdbcType="DOUBLE" />
+    <result column="pm76" property="pm76" jdbcType="DOUBLE" />
+    <result column="pm77" property="pm77" jdbcType="DOUBLE" />
+    <result column="pm78" property="pm78" jdbcType="DOUBLE" />
+    <result column="pm79" property="pm79" jdbcType="DOUBLE" />
+    <result column="pm80" property="pm80" jdbcType="DOUBLE" />
+    <result column="pm81" property="pm81" jdbcType="DOUBLE" />
+    <result column="pm82" property="pm82" jdbcType="DOUBLE" />
+    <result column="pm83" property="pm83" jdbcType="DOUBLE" />
+    <result column="pm84" property="pm84" jdbcType="DOUBLE" />
+    <result column="pm85" property="pm85" jdbcType="DOUBLE" />
+    <result column="pm86" property="pm86" jdbcType="DOUBLE" />
+    <result column="pm87" property="pm87" jdbcType="DOUBLE" />
+    <result column="pm88" property="pm88" jdbcType="DOUBLE" />
+    <result column="pm89" property="pm89" jdbcType="DOUBLE" />
+    <result column="pm90" property="pm90" jdbcType="DOUBLE" />
+    <result column="pm91" property="pm91" jdbcType="DOUBLE" />
+    <result column="pm92" property="pm92" jdbcType="DOUBLE" />
+    <result column="pm93" property="pm93" jdbcType="DOUBLE" />
+    <result column="pm94" property="pm94" jdbcType="DOUBLE" />
+    <result column="pm95" property="pm95" jdbcType="DOUBLE" />
+    <result column="pm96" property="pm96" jdbcType="DOUBLE" />
+    <result column="pm97" property="pm97" jdbcType="DOUBLE" />
+    <result column="pm98" property="pm98" jdbcType="DOUBLE" />
+    <result column="pm99" property="pm99" jdbcType="DOUBLE" />
+    <result column="pm100" property="pm100" jdbcType="DOUBLE" />
+    <result column="pm101" property="pm101" jdbcType="DOUBLE" />
+    <result column="pm102" property="pm102" jdbcType="DOUBLE" />
+    <result column="pm103" property="pm103" jdbcType="DOUBLE" />
+    <result column="pm104" property="pm104" jdbcType="DOUBLE" />
+    <result column="pm105" property="pm105" jdbcType="DOUBLE" />
+    <result column="pm106" property="pm106" jdbcType="DOUBLE" />
+    <result column="pm107" property="pm107" jdbcType="DOUBLE" />
+    <result column="pm108" property="pm108" jdbcType="DOUBLE" />
+    <result column="pm109" property="pm109" jdbcType="DOUBLE" />
+    <result column="pm110" property="pm110" jdbcType="DOUBLE" />
+    <result column="pm111" property="pm111" jdbcType="DOUBLE" />
+    <result column="pm112" property="pm112" jdbcType="DOUBLE" />
+    <result column="pm113" property="pm113" jdbcType="DOUBLE" />
+    <result column="pm114" property="pm114" jdbcType="DOUBLE" />
+    <result column="pm115" property="pm115" jdbcType="DOUBLE" />
+    <result column="pm116" property="pm116" jdbcType="DOUBLE" />
+    <result column="pm117" property="pm117" jdbcType="DOUBLE" />
+    <result column="pm118" property="pm118" jdbcType="DOUBLE" />
+    <result column="pm119" property="pm119" jdbcType="DOUBLE" />
+    <result column="pm120" property="pm120" jdbcType="DOUBLE" />
+    <result column="pm121" property="pm121" jdbcType="DOUBLE" />
+    <result column="pm122" property="pm122" jdbcType="DOUBLE" />
+    <result column="pm123" property="pm123" jdbcType="DOUBLE" />
+    <result column="pm124" property="pm124" jdbcType="DOUBLE" />
+    <result column="pm125" property="pm125" jdbcType="DOUBLE" />
+    <result column="pm126" property="pm126" jdbcType="DOUBLE" />
+    <result column="pm127" property="pm127" jdbcType="DOUBLE" />
+    <result column="pm128" property="pm128" jdbcType="DOUBLE" />
+    <result column="pm129" property="pm129" jdbcType="DOUBLE" />
+    <result column="pm130" property="pm130" jdbcType="DOUBLE" />
+    <result column="pm131" property="pm131" jdbcType="DOUBLE" />
+    <result column="pm132" property="pm132" jdbcType="DOUBLE" />
+    <result column="pm133" property="pm133" jdbcType="DOUBLE" />
+    <result column="pm134" property="pm134" jdbcType="DOUBLE" />
+    <result column="pm135" property="pm135" jdbcType="DOUBLE" />
+    <result column="pm136" property="pm136" jdbcType="DOUBLE" />
+    <result column="pm137" property="pm137" jdbcType="DOUBLE" />
+    <result column="pm138" property="pm138" jdbcType="DOUBLE" />
+    <result column="pm139" property="pm139" jdbcType="DOUBLE" />
+    <result column="pm140" property="pm140" jdbcType="DOUBLE" />
+    <result column="pm141" property="pm141" jdbcType="DOUBLE" />
+    <result column="pm142" property="pm142" jdbcType="DOUBLE" />
+    <result column="pm143" property="pm143" jdbcType="DOUBLE" />
+    <result column="pm144" property="pm144" jdbcType="DOUBLE" />
+    <result column="pm145" property="pm145" jdbcType="DOUBLE" />
+    <result column="pm146" property="pm146" jdbcType="DOUBLE" />
+    <result column="pm147" property="pm147" jdbcType="DOUBLE" />
+    <result column="pm148" property="pm148" jdbcType="DOUBLE" />
+    <result column="pm149" property="pm149" jdbcType="DOUBLE" />
+    <result column="pm150" property="pm150" jdbcType="DOUBLE" />
+    <result column="pm151" property="pm151" jdbcType="DOUBLE" />
+    <result column="pm152" property="pm152" jdbcType="DOUBLE" />
+    <result column="pm153" property="pm153" jdbcType="DOUBLE" />
+    <result column="pm154" property="pm154" jdbcType="DOUBLE" />
+    <result column="pm155" property="pm155" jdbcType="DOUBLE" />
+    <result column="pm156" property="pm156" jdbcType="DOUBLE" />
+    <result column="pm157" property="pm157" jdbcType="DOUBLE" />
+    <result column="pm158" property="pm158" jdbcType="DOUBLE" />
+    <result column="pm159" property="pm159" jdbcType="DOUBLE" />
+    <result column="pm160" property="pm160" jdbcType="DOUBLE" />
+    <result column="pm161" property="pm161" jdbcType="DOUBLE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    pm1, pm0, pm2, pm3, pm4, pm5, pm6, pm7, pm8, pm9, pm10, pm11, pm12, pm13, pm14, pm15, 
+    pm16, pm17, pm18, pm19, pm20, pm21, pm22, pm23, pm24, pm25, pm26, pm27, pm28, pm29, 
+    pm30, pm31, pm32, pm33, pm34, pm35, pm36, pm37, pm38, pm39, pm40, pm41, pm42, pm43, 
+    pm44, pm45, pm46, pm47, pm48, pm49, pm50, pm51, pm52, pm53, pm54, pm55, pm56, pm57, 
+    pm58, pm59, pm60, pm61, pm62, pm63, pm64, pm65, pm66, pm67, pm68, pm69, pm70, pm71, 
+    pm72, pm73, pm74, pm75, pm76, pm77, pm78, pm79, pm80, pm81, pm82, pm83, pm84, pm85, 
+    pm86, pm87, pm88, pm89, pm90, pm91, pm92, pm93, pm94, pm95, pm96, pm97, pm98, pm99, 
+    pm100, pm101, pm102, pm103, pm104, pm105, pm106, pm107, pm108, pm109, pm110, pm111, 
+    pm112, pm113, pm114, pm115, pm116, pm117, pm118, pm119, pm120, pm121, pm122, pm123, 
+    pm124, pm125, pm126, pm127, pm128, pm129, pm130, pm131, pm132, pm133, pm134, pm135, 
+    pm136, pm137, pm138, pm139, pm140, pm141, pm142, pm143, pm144, pm145, pm146, pm147, 
+    pm148, pm149, pm150, pm151, pm152, pm153, pm154, pm155, pm156, pm157, pm158, pm159, 
+    pm160, pm161
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from nbipm_1h_scscf
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from nbipm_1h_scscf
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmScscf" >
+    insert into nbipm_1h_scscf (pm1, pm0, pm2, 
+      pm3, pm4, pm5, pm6, 
+      pm7, pm8, pm9, pm10, 
+      pm11, pm12, pm13, pm14, 
+      pm15, pm16, pm17, pm18, 
+      pm19, pm20, pm21, pm22, 
+      pm23, pm24, pm25, pm26, 
+      pm27, pm28, pm29, pm30, 
+      pm31, pm32, pm33, pm34, 
+      pm35, pm36, pm37, pm38, 
+      pm39, pm40, pm41, pm42, 
+      pm43, pm44, pm45, pm46, 
+      pm47, pm48, pm49, pm50, 
+      pm51, pm52, pm53, pm54, 
+      pm55, pm56, pm57, pm58, 
+      pm59, pm60, pm61, pm62, 
+      pm63, pm64, pm65, pm66, 
+      pm67, pm68, pm69, pm70, 
+      pm71, pm72, pm73, pm74, 
+      pm75, pm76, pm77, pm78, 
+      pm79, pm80, pm81, pm82, 
+      pm83, pm84, pm85, pm86, 
+      pm87, pm88, pm89, pm90, 
+      pm91, pm92, pm93, pm94, 
+      pm95, pm96, pm97, pm98, 
+      pm99, pm100, pm101, pm102, 
+      pm103, pm104, pm105, pm106, 
+      pm107, pm108, pm109, pm110, 
+      pm111, pm112, pm113, pm114, 
+      pm115, pm116, pm117, pm118, 
+      pm119, pm120, pm121, pm122, 
+      pm123, pm124, pm125, pm126, 
+      pm127, pm128, pm129, pm130, 
+      pm131, pm132, pm133, pm134, 
+      pm135, pm136, pm137, pm138, 
+      pm139, pm140, pm141, pm142, 
+      pm143, pm144, pm145, pm146, 
+      pm147, pm148, pm149, pm150, 
+      pm151, pm152, pm153, pm154, 
+      pm155, pm156, pm157, pm158, 
+      pm159, pm160, pm161)
+    values (#{pm1,jdbcType=INTEGER}, #{pm0,jdbcType=INTEGER}, #{pm2,jdbcType=VARCHAR}, 
+      #{pm3,jdbcType=VARCHAR}, #{pm4,jdbcType=VARCHAR}, #{pm5,jdbcType=VARCHAR}, #{pm6,jdbcType=VARCHAR}, 
+      #{pm7,jdbcType=VARCHAR}, #{pm8,jdbcType=VARCHAR}, #{pm9,jdbcType=VARCHAR}, #{pm10,jdbcType=VARCHAR}, 
+      #{pm11,jdbcType=VARCHAR}, #{pm12,jdbcType=VARCHAR}, #{pm13,jdbcType=VARCHAR}, #{pm14,jdbcType=VARCHAR}, 
+      #{pm15,jdbcType=DOUBLE}, #{pm16,jdbcType=DOUBLE}, #{pm17,jdbcType=DOUBLE}, #{pm18,jdbcType=DOUBLE}, 
+      #{pm19,jdbcType=DOUBLE}, #{pm20,jdbcType=DOUBLE}, #{pm21,jdbcType=DOUBLE}, #{pm22,jdbcType=DOUBLE}, 
+      #{pm23,jdbcType=DOUBLE}, #{pm24,jdbcType=DOUBLE}, #{pm25,jdbcType=DOUBLE}, #{pm26,jdbcType=DOUBLE}, 
+      #{pm27,jdbcType=DOUBLE}, #{pm28,jdbcType=DOUBLE}, #{pm29,jdbcType=DOUBLE}, #{pm30,jdbcType=DOUBLE}, 
+      #{pm31,jdbcType=DOUBLE}, #{pm32,jdbcType=DOUBLE}, #{pm33,jdbcType=DOUBLE}, #{pm34,jdbcType=DOUBLE}, 
+      #{pm35,jdbcType=DOUBLE}, #{pm36,jdbcType=DOUBLE}, #{pm37,jdbcType=DOUBLE}, #{pm38,jdbcType=DOUBLE}, 
+      #{pm39,jdbcType=DOUBLE}, #{pm40,jdbcType=DOUBLE}, #{pm41,jdbcType=DOUBLE}, #{pm42,jdbcType=DOUBLE}, 
+      #{pm43,jdbcType=DOUBLE}, #{pm44,jdbcType=DOUBLE}, #{pm45,jdbcType=DOUBLE}, #{pm46,jdbcType=DOUBLE}, 
+      #{pm47,jdbcType=DOUBLE}, #{pm48,jdbcType=DOUBLE}, #{pm49,jdbcType=DOUBLE}, #{pm50,jdbcType=DOUBLE}, 
+      #{pm51,jdbcType=DOUBLE}, #{pm52,jdbcType=DOUBLE}, #{pm53,jdbcType=DOUBLE}, #{pm54,jdbcType=DOUBLE}, 
+      #{pm55,jdbcType=DOUBLE}, #{pm56,jdbcType=DOUBLE}, #{pm57,jdbcType=DOUBLE}, #{pm58,jdbcType=DOUBLE}, 
+      #{pm59,jdbcType=DOUBLE}, #{pm60,jdbcType=DOUBLE}, #{pm61,jdbcType=DOUBLE}, #{pm62,jdbcType=DOUBLE}, 
+      #{pm63,jdbcType=DOUBLE}, #{pm64,jdbcType=DOUBLE}, #{pm65,jdbcType=DOUBLE}, #{pm66,jdbcType=DOUBLE}, 
+      #{pm67,jdbcType=DOUBLE}, #{pm68,jdbcType=DOUBLE}, #{pm69,jdbcType=DOUBLE}, #{pm70,jdbcType=DOUBLE}, 
+      #{pm71,jdbcType=DOUBLE}, #{pm72,jdbcType=DOUBLE}, #{pm73,jdbcType=DOUBLE}, #{pm74,jdbcType=DOUBLE}, 
+      #{pm75,jdbcType=DOUBLE}, #{pm76,jdbcType=DOUBLE}, #{pm77,jdbcType=DOUBLE}, #{pm78,jdbcType=DOUBLE}, 
+      #{pm79,jdbcType=DOUBLE}, #{pm80,jdbcType=DOUBLE}, #{pm81,jdbcType=DOUBLE}, #{pm82,jdbcType=DOUBLE}, 
+      #{pm83,jdbcType=DOUBLE}, #{pm84,jdbcType=DOUBLE}, #{pm85,jdbcType=DOUBLE}, #{pm86,jdbcType=DOUBLE}, 
+      #{pm87,jdbcType=DOUBLE}, #{pm88,jdbcType=DOUBLE}, #{pm89,jdbcType=DOUBLE}, #{pm90,jdbcType=DOUBLE}, 
+      #{pm91,jdbcType=DOUBLE}, #{pm92,jdbcType=DOUBLE}, #{pm93,jdbcType=DOUBLE}, #{pm94,jdbcType=DOUBLE}, 
+      #{pm95,jdbcType=DOUBLE}, #{pm96,jdbcType=DOUBLE}, #{pm97,jdbcType=DOUBLE}, #{pm98,jdbcType=DOUBLE}, 
+      #{pm99,jdbcType=DOUBLE}, #{pm100,jdbcType=DOUBLE}, #{pm101,jdbcType=DOUBLE}, #{pm102,jdbcType=DOUBLE}, 
+      #{pm103,jdbcType=DOUBLE}, #{pm104,jdbcType=DOUBLE}, #{pm105,jdbcType=DOUBLE}, #{pm106,jdbcType=DOUBLE}, 
+      #{pm107,jdbcType=DOUBLE}, #{pm108,jdbcType=DOUBLE}, #{pm109,jdbcType=DOUBLE}, #{pm110,jdbcType=DOUBLE}, 
+      #{pm111,jdbcType=DOUBLE}, #{pm112,jdbcType=DOUBLE}, #{pm113,jdbcType=DOUBLE}, #{pm114,jdbcType=DOUBLE}, 
+      #{pm115,jdbcType=DOUBLE}, #{pm116,jdbcType=DOUBLE}, #{pm117,jdbcType=DOUBLE}, #{pm118,jdbcType=DOUBLE}, 
+      #{pm119,jdbcType=DOUBLE}, #{pm120,jdbcType=DOUBLE}, #{pm121,jdbcType=DOUBLE}, #{pm122,jdbcType=DOUBLE}, 
+      #{pm123,jdbcType=DOUBLE}, #{pm124,jdbcType=DOUBLE}, #{pm125,jdbcType=DOUBLE}, #{pm126,jdbcType=DOUBLE}, 
+      #{pm127,jdbcType=DOUBLE}, #{pm128,jdbcType=DOUBLE}, #{pm129,jdbcType=DOUBLE}, #{pm130,jdbcType=DOUBLE}, 
+      #{pm131,jdbcType=DOUBLE}, #{pm132,jdbcType=DOUBLE}, #{pm133,jdbcType=DOUBLE}, #{pm134,jdbcType=DOUBLE}, 
+      #{pm135,jdbcType=DOUBLE}, #{pm136,jdbcType=DOUBLE}, #{pm137,jdbcType=DOUBLE}, #{pm138,jdbcType=DOUBLE}, 
+      #{pm139,jdbcType=DOUBLE}, #{pm140,jdbcType=DOUBLE}, #{pm141,jdbcType=DOUBLE}, #{pm142,jdbcType=DOUBLE}, 
+      #{pm143,jdbcType=DOUBLE}, #{pm144,jdbcType=DOUBLE}, #{pm145,jdbcType=DOUBLE}, #{pm146,jdbcType=DOUBLE}, 
+      #{pm147,jdbcType=DOUBLE}, #{pm148,jdbcType=DOUBLE}, #{pm149,jdbcType=DOUBLE}, #{pm150,jdbcType=DOUBLE}, 
+      #{pm151,jdbcType=DOUBLE}, #{pm152,jdbcType=DOUBLE}, #{pm153,jdbcType=DOUBLE}, #{pm154,jdbcType=DOUBLE}, 
+      #{pm155,jdbcType=DOUBLE}, #{pm156,jdbcType=DOUBLE}, #{pm157,jdbcType=DOUBLE}, #{pm158,jdbcType=DOUBLE}, 
+      #{pm159,jdbcType=DOUBLE}, #{pm160,jdbcType=DOUBLE}, #{pm161,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmScscf" >
+    insert into nbipm_1h_scscf
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="pm1 != null" >
+        pm1,
+      </if>
+      <if test="pm0 != null" >
+        pm0,
+      </if>
+      <if test="pm2 != null" >
+        pm2,
+      </if>
+      <if test="pm3 != null" >
+        pm3,
+      </if>
+      <if test="pm4 != null" >
+        pm4,
+      </if>
+      <if test="pm5 != null" >
+        pm5,
+      </if>
+      <if test="pm6 != null" >
+        pm6,
+      </if>
+      <if test="pm7 != null" >
+        pm7,
+      </if>
+      <if test="pm8 != null" >
+        pm8,
+      </if>
+      <if test="pm9 != null" >
+        pm9,
+      </if>
+      <if test="pm10 != null" >
+        pm10,
+      </if>
+      <if test="pm11 != null" >
+        pm11,
+      </if>
+      <if test="pm12 != null" >
+        pm12,
+      </if>
+      <if test="pm13 != null" >
+        pm13,
+      </if>
+      <if test="pm14 != null" >
+        pm14,
+      </if>
+      <if test="pm15 != null" >
+        pm15,
+      </if>
+      <if test="pm16 != null" >
+        pm16,
+      </if>
+      <if test="pm17 != null" >
+        pm17,
+      </if>
+      <if test="pm18 != null" >
+        pm18,
+      </if>
+      <if test="pm19 != null" >
+        pm19,
+      </if>
+      <if test="pm20 != null" >
+        pm20,
+      </if>
+      <if test="pm21 != null" >
+        pm21,
+      </if>
+      <if test="pm22 != null" >
+        pm22,
+      </if>
+      <if test="pm23 != null" >
+        pm23,
+      </if>
+      <if test="pm24 != null" >
+        pm24,
+      </if>
+      <if test="pm25 != null" >
+        pm25,
+      </if>
+      <if test="pm26 != null" >
+        pm26,
+      </if>
+      <if test="pm27 != null" >
+        pm27,
+      </if>
+      <if test="pm28 != null" >
+        pm28,
+      </if>
+      <if test="pm29 != null" >
+        pm29,
+      </if>
+      <if test="pm30 != null" >
+        pm30,
+      </if>
+      <if test="pm31 != null" >
+        pm31,
+      </if>
+      <if test="pm32 != null" >
+        pm32,
+      </if>
+      <if test="pm33 != null" >
+        pm33,
+      </if>
+      <if test="pm34 != null" >
+        pm34,
+      </if>
+      <if test="pm35 != null" >
+        pm35,
+      </if>
+      <if test="pm36 != null" >
+        pm36,
+      </if>
+      <if test="pm37 != null" >
+        pm37,
+      </if>
+      <if test="pm38 != null" >
+        pm38,
+      </if>
+      <if test="pm39 != null" >
+        pm39,
+      </if>
+      <if test="pm40 != null" >
+        pm40,
+      </if>
+      <if test="pm41 != null" >
+        pm41,
+      </if>
+      <if test="pm42 != null" >
+        pm42,
+      </if>
+      <if test="pm43 != null" >
+        pm43,
+      </if>
+      <if test="pm44 != null" >
+        pm44,
+      </if>
+      <if test="pm45 != null" >
+        pm45,
+      </if>
+      <if test="pm46 != null" >
+        pm46,
+      </if>
+      <if test="pm47 != null" >
+        pm47,
+      </if>
+      <if test="pm48 != null" >
+        pm48,
+      </if>
+      <if test="pm49 != null" >
+        pm49,
+      </if>
+      <if test="pm50 != null" >
+        pm50,
+      </if>
+      <if test="pm51 != null" >
+        pm51,
+      </if>
+      <if test="pm52 != null" >
+        pm52,
+      </if>
+      <if test="pm53 != null" >
+        pm53,
+      </if>
+      <if test="pm54 != null" >
+        pm54,
+      </if>
+      <if test="pm55 != null" >
+        pm55,
+      </if>
+      <if test="pm56 != null" >
+        pm56,
+      </if>
+      <if test="pm57 != null" >
+        pm57,
+      </if>
+      <if test="pm58 != null" >
+        pm58,
+      </if>
+      <if test="pm59 != null" >
+        pm59,
+      </if>
+      <if test="pm60 != null" >
+        pm60,
+      </if>
+      <if test="pm61 != null" >
+        pm61,
+      </if>
+      <if test="pm62 != null" >
+        pm62,
+      </if>
+      <if test="pm63 != null" >
+        pm63,
+      </if>
+      <if test="pm64 != null" >
+        pm64,
+      </if>
+      <if test="pm65 != null" >
+        pm65,
+      </if>
+      <if test="pm66 != null" >
+        pm66,
+      </if>
+      <if test="pm67 != null" >
+        pm67,
+      </if>
+      <if test="pm68 != null" >
+        pm68,
+      </if>
+      <if test="pm69 != null" >
+        pm69,
+      </if>
+      <if test="pm70 != null" >
+        pm70,
+      </if>
+      <if test="pm71 != null" >
+        pm71,
+      </if>
+      <if test="pm72 != null" >
+        pm72,
+      </if>
+      <if test="pm73 != null" >
+        pm73,
+      </if>
+      <if test="pm74 != null" >
+        pm74,
+      </if>
+      <if test="pm75 != null" >
+        pm75,
+      </if>
+      <if test="pm76 != null" >
+        pm76,
+      </if>
+      <if test="pm77 != null" >
+        pm77,
+      </if>
+      <if test="pm78 != null" >
+        pm78,
+      </if>
+      <if test="pm79 != null" >
+        pm79,
+      </if>
+      <if test="pm80 != null" >
+        pm80,
+      </if>
+      <if test="pm81 != null" >
+        pm81,
+      </if>
+      <if test="pm82 != null" >
+        pm82,
+      </if>
+      <if test="pm83 != null" >
+        pm83,
+      </if>
+      <if test="pm84 != null" >
+        pm84,
+      </if>
+      <if test="pm85 != null" >
+        pm85,
+      </if>
+      <if test="pm86 != null" >
+        pm86,
+      </if>
+      <if test="pm87 != null" >
+        pm87,
+      </if>
+      <if test="pm88 != null" >
+        pm88,
+      </if>
+      <if test="pm89 != null" >
+        pm89,
+      </if>
+      <if test="pm90 != null" >
+        pm90,
+      </if>
+      <if test="pm91 != null" >
+        pm91,
+      </if>
+      <if test="pm92 != null" >
+        pm92,
+      </if>
+      <if test="pm93 != null" >
+        pm93,
+      </if>
+      <if test="pm94 != null" >
+        pm94,
+      </if>
+      <if test="pm95 != null" >
+        pm95,
+      </if>
+      <if test="pm96 != null" >
+        pm96,
+      </if>
+      <if test="pm97 != null" >
+        pm97,
+      </if>
+      <if test="pm98 != null" >
+        pm98,
+      </if>
+      <if test="pm99 != null" >
+        pm99,
+      </if>
+      <if test="pm100 != null" >
+        pm100,
+      </if>
+      <if test="pm101 != null" >
+        pm101,
+      </if>
+      <if test="pm102 != null" >
+        pm102,
+      </if>
+      <if test="pm103 != null" >
+        pm103,
+      </if>
+      <if test="pm104 != null" >
+        pm104,
+      </if>
+      <if test="pm105 != null" >
+        pm105,
+      </if>
+      <if test="pm106 != null" >
+        pm106,
+      </if>
+      <if test="pm107 != null" >
+        pm107,
+      </if>
+      <if test="pm108 != null" >
+        pm108,
+      </if>
+      <if test="pm109 != null" >
+        pm109,
+      </if>
+      <if test="pm110 != null" >
+        pm110,
+      </if>
+      <if test="pm111 != null" >
+        pm111,
+      </if>
+      <if test="pm112 != null" >
+        pm112,
+      </if>
+      <if test="pm113 != null" >
+        pm113,
+      </if>
+      <if test="pm114 != null" >
+        pm114,
+      </if>
+      <if test="pm115 != null" >
+        pm115,
+      </if>
+      <if test="pm116 != null" >
+        pm116,
+      </if>
+      <if test="pm117 != null" >
+        pm117,
+      </if>
+      <if test="pm118 != null" >
+        pm118,
+      </if>
+      <if test="pm119 != null" >
+        pm119,
+      </if>
+      <if test="pm120 != null" >
+        pm120,
+      </if>
+      <if test="pm121 != null" >
+        pm121,
+      </if>
+      <if test="pm122 != null" >
+        pm122,
+      </if>
+      <if test="pm123 != null" >
+        pm123,
+      </if>
+      <if test="pm124 != null" >
+        pm124,
+      </if>
+      <if test="pm125 != null" >
+        pm125,
+      </if>
+      <if test="pm126 != null" >
+        pm126,
+      </if>
+      <if test="pm127 != null" >
+        pm127,
+      </if>
+      <if test="pm128 != null" >
+        pm128,
+      </if>
+      <if test="pm129 != null" >
+        pm129,
+      </if>
+      <if test="pm130 != null" >
+        pm130,
+      </if>
+      <if test="pm131 != null" >
+        pm131,
+      </if>
+      <if test="pm132 != null" >
+        pm132,
+      </if>
+      <if test="pm133 != null" >
+        pm133,
+      </if>
+      <if test="pm134 != null" >
+        pm134,
+      </if>
+      <if test="pm135 != null" >
+        pm135,
+      </if>
+      <if test="pm136 != null" >
+        pm136,
+      </if>
+      <if test="pm137 != null" >
+        pm137,
+      </if>
+      <if test="pm138 != null" >
+        pm138,
+      </if>
+      <if test="pm139 != null" >
+        pm139,
+      </if>
+      <if test="pm140 != null" >
+        pm140,
+      </if>
+      <if test="pm141 != null" >
+        pm141,
+      </if>
+      <if test="pm142 != null" >
+        pm142,
+      </if>
+      <if test="pm143 != null" >
+        pm143,
+      </if>
+      <if test="pm144 != null" >
+        pm144,
+      </if>
+      <if test="pm145 != null" >
+        pm145,
+      </if>
+      <if test="pm146 != null" >
+        pm146,
+      </if>
+      <if test="pm147 != null" >
+        pm147,
+      </if>
+      <if test="pm148 != null" >
+        pm148,
+      </if>
+      <if test="pm149 != null" >
+        pm149,
+      </if>
+      <if test="pm150 != null" >
+        pm150,
+      </if>
+      <if test="pm151 != null" >
+        pm151,
+      </if>
+      <if test="pm152 != null" >
+        pm152,
+      </if>
+      <if test="pm153 != null" >
+        pm153,
+      </if>
+      <if test="pm154 != null" >
+        pm154,
+      </if>
+      <if test="pm155 != null" >
+        pm155,
+      </if>
+      <if test="pm156 != null" >
+        pm156,
+      </if>
+      <if test="pm157 != null" >
+        pm157,
+      </if>
+      <if test="pm158 != null" >
+        pm158,
+      </if>
+      <if test="pm159 != null" >
+        pm159,
+      </if>
+      <if test="pm160 != null" >
+        pm160,
+      </if>
+      <if test="pm161 != null" >
+        pm161,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="pm1 != null" >
+        #{pm1,jdbcType=INTEGER},
+      </if>
+      <if test="pm0 != null" >
+        #{pm0,jdbcType=INTEGER},
+      </if>
+      <if test="pm2 != null" >
+        #{pm2,jdbcType=VARCHAR},
+      </if>
+      <if test="pm3 != null" >
+        #{pm3,jdbcType=VARCHAR},
+      </if>
+      <if test="pm4 != null" >
+        #{pm4,jdbcType=VARCHAR},
+      </if>
+      <if test="pm5 != null" >
+        #{pm5,jdbcType=VARCHAR},
+      </if>
+      <if test="pm6 != null" >
+        #{pm6,jdbcType=VARCHAR},
+      </if>
+      <if test="pm7 != null" >
+        #{pm7,jdbcType=VARCHAR},
+      </if>
+      <if test="pm8 != null" >
+        #{pm8,jdbcType=VARCHAR},
+      </if>
+      <if test="pm9 != null" >
+        #{pm9,jdbcType=VARCHAR},
+      </if>
+      <if test="pm10 != null" >
+        #{pm10,jdbcType=VARCHAR},
+      </if>
+      <if test="pm11 != null" >
+        #{pm11,jdbcType=VARCHAR},
+      </if>
+      <if test="pm12 != null" >
+        #{pm12,jdbcType=VARCHAR},
+      </if>
+      <if test="pm13 != null" >
+        #{pm13,jdbcType=VARCHAR},
+      </if>
+      <if test="pm14 != null" >
+        #{pm14,jdbcType=VARCHAR},
+      </if>
+      <if test="pm15 != null" >
+        #{pm15,jdbcType=DOUBLE},
+      </if>
+      <if test="pm16 != null" >
+        #{pm16,jdbcType=DOUBLE},
+      </if>
+      <if test="pm17 != null" >
+        #{pm17,jdbcType=DOUBLE},
+      </if>
+      <if test="pm18 != null" >
+        #{pm18,jdbcType=DOUBLE},
+      </if>
+      <if test="pm19 != null" >
+        #{pm19,jdbcType=DOUBLE},
+      </if>
+      <if test="pm20 != null" >
+        #{pm20,jdbcType=DOUBLE},
+      </if>
+      <if test="pm21 != null" >
+        #{pm21,jdbcType=DOUBLE},
+      </if>
+      <if test="pm22 != null" >
+        #{pm22,jdbcType=DOUBLE},
+      </if>
+      <if test="pm23 != null" >
+        #{pm23,jdbcType=DOUBLE},
+      </if>
+      <if test="pm24 != null" >
+        #{pm24,jdbcType=DOUBLE},
+      </if>
+      <if test="pm25 != null" >
+        #{pm25,jdbcType=DOUBLE},
+      </if>
+      <if test="pm26 != null" >
+        #{pm26,jdbcType=DOUBLE},
+      </if>
+      <if test="pm27 != null" >
+        #{pm27,jdbcType=DOUBLE},
+      </if>
+      <if test="pm28 != null" >
+        #{pm28,jdbcType=DOUBLE},
+      </if>
+      <if test="pm29 != null" >
+        #{pm29,jdbcType=DOUBLE},
+      </if>
+      <if test="pm30 != null" >
+        #{pm30,jdbcType=DOUBLE},
+      </if>
+      <if test="pm31 != null" >
+        #{pm31,jdbcType=DOUBLE},
+      </if>
+      <if test="pm32 != null" >
+        #{pm32,jdbcType=DOUBLE},
+      </if>
+      <if test="pm33 != null" >
+        #{pm33,jdbcType=DOUBLE},
+      </if>
+      <if test="pm34 != null" >
+        #{pm34,jdbcType=DOUBLE},
+      </if>
+      <if test="pm35 != null" >
+        #{pm35,jdbcType=DOUBLE},
+      </if>
+      <if test="pm36 != null" >
+        #{pm36,jdbcType=DOUBLE},
+      </if>
+      <if test="pm37 != null" >
+        #{pm37,jdbcType=DOUBLE},
+      </if>
+      <if test="pm38 != null" >
+        #{pm38,jdbcType=DOUBLE},
+      </if>
+      <if test="pm39 != null" >
+        #{pm39,jdbcType=DOUBLE},
+      </if>
+      <if test="pm40 != null" >
+        #{pm40,jdbcType=DOUBLE},
+      </if>
+      <if test="pm41 != null" >
+        #{pm41,jdbcType=DOUBLE},
+      </if>
+      <if test="pm42 != null" >
+        #{pm42,jdbcType=DOUBLE},
+      </if>
+      <if test="pm43 != null" >
+        #{pm43,jdbcType=DOUBLE},
+      </if>
+      <if test="pm44 != null" >
+        #{pm44,jdbcType=DOUBLE},
+      </if>
+      <if test="pm45 != null" >
+        #{pm45,jdbcType=DOUBLE},
+      </if>
+      <if test="pm46 != null" >
+        #{pm46,jdbcType=DOUBLE},
+      </if>
+      <if test="pm47 != null" >
+        #{pm47,jdbcType=DOUBLE},
+      </if>
+      <if test="pm48 != null" >
+        #{pm48,jdbcType=DOUBLE},
+      </if>
+      <if test="pm49 != null" >
+        #{pm49,jdbcType=DOUBLE},
+      </if>
+      <if test="pm50 != null" >
+        #{pm50,jdbcType=DOUBLE},
+      </if>
+      <if test="pm51 != null" >
+        #{pm51,jdbcType=DOUBLE},
+      </if>
+      <if test="pm52 != null" >
+        #{pm52,jdbcType=DOUBLE},
+      </if>
+      <if test="pm53 != null" >
+        #{pm53,jdbcType=DOUBLE},
+      </if>
+      <if test="pm54 != null" >
+        #{pm54,jdbcType=DOUBLE},
+      </if>
+      <if test="pm55 != null" >
+        #{pm55,jdbcType=DOUBLE},
+      </if>
+      <if test="pm56 != null" >
+        #{pm56,jdbcType=DOUBLE},
+      </if>
+      <if test="pm57 != null" >
+        #{pm57,jdbcType=DOUBLE},
+      </if>
+      <if test="pm58 != null" >
+        #{pm58,jdbcType=DOUBLE},
+      </if>
+      <if test="pm59 != null" >
+        #{pm59,jdbcType=DOUBLE},
+      </if>
+      <if test="pm60 != null" >
+        #{pm60,jdbcType=DOUBLE},
+      </if>
+      <if test="pm61 != null" >
+        #{pm61,jdbcType=DOUBLE},
+      </if>
+      <if test="pm62 != null" >
+        #{pm62,jdbcType=DOUBLE},
+      </if>
+      <if test="pm63 != null" >
+        #{pm63,jdbcType=DOUBLE},
+      </if>
+      <if test="pm64 != null" >
+        #{pm64,jdbcType=DOUBLE},
+      </if>
+      <if test="pm65 != null" >
+        #{pm65,jdbcType=DOUBLE},
+      </if>
+      <if test="pm66 != null" >
+        #{pm66,jdbcType=DOUBLE},
+      </if>
+      <if test="pm67 != null" >
+        #{pm67,jdbcType=DOUBLE},
+      </if>
+      <if test="pm68 != null" >
+        #{pm68,jdbcType=DOUBLE},
+      </if>
+      <if test="pm69 != null" >
+        #{pm69,jdbcType=DOUBLE},
+      </if>
+      <if test="pm70 != null" >
+        #{pm70,jdbcType=DOUBLE},
+      </if>
+      <if test="pm71 != null" >
+        #{pm71,jdbcType=DOUBLE},
+      </if>
+      <if test="pm72 != null" >
+        #{pm72,jdbcType=DOUBLE},
+      </if>
+      <if test="pm73 != null" >
+        #{pm73,jdbcType=DOUBLE},
+      </if>
+      <if test="pm74 != null" >
+        #{pm74,jdbcType=DOUBLE},
+      </if>
+      <if test="pm75 != null" >
+        #{pm75,jdbcType=DOUBLE},
+      </if>
+      <if test="pm76 != null" >
+        #{pm76,jdbcType=DOUBLE},
+      </if>
+      <if test="pm77 != null" >
+        #{pm77,jdbcType=DOUBLE},
+      </if>
+      <if test="pm78 != null" >
+        #{pm78,jdbcType=DOUBLE},
+      </if>
+      <if test="pm79 != null" >
+        #{pm79,jdbcType=DOUBLE},
+      </if>
+      <if test="pm80 != null" >
+        #{pm80,jdbcType=DOUBLE},
+      </if>
+      <if test="pm81 != null" >
+        #{pm81,jdbcType=DOUBLE},
+      </if>
+      <if test="pm82 != null" >
+        #{pm82,jdbcType=DOUBLE},
+      </if>
+      <if test="pm83 != null" >
+        #{pm83,jdbcType=DOUBLE},
+      </if>
+      <if test="pm84 != null" >
+        #{pm84,jdbcType=DOUBLE},
+      </if>
+      <if test="pm85 != null" >
+        #{pm85,jdbcType=DOUBLE},
+      </if>
+      <if test="pm86 != null" >
+        #{pm86,jdbcType=DOUBLE},
+      </if>
+      <if test="pm87 != null" >
+        #{pm87,jdbcType=DOUBLE},
+      </if>
+      <if test="pm88 != null" >
+        #{pm88,jdbcType=DOUBLE},
+      </if>
+      <if test="pm89 != null" >
+        #{pm89,jdbcType=DOUBLE},
+      </if>
+      <if test="pm90 != null" >
+        #{pm90,jdbcType=DOUBLE},
+      </if>
+      <if test="pm91 != null" >
+        #{pm91,jdbcType=DOUBLE},
+      </if>
+      <if test="pm92 != null" >
+        #{pm92,jdbcType=DOUBLE},
+      </if>
+      <if test="pm93 != null" >
+        #{pm93,jdbcType=DOUBLE},
+      </if>
+      <if test="pm94 != null" >
+        #{pm94,jdbcType=DOUBLE},
+      </if>
+      <if test="pm95 != null" >
+        #{pm95,jdbcType=DOUBLE},
+      </if>
+      <if test="pm96 != null" >
+        #{pm96,jdbcType=DOUBLE},
+      </if>
+      <if test="pm97 != null" >
+        #{pm97,jdbcType=DOUBLE},
+      </if>
+      <if test="pm98 != null" >
+        #{pm98,jdbcType=DOUBLE},
+      </if>
+      <if test="pm99 != null" >
+        #{pm99,jdbcType=DOUBLE},
+      </if>
+      <if test="pm100 != null" >
+        #{pm100,jdbcType=DOUBLE},
+      </if>
+      <if test="pm101 != null" >
+        #{pm101,jdbcType=DOUBLE},
+      </if>
+      <if test="pm102 != null" >
+        #{pm102,jdbcType=DOUBLE},
+      </if>
+      <if test="pm103 != null" >
+        #{pm103,jdbcType=DOUBLE},
+      </if>
+      <if test="pm104 != null" >
+        #{pm104,jdbcType=DOUBLE},
+      </if>
+      <if test="pm105 != null" >
+        #{pm105,jdbcType=DOUBLE},
+      </if>
+      <if test="pm106 != null" >
+        #{pm106,jdbcType=DOUBLE},
+      </if>
+      <if test="pm107 != null" >
+        #{pm107,jdbcType=DOUBLE},
+      </if>
+      <if test="pm108 != null" >
+        #{pm108,jdbcType=DOUBLE},
+      </if>
+      <if test="pm109 != null" >
+        #{pm109,jdbcType=DOUBLE},
+      </if>
+      <if test="pm110 != null" >
+        #{pm110,jdbcType=DOUBLE},
+      </if>
+      <if test="pm111 != null" >
+        #{pm111,jdbcType=DOUBLE},
+      </if>
+      <if test="pm112 != null" >
+        #{pm112,jdbcType=DOUBLE},
+      </if>
+      <if test="pm113 != null" >
+        #{pm113,jdbcType=DOUBLE},
+      </if>
+      <if test="pm114 != null" >
+        #{pm114,jdbcType=DOUBLE},
+      </if>
+      <if test="pm115 != null" >
+        #{pm115,jdbcType=DOUBLE},
+      </if>
+      <if test="pm116 != null" >
+        #{pm116,jdbcType=DOUBLE},
+      </if>
+      <if test="pm117 != null" >
+        #{pm117,jdbcType=DOUBLE},
+      </if>
+      <if test="pm118 != null" >
+        #{pm118,jdbcType=DOUBLE},
+      </if>
+      <if test="pm119 != null" >
+        #{pm119,jdbcType=DOUBLE},
+      </if>
+      <if test="pm120 != null" >
+        #{pm120,jdbcType=DOUBLE},
+      </if>
+      <if test="pm121 != null" >
+        #{pm121,jdbcType=DOUBLE},
+      </if>
+      <if test="pm122 != null" >
+        #{pm122,jdbcType=DOUBLE},
+      </if>
+      <if test="pm123 != null" >
+        #{pm123,jdbcType=DOUBLE},
+      </if>
+      <if test="pm124 != null" >
+        #{pm124,jdbcType=DOUBLE},
+      </if>
+      <if test="pm125 != null" >
+        #{pm125,jdbcType=DOUBLE},
+      </if>
+      <if test="pm126 != null" >
+        #{pm126,jdbcType=DOUBLE},
+      </if>
+      <if test="pm127 != null" >
+        #{pm127,jdbcType=DOUBLE},
+      </if>
+      <if test="pm128 != null" >
+        #{pm128,jdbcType=DOUBLE},
+      </if>
+      <if test="pm129 != null" >
+        #{pm129,jdbcType=DOUBLE},
+      </if>
+      <if test="pm130 != null" >
+        #{pm130,jdbcType=DOUBLE},
+      </if>
+      <if test="pm131 != null" >
+        #{pm131,jdbcType=DOUBLE},
+      </if>
+      <if test="pm132 != null" >
+        #{pm132,jdbcType=DOUBLE},
+      </if>
+      <if test="pm133 != null" >
+        #{pm133,jdbcType=DOUBLE},
+      </if>
+      <if test="pm134 != null" >
+        #{pm134,jdbcType=DOUBLE},
+      </if>
+      <if test="pm135 != null" >
+        #{pm135,jdbcType=DOUBLE},
+      </if>
+      <if test="pm136 != null" >
+        #{pm136,jdbcType=DOUBLE},
+      </if>
+      <if test="pm137 != null" >
+        #{pm137,jdbcType=DOUBLE},
+      </if>
+      <if test="pm138 != null" >
+        #{pm138,jdbcType=DOUBLE},
+      </if>
+      <if test="pm139 != null" >
+        #{pm139,jdbcType=DOUBLE},
+      </if>
+      <if test="pm140 != null" >
+        #{pm140,jdbcType=DOUBLE},
+      </if>
+      <if test="pm141 != null" >
+        #{pm141,jdbcType=DOUBLE},
+      </if>
+      <if test="pm142 != null" >
+        #{pm142,jdbcType=DOUBLE},
+      </if>
+      <if test="pm143 != null" >
+        #{pm143,jdbcType=DOUBLE},
+      </if>
+      <if test="pm144 != null" >
+        #{pm144,jdbcType=DOUBLE},
+      </if>
+      <if test="pm145 != null" >
+        #{pm145,jdbcType=DOUBLE},
+      </if>
+      <if test="pm146 != null" >
+        #{pm146,jdbcType=DOUBLE},
+      </if>
+      <if test="pm147 != null" >
+        #{pm147,jdbcType=DOUBLE},
+      </if>
+      <if test="pm148 != null" >
+        #{pm148,jdbcType=DOUBLE},
+      </if>
+      <if test="pm149 != null" >
+        #{pm149,jdbcType=DOUBLE},
+      </if>
+      <if test="pm150 != null" >
+        #{pm150,jdbcType=DOUBLE},
+      </if>
+      <if test="pm151 != null" >
+        #{pm151,jdbcType=DOUBLE},
+      </if>
+      <if test="pm152 != null" >
+        #{pm152,jdbcType=DOUBLE},
+      </if>
+      <if test="pm153 != null" >
+        #{pm153,jdbcType=DOUBLE},
+      </if>
+      <if test="pm154 != null" >
+        #{pm154,jdbcType=DOUBLE},
+      </if>
+      <if test="pm155 != null" >
+        #{pm155,jdbcType=DOUBLE},
+      </if>
+      <if test="pm156 != null" >
+        #{pm156,jdbcType=DOUBLE},
+      </if>
+      <if test="pm157 != null" >
+        #{pm157,jdbcType=DOUBLE},
+      </if>
+      <if test="pm158 != null" >
+        #{pm158,jdbcType=DOUBLE},
+      </if>
+      <if test="pm159 != null" >
+        #{pm159,jdbcType=DOUBLE},
+      </if>
+      <if test="pm160 != null" >
+        #{pm160,jdbcType=DOUBLE},
+      </if>
+      <if test="pm161 != null" >
+        #{pm161,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmScscf" >
+    update nbipm_1h_scscf
+    <set >
+      <if test="pm0 != null" >
+        pm0 = #{pm0,jdbcType=INTEGER},
+      </if>
+      <if test="pm2 != null" >
+        pm2 = #{pm2,jdbcType=VARCHAR},
+      </if>
+      <if test="pm3 != null" >
+        pm3 = #{pm3,jdbcType=VARCHAR},
+      </if>
+      <if test="pm4 != null" >
+        pm4 = #{pm4,jdbcType=VARCHAR},
+      </if>
+      <if test="pm5 != null" >
+        pm5 = #{pm5,jdbcType=VARCHAR},
+      </if>
+      <if test="pm6 != null" >
+        pm6 = #{pm6,jdbcType=VARCHAR},
+      </if>
+      <if test="pm7 != null" >
+        pm7 = #{pm7,jdbcType=VARCHAR},
+      </if>
+      <if test="pm8 != null" >
+        pm8 = #{pm8,jdbcType=VARCHAR},
+      </if>
+      <if test="pm9 != null" >
+        pm9 = #{pm9,jdbcType=VARCHAR},
+      </if>
+      <if test="pm10 != null" >
+        pm10 = #{pm10,jdbcType=VARCHAR},
+      </if>
+      <if test="pm11 != null" >
+        pm11 = #{pm11,jdbcType=VARCHAR},
+      </if>
+      <if test="pm12 != null" >
+        pm12 = #{pm12,jdbcType=VARCHAR},
+      </if>
+      <if test="pm13 != null" >
+        pm13 = #{pm13,jdbcType=VARCHAR},
+      </if>
+      <if test="pm14 != null" >
+        pm14 = #{pm14,jdbcType=VARCHAR},
+      </if>
+      <if test="pm15 != null" >
+        pm15 = #{pm15,jdbcType=DOUBLE},
+      </if>
+      <if test="pm16 != null" >
+        pm16 = #{pm16,jdbcType=DOUBLE},
+      </if>
+      <if test="pm17 != null" >
+        pm17 = #{pm17,jdbcType=DOUBLE},
+      </if>
+      <if test="pm18 != null" >
+        pm18 = #{pm18,jdbcType=DOUBLE},
+      </if>
+      <if test="pm19 != null" >
+        pm19 = #{pm19,jdbcType=DOUBLE},
+      </if>
+      <if test="pm20 != null" >
+        pm20 = #{pm20,jdbcType=DOUBLE},
+      </if>
+      <if test="pm21 != null" >
+        pm21 = #{pm21,jdbcType=DOUBLE},
+      </if>
+      <if test="pm22 != null" >
+        pm22 = #{pm22,jdbcType=DOUBLE},
+      </if>
+      <if test="pm23 != null" >
+        pm23 = #{pm23,jdbcType=DOUBLE},
+      </if>
+      <if test="pm24 != null" >
+        pm24 = #{pm24,jdbcType=DOUBLE},
+      </if>
+      <if test="pm25 != null" >
+        pm25 = #{pm25,jdbcType=DOUBLE},
+      </if>
+      <if test="pm26 != null" >
+        pm26 = #{pm26,jdbcType=DOUBLE},
+      </if>
+      <if test="pm27 != null" >
+        pm27 = #{pm27,jdbcType=DOUBLE},
+      </if>
+      <if test="pm28 != null" >
+        pm28 = #{pm28,jdbcType=DOUBLE},
+      </if>
+      <if test="pm29 != null" >
+        pm29 = #{pm29,jdbcType=DOUBLE},
+      </if>
+      <if test="pm30 != null" >
+        pm30 = #{pm30,jdbcType=DOUBLE},
+      </if>
+      <if test="pm31 != null" >
+        pm31 = #{pm31,jdbcType=DOUBLE},
+      </if>
+      <if test="pm32 != null" >
+        pm32 = #{pm32,jdbcType=DOUBLE},
+      </if>
+      <if test="pm33 != null" >
+        pm33 = #{pm33,jdbcType=DOUBLE},
+      </if>
+      <if test="pm34 != null" >
+        pm34 = #{pm34,jdbcType=DOUBLE},
+      </if>
+      <if test="pm35 != null" >
+        pm35 = #{pm35,jdbcType=DOUBLE},
+      </if>
+      <if test="pm36 != null" >
+        pm36 = #{pm36,jdbcType=DOUBLE},
+      </if>
+      <if test="pm37 != null" >
+        pm37 = #{pm37,jdbcType=DOUBLE},
+      </if>
+      <if test="pm38 != null" >
+        pm38 = #{pm38,jdbcType=DOUBLE},
+      </if>
+      <if test="pm39 != null" >
+        pm39 = #{pm39,jdbcType=DOUBLE},
+      </if>
+      <if test="pm40 != null" >
+        pm40 = #{pm40,jdbcType=DOUBLE},
+      </if>
+      <if test="pm41 != null" >
+        pm41 = #{pm41,jdbcType=DOUBLE},
+      </if>
+      <if test="pm42 != null" >
+        pm42 = #{pm42,jdbcType=DOUBLE},
+      </if>
+      <if test="pm43 != null" >
+        pm43 = #{pm43,jdbcType=DOUBLE},
+      </if>
+      <if test="pm44 != null" >
+        pm44 = #{pm44,jdbcType=DOUBLE},
+      </if>
+      <if test="pm45 != null" >
+        pm45 = #{pm45,jdbcType=DOUBLE},
+      </if>
+      <if test="pm46 != null" >
+        pm46 = #{pm46,jdbcType=DOUBLE},
+      </if>
+      <if test="pm47 != null" >
+        pm47 = #{pm47,jdbcType=DOUBLE},
+      </if>
+      <if test="pm48 != null" >
+        pm48 = #{pm48,jdbcType=DOUBLE},
+      </if>
+      <if test="pm49 != null" >
+        pm49 = #{pm49,jdbcType=DOUBLE},
+      </if>
+      <if test="pm50 != null" >
+        pm50 = #{pm50,jdbcType=DOUBLE},
+      </if>
+      <if test="pm51 != null" >
+        pm51 = #{pm51,jdbcType=DOUBLE},
+      </if>
+      <if test="pm52 != null" >
+        pm52 = #{pm52,jdbcType=DOUBLE},
+      </if>
+      <if test="pm53 != null" >
+        pm53 = #{pm53,jdbcType=DOUBLE},
+      </if>
+      <if test="pm54 != null" >
+        pm54 = #{pm54,jdbcType=DOUBLE},
+      </if>
+      <if test="pm55 != null" >
+        pm55 = #{pm55,jdbcType=DOUBLE},
+      </if>
+      <if test="pm56 != null" >
+        pm56 = #{pm56,jdbcType=DOUBLE},
+      </if>
+      <if test="pm57 != null" >
+        pm57 = #{pm57,jdbcType=DOUBLE},
+      </if>
+      <if test="pm58 != null" >
+        pm58 = #{pm58,jdbcType=DOUBLE},
+      </if>
+      <if test="pm59 != null" >
+        pm59 = #{pm59,jdbcType=DOUBLE},
+      </if>
+      <if test="pm60 != null" >
+        pm60 = #{pm60,jdbcType=DOUBLE},
+      </if>
+      <if test="pm61 != null" >
+        pm61 = #{pm61,jdbcType=DOUBLE},
+      </if>
+      <if test="pm62 != null" >
+        pm62 = #{pm62,jdbcType=DOUBLE},
+      </if>
+      <if test="pm63 != null" >
+        pm63 = #{pm63,jdbcType=DOUBLE},
+      </if>
+      <if test="pm64 != null" >
+        pm64 = #{pm64,jdbcType=DOUBLE},
+      </if>
+      <if test="pm65 != null" >
+        pm65 = #{pm65,jdbcType=DOUBLE},
+      </if>
+      <if test="pm66 != null" >
+        pm66 = #{pm66,jdbcType=DOUBLE},
+      </if>
+      <if test="pm67 != null" >
+        pm67 = #{pm67,jdbcType=DOUBLE},
+      </if>
+      <if test="pm68 != null" >
+        pm68 = #{pm68,jdbcType=DOUBLE},
+      </if>
+      <if test="pm69 != null" >
+        pm69 = #{pm69,jdbcType=DOUBLE},
+      </if>
+      <if test="pm70 != null" >
+        pm70 = #{pm70,jdbcType=DOUBLE},
+      </if>
+      <if test="pm71 != null" >
+        pm71 = #{pm71,jdbcType=DOUBLE},
+      </if>
+      <if test="pm72 != null" >
+        pm72 = #{pm72,jdbcType=DOUBLE},
+      </if>
+      <if test="pm73 != null" >
+        pm73 = #{pm73,jdbcType=DOUBLE},
+      </if>
+      <if test="pm74 != null" >
+        pm74 = #{pm74,jdbcType=DOUBLE},
+      </if>
+      <if test="pm75 != null" >
+        pm75 = #{pm75,jdbcType=DOUBLE},
+      </if>
+      <if test="pm76 != null" >
+        pm76 = #{pm76,jdbcType=DOUBLE},
+      </if>
+      <if test="pm77 != null" >
+        pm77 = #{pm77,jdbcType=DOUBLE},
+      </if>
+      <if test="pm78 != null" >
+        pm78 = #{pm78,jdbcType=DOUBLE},
+      </if>
+      <if test="pm79 != null" >
+        pm79 = #{pm79,jdbcType=DOUBLE},
+      </if>
+      <if test="pm80 != null" >
+        pm80 = #{pm80,jdbcType=DOUBLE},
+      </if>
+      <if test="pm81 != null" >
+        pm81 = #{pm81,jdbcType=DOUBLE},
+      </if>
+      <if test="pm82 != null" >
+        pm82 = #{pm82,jdbcType=DOUBLE},
+      </if>
+      <if test="pm83 != null" >
+        pm83 = #{pm83,jdbcType=DOUBLE},
+      </if>
+      <if test="pm84 != null" >
+        pm84 = #{pm84,jdbcType=DOUBLE},
+      </if>
+      <if test="pm85 != null" >
+        pm85 = #{pm85,jdbcType=DOUBLE},
+      </if>
+      <if test="pm86 != null" >
+        pm86 = #{pm86,jdbcType=DOUBLE},
+      </if>
+      <if test="pm87 != null" >
+        pm87 = #{pm87,jdbcType=DOUBLE},
+      </if>
+      <if test="pm88 != null" >
+        pm88 = #{pm88,jdbcType=DOUBLE},
+      </if>
+      <if test="pm89 != null" >
+        pm89 = #{pm89,jdbcType=DOUBLE},
+      </if>
+      <if test="pm90 != null" >
+        pm90 = #{pm90,jdbcType=DOUBLE},
+      </if>
+      <if test="pm91 != null" >
+        pm91 = #{pm91,jdbcType=DOUBLE},
+      </if>
+      <if test="pm92 != null" >
+        pm92 = #{pm92,jdbcType=DOUBLE},
+      </if>
+      <if test="pm93 != null" >
+        pm93 = #{pm93,jdbcType=DOUBLE},
+      </if>
+      <if test="pm94 != null" >
+        pm94 = #{pm94,jdbcType=DOUBLE},
+      </if>
+      <if test="pm95 != null" >
+        pm95 = #{pm95,jdbcType=DOUBLE},
+      </if>
+      <if test="pm96 != null" >
+        pm96 = #{pm96,jdbcType=DOUBLE},
+      </if>
+      <if test="pm97 != null" >
+        pm97 = #{pm97,jdbcType=DOUBLE},
+      </if>
+      <if test="pm98 != null" >
+        pm98 = #{pm98,jdbcType=DOUBLE},
+      </if>
+      <if test="pm99 != null" >
+        pm99 = #{pm99,jdbcType=DOUBLE},
+      </if>
+      <if test="pm100 != null" >
+        pm100 = #{pm100,jdbcType=DOUBLE},
+      </if>
+      <if test="pm101 != null" >
+        pm101 = #{pm101,jdbcType=DOUBLE},
+      </if>
+      <if test="pm102 != null" >
+        pm102 = #{pm102,jdbcType=DOUBLE},
+      </if>
+      <if test="pm103 != null" >
+        pm103 = #{pm103,jdbcType=DOUBLE},
+      </if>
+      <if test="pm104 != null" >
+        pm104 = #{pm104,jdbcType=DOUBLE},
+      </if>
+      <if test="pm105 != null" >
+        pm105 = #{pm105,jdbcType=DOUBLE},
+      </if>
+      <if test="pm106 != null" >
+        pm106 = #{pm106,jdbcType=DOUBLE},
+      </if>
+      <if test="pm107 != null" >
+        pm107 = #{pm107,jdbcType=DOUBLE},
+      </if>
+      <if test="pm108 != null" >
+        pm108 = #{pm108,jdbcType=DOUBLE},
+      </if>
+      <if test="pm109 != null" >
+        pm109 = #{pm109,jdbcType=DOUBLE},
+      </if>
+      <if test="pm110 != null" >
+        pm110 = #{pm110,jdbcType=DOUBLE},
+      </if>
+      <if test="pm111 != null" >
+        pm111 = #{pm111,jdbcType=DOUBLE},
+      </if>
+      <if test="pm112 != null" >
+        pm112 = #{pm112,jdbcType=DOUBLE},
+      </if>
+      <if test="pm113 != null" >
+        pm113 = #{pm113,jdbcType=DOUBLE},
+      </if>
+      <if test="pm114 != null" >
+        pm114 = #{pm114,jdbcType=DOUBLE},
+      </if>
+      <if test="pm115 != null" >
+        pm115 = #{pm115,jdbcType=DOUBLE},
+      </if>
+      <if test="pm116 != null" >
+        pm116 = #{pm116,jdbcType=DOUBLE},
+      </if>
+      <if test="pm117 != null" >
+        pm117 = #{pm117,jdbcType=DOUBLE},
+      </if>
+      <if test="pm118 != null" >
+        pm118 = #{pm118,jdbcType=DOUBLE},
+      </if>
+      <if test="pm119 != null" >
+        pm119 = #{pm119,jdbcType=DOUBLE},
+      </if>
+      <if test="pm120 != null" >
+        pm120 = #{pm120,jdbcType=DOUBLE},
+      </if>
+      <if test="pm121 != null" >
+        pm121 = #{pm121,jdbcType=DOUBLE},
+      </if>
+      <if test="pm122 != null" >
+        pm122 = #{pm122,jdbcType=DOUBLE},
+      </if>
+      <if test="pm123 != null" >
+        pm123 = #{pm123,jdbcType=DOUBLE},
+      </if>
+      <if test="pm124 != null" >
+        pm124 = #{pm124,jdbcType=DOUBLE},
+      </if>
+      <if test="pm125 != null" >
+        pm125 = #{pm125,jdbcType=DOUBLE},
+      </if>
+      <if test="pm126 != null" >
+        pm126 = #{pm126,jdbcType=DOUBLE},
+      </if>
+      <if test="pm127 != null" >
+        pm127 = #{pm127,jdbcType=DOUBLE},
+      </if>
+      <if test="pm128 != null" >
+        pm128 = #{pm128,jdbcType=DOUBLE},
+      </if>
+      <if test="pm129 != null" >
+        pm129 = #{pm129,jdbcType=DOUBLE},
+      </if>
+      <if test="pm130 != null" >
+        pm130 = #{pm130,jdbcType=DOUBLE},
+      </if>
+      <if test="pm131 != null" >
+        pm131 = #{pm131,jdbcType=DOUBLE},
+      </if>
+      <if test="pm132 != null" >
+        pm132 = #{pm132,jdbcType=DOUBLE},
+      </if>
+      <if test="pm133 != null" >
+        pm133 = #{pm133,jdbcType=DOUBLE},
+      </if>
+      <if test="pm134 != null" >
+        pm134 = #{pm134,jdbcType=DOUBLE},
+      </if>
+      <if test="pm135 != null" >
+        pm135 = #{pm135,jdbcType=DOUBLE},
+      </if>
+      <if test="pm136 != null" >
+        pm136 = #{pm136,jdbcType=DOUBLE},
+      </if>
+      <if test="pm137 != null" >
+        pm137 = #{pm137,jdbcType=DOUBLE},
+      </if>
+      <if test="pm138 != null" >
+        pm138 = #{pm138,jdbcType=DOUBLE},
+      </if>
+      <if test="pm139 != null" >
+        pm139 = #{pm139,jdbcType=DOUBLE},
+      </if>
+      <if test="pm140 != null" >
+        pm140 = #{pm140,jdbcType=DOUBLE},
+      </if>
+      <if test="pm141 != null" >
+        pm141 = #{pm141,jdbcType=DOUBLE},
+      </if>
+      <if test="pm142 != null" >
+        pm142 = #{pm142,jdbcType=DOUBLE},
+      </if>
+      <if test="pm143 != null" >
+        pm143 = #{pm143,jdbcType=DOUBLE},
+      </if>
+      <if test="pm144 != null" >
+        pm144 = #{pm144,jdbcType=DOUBLE},
+      </if>
+      <if test="pm145 != null" >
+        pm145 = #{pm145,jdbcType=DOUBLE},
+      </if>
+      <if test="pm146 != null" >
+        pm146 = #{pm146,jdbcType=DOUBLE},
+      </if>
+      <if test="pm147 != null" >
+        pm147 = #{pm147,jdbcType=DOUBLE},
+      </if>
+      <if test="pm148 != null" >
+        pm148 = #{pm148,jdbcType=DOUBLE},
+      </if>
+      <if test="pm149 != null" >
+        pm149 = #{pm149,jdbcType=DOUBLE},
+      </if>
+      <if test="pm150 != null" >
+        pm150 = #{pm150,jdbcType=DOUBLE},
+      </if>
+      <if test="pm151 != null" >
+        pm151 = #{pm151,jdbcType=DOUBLE},
+      </if>
+      <if test="pm152 != null" >
+        pm152 = #{pm152,jdbcType=DOUBLE},
+      </if>
+      <if test="pm153 != null" >
+        pm153 = #{pm153,jdbcType=DOUBLE},
+      </if>
+      <if test="pm154 != null" >
+        pm154 = #{pm154,jdbcType=DOUBLE},
+      </if>
+      <if test="pm155 != null" >
+        pm155 = #{pm155,jdbcType=DOUBLE},
+      </if>
+      <if test="pm156 != null" >
+        pm156 = #{pm156,jdbcType=DOUBLE},
+      </if>
+      <if test="pm157 != null" >
+        pm157 = #{pm157,jdbcType=DOUBLE},
+      </if>
+      <if test="pm158 != null" >
+        pm158 = #{pm158,jdbcType=DOUBLE},
+      </if>
+      <if test="pm159 != null" >
+        pm159 = #{pm159,jdbcType=DOUBLE},
+      </if>
+      <if test="pm160 != null" >
+        pm160 = #{pm160,jdbcType=DOUBLE},
+      </if>
+      <if test="pm161 != null" >
+        pm161 = #{pm161,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.NbipmScscf" >
+    update nbipm_1h_scscf
+    set pm0 = #{pm0,jdbcType=INTEGER},
+      pm2 = #{pm2,jdbcType=VARCHAR},
+      pm3 = #{pm3,jdbcType=VARCHAR},
+      pm4 = #{pm4,jdbcType=VARCHAR},
+      pm5 = #{pm5,jdbcType=VARCHAR},
+      pm6 = #{pm6,jdbcType=VARCHAR},
+      pm7 = #{pm7,jdbcType=VARCHAR},
+      pm8 = #{pm8,jdbcType=VARCHAR},
+      pm9 = #{pm9,jdbcType=VARCHAR},
+      pm10 = #{pm10,jdbcType=VARCHAR},
+      pm11 = #{pm11,jdbcType=VARCHAR},
+      pm12 = #{pm12,jdbcType=VARCHAR},
+      pm13 = #{pm13,jdbcType=VARCHAR},
+      pm14 = #{pm14,jdbcType=VARCHAR},
+      pm15 = #{pm15,jdbcType=DOUBLE},
+      pm16 = #{pm16,jdbcType=DOUBLE},
+      pm17 = #{pm17,jdbcType=DOUBLE},
+      pm18 = #{pm18,jdbcType=DOUBLE},
+      pm19 = #{pm19,jdbcType=DOUBLE},
+      pm20 = #{pm20,jdbcType=DOUBLE},
+      pm21 = #{pm21,jdbcType=DOUBLE},
+      pm22 = #{pm22,jdbcType=DOUBLE},
+      pm23 = #{pm23,jdbcType=DOUBLE},
+      pm24 = #{pm24,jdbcType=DOUBLE},
+      pm25 = #{pm25,jdbcType=DOUBLE},
+      pm26 = #{pm26,jdbcType=DOUBLE},
+      pm27 = #{pm27,jdbcType=DOUBLE},
+      pm28 = #{pm28,jdbcType=DOUBLE},
+      pm29 = #{pm29,jdbcType=DOUBLE},
+      pm30 = #{pm30,jdbcType=DOUBLE},
+      pm31 = #{pm31,jdbcType=DOUBLE},
+      pm32 = #{pm32,jdbcType=DOUBLE},
+      pm33 = #{pm33,jdbcType=DOUBLE},
+      pm34 = #{pm34,jdbcType=DOUBLE},
+      pm35 = #{pm35,jdbcType=DOUBLE},
+      pm36 = #{pm36,jdbcType=DOUBLE},
+      pm37 = #{pm37,jdbcType=DOUBLE},
+      pm38 = #{pm38,jdbcType=DOUBLE},
+      pm39 = #{pm39,jdbcType=DOUBLE},
+      pm40 = #{pm40,jdbcType=DOUBLE},
+      pm41 = #{pm41,jdbcType=DOUBLE},
+      pm42 = #{pm42,jdbcType=DOUBLE},
+      pm43 = #{pm43,jdbcType=DOUBLE},
+      pm44 = #{pm44,jdbcType=DOUBLE},
+      pm45 = #{pm45,jdbcType=DOUBLE},
+      pm46 = #{pm46,jdbcType=DOUBLE},
+      pm47 = #{pm47,jdbcType=DOUBLE},
+      pm48 = #{pm48,jdbcType=DOUBLE},
+      pm49 = #{pm49,jdbcType=DOUBLE},
+      pm50 = #{pm50,jdbcType=DOUBLE},
+      pm51 = #{pm51,jdbcType=DOUBLE},
+      pm52 = #{pm52,jdbcType=DOUBLE},
+      pm53 = #{pm53,jdbcType=DOUBLE},
+      pm54 = #{pm54,jdbcType=DOUBLE},
+      pm55 = #{pm55,jdbcType=DOUBLE},
+      pm56 = #{pm56,jdbcType=DOUBLE},
+      pm57 = #{pm57,jdbcType=DOUBLE},
+      pm58 = #{pm58,jdbcType=DOUBLE},
+      pm59 = #{pm59,jdbcType=DOUBLE},
+      pm60 = #{pm60,jdbcType=DOUBLE},
+      pm61 = #{pm61,jdbcType=DOUBLE},
+      pm62 = #{pm62,jdbcType=DOUBLE},
+      pm63 = #{pm63,jdbcType=DOUBLE},
+      pm64 = #{pm64,jdbcType=DOUBLE},
+      pm65 = #{pm65,jdbcType=DOUBLE},
+      pm66 = #{pm66,jdbcType=DOUBLE},
+      pm67 = #{pm67,jdbcType=DOUBLE},
+      pm68 = #{pm68,jdbcType=DOUBLE},
+      pm69 = #{pm69,jdbcType=DOUBLE},
+      pm70 = #{pm70,jdbcType=DOUBLE},
+      pm71 = #{pm71,jdbcType=DOUBLE},
+      pm72 = #{pm72,jdbcType=DOUBLE},
+      pm73 = #{pm73,jdbcType=DOUBLE},
+      pm74 = #{pm74,jdbcType=DOUBLE},
+      pm75 = #{pm75,jdbcType=DOUBLE},
+      pm76 = #{pm76,jdbcType=DOUBLE},
+      pm77 = #{pm77,jdbcType=DOUBLE},
+      pm78 = #{pm78,jdbcType=DOUBLE},
+      pm79 = #{pm79,jdbcType=DOUBLE},
+      pm80 = #{pm80,jdbcType=DOUBLE},
+      pm81 = #{pm81,jdbcType=DOUBLE},
+      pm82 = #{pm82,jdbcType=DOUBLE},
+      pm83 = #{pm83,jdbcType=DOUBLE},
+      pm84 = #{pm84,jdbcType=DOUBLE},
+      pm85 = #{pm85,jdbcType=DOUBLE},
+      pm86 = #{pm86,jdbcType=DOUBLE},
+      pm87 = #{pm87,jdbcType=DOUBLE},
+      pm88 = #{pm88,jdbcType=DOUBLE},
+      pm89 = #{pm89,jdbcType=DOUBLE},
+      pm90 = #{pm90,jdbcType=DOUBLE},
+      pm91 = #{pm91,jdbcType=DOUBLE},
+      pm92 = #{pm92,jdbcType=DOUBLE},
+      pm93 = #{pm93,jdbcType=DOUBLE},
+      pm94 = #{pm94,jdbcType=DOUBLE},
+      pm95 = #{pm95,jdbcType=DOUBLE},
+      pm96 = #{pm96,jdbcType=DOUBLE},
+      pm97 = #{pm97,jdbcType=DOUBLE},
+      pm98 = #{pm98,jdbcType=DOUBLE},
+      pm99 = #{pm99,jdbcType=DOUBLE},
+      pm100 = #{pm100,jdbcType=DOUBLE},
+      pm101 = #{pm101,jdbcType=DOUBLE},
+      pm102 = #{pm102,jdbcType=DOUBLE},
+      pm103 = #{pm103,jdbcType=DOUBLE},
+      pm104 = #{pm104,jdbcType=DOUBLE},
+      pm105 = #{pm105,jdbcType=DOUBLE},
+      pm106 = #{pm106,jdbcType=DOUBLE},
+      pm107 = #{pm107,jdbcType=DOUBLE},
+      pm108 = #{pm108,jdbcType=DOUBLE},
+      pm109 = #{pm109,jdbcType=DOUBLE},
+      pm110 = #{pm110,jdbcType=DOUBLE},
+      pm111 = #{pm111,jdbcType=DOUBLE},
+      pm112 = #{pm112,jdbcType=DOUBLE},
+      pm113 = #{pm113,jdbcType=DOUBLE},
+      pm114 = #{pm114,jdbcType=DOUBLE},
+      pm115 = #{pm115,jdbcType=DOUBLE},
+      pm116 = #{pm116,jdbcType=DOUBLE},
+      pm117 = #{pm117,jdbcType=DOUBLE},
+      pm118 = #{pm118,jdbcType=DOUBLE},
+      pm119 = #{pm119,jdbcType=DOUBLE},
+      pm120 = #{pm120,jdbcType=DOUBLE},
+      pm121 = #{pm121,jdbcType=DOUBLE},
+      pm122 = #{pm122,jdbcType=DOUBLE},
+      pm123 = #{pm123,jdbcType=DOUBLE},
+      pm124 = #{pm124,jdbcType=DOUBLE},
+      pm125 = #{pm125,jdbcType=DOUBLE},
+      pm126 = #{pm126,jdbcType=DOUBLE},
+      pm127 = #{pm127,jdbcType=DOUBLE},
+      pm128 = #{pm128,jdbcType=DOUBLE},
+      pm129 = #{pm129,jdbcType=DOUBLE},
+      pm130 = #{pm130,jdbcType=DOUBLE},
+      pm131 = #{pm131,jdbcType=DOUBLE},
+      pm132 = #{pm132,jdbcType=DOUBLE},
+      pm133 = #{pm133,jdbcType=DOUBLE},
+      pm134 = #{pm134,jdbcType=DOUBLE},
+      pm135 = #{pm135,jdbcType=DOUBLE},
+      pm136 = #{pm136,jdbcType=DOUBLE},
+      pm137 = #{pm137,jdbcType=DOUBLE},
+      pm138 = #{pm138,jdbcType=DOUBLE},
+      pm139 = #{pm139,jdbcType=DOUBLE},
+      pm140 = #{pm140,jdbcType=DOUBLE},
+      pm141 = #{pm141,jdbcType=DOUBLE},
+      pm142 = #{pm142,jdbcType=DOUBLE},
+      pm143 = #{pm143,jdbcType=DOUBLE},
+      pm144 = #{pm144,jdbcType=DOUBLE},
+      pm145 = #{pm145,jdbcType=DOUBLE},
+      pm146 = #{pm146,jdbcType=DOUBLE},
+      pm147 = #{pm147,jdbcType=DOUBLE},
+      pm148 = #{pm148,jdbcType=DOUBLE},
+      pm149 = #{pm149,jdbcType=DOUBLE},
+      pm150 = #{pm150,jdbcType=DOUBLE},
+      pm151 = #{pm151,jdbcType=DOUBLE},
+      pm152 = #{pm152,jdbcType=DOUBLE},
+      pm153 = #{pm153,jdbcType=DOUBLE},
+      pm154 = #{pm154,jdbcType=DOUBLE},
+      pm155 = #{pm155,jdbcType=DOUBLE},
+      pm156 = #{pm156,jdbcType=DOUBLE},
+      pm157 = #{pm157,jdbcType=DOUBLE},
+      pm158 = #{pm158,jdbcType=DOUBLE},
+      pm159 = #{pm159,jdbcType=DOUBLE},
+      pm160 = #{pm160,jdbcType=DOUBLE},
+      pm161 = #{pm161,jdbcType=DOUBLE}
+    where pm1 = #{pm1,jdbcType=INTEGER}
+  </update>
+</mapper>

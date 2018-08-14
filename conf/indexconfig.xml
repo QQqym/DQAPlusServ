@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 特殊字符转义对照表:
+	& =>  &amp;
+	< =>  &lt;
+	> =>  &gt;
+	' =>  &apos;
+	" =>  &quot;
+-->
+<Manage>
+	<datatype name="EutranCellTdd">
+		<omckeyid>9</omckeyid>
+		<omcvaluestart>12</omcvaluestart>
+		<bxkeyid>7</bxkeyid>
+		<bxvaluestart>10</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+	
+	<datatype name="EthernetPort">
+		<omckeyid>0</omckeyid>
+		<omcvaluestart>0</omcvaluestart>
+		<bxkeyid>5</bxkeyid>
+		<bxvaluestart>7</bxvaluestart>
+		<wyptkeyid>0</wyptkeyid>
+		<wyptvaluestart>0</wyptvaluestart>
+	</datatype>
+	
+	<datatype name="EpRpDynS1uEnb">
+		<omckeyid>0</omckeyid>
+		<omcvaluestart>0</omcvaluestart>
+		<bxkeyid>5</bxkeyid>
+		<bxvaluestart>7</bxvaluestart>
+		<wyptkeyid>0</wyptkeyid>
+		<wyptvaluestart>0</wyptvaluestart>
+	</datatype>
+
+	<datatype name="mmefunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="EpRpDynS11Mme">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="pgwfunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="eprpdyns11sgw">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="eprpdyns5s8pgw">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="fefunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="hssfunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="sccasfunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="sbcfunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="SgcFunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+	<datatype name="scscffunction">
+		<omckeyid>8</omckeyid>
+		<omcvaluestart>9</omcvaluestart>
+		<bxkeyid>6</bxkeyid>
+		<bxvaluestart>8</bxvaluestart>
+		<wyptkeyid>7</wyptkeyid>
+		<wyptvaluestart>9</wyptvaluestart>
+	</datatype>
+
+</Manage>

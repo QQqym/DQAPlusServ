@@ -1,0 +1,7 @@
+SBC初始注册成功率#UR.SuccInitReg/UR.AttInitReg
+SBC重注册成功率#UR.SuccReReg/UR.AttReReg
+SBC接通率#(SC.SuccSessionOrig+SC.SuccSessionTerm)/(SC.AttSessionOrig+SC.AttSessionTerm)
+SBC语音应答话务量#SC.VoiceAnsTraf
+SBC视频应答话务量#SC.VideoAnsTrafTerm
+SBC漫入用户数#UR.UserRoamingRegSucc+UR.ProvRoamingRegSucc
+SBC 注册用户数#UR.UserRegSucc

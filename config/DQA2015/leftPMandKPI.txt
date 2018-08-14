@@ -1,0 +1,9 @@
+#pm
+ERAB.NbrLeft
+CONTEXT.NbrLeft
+#end pm
+
+#kpi
+E-RAB掉线率
+E-RAB掉线率(剔除UI原因)
+#end kpi

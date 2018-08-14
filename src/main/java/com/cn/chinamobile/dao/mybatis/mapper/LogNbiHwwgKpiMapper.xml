@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.LogNbiHwwgKpiMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.LogNbiHwwgKpi" >
+    <constructor >
+      <idArg column="intid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="city" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="TimeStamp" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="TimeZone" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Period" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="VendorName" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="ElementType" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="PmVersion" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="rmUID" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Dn" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="UserLabel" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="startTime" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="ObjectType" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="pmname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="bxvalue" jdbcType="DOUBLE" javaType="java.lang.Double" />
+      <arg column="hwwgvalue" jdbcType="DOUBLE" javaType="java.lang.Double" />
+      <arg column="diffvalue" jdbcType="DOUBLE" javaType="java.lang.Double" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    intid, taskid, province, city, TimeStamp, TimeZone, Period, VendorName, ElementType, 
+    PmVersion, rmUID, Dn, UserLabel, startTime, ObjectType, pmname, bxvalue, hwwgvalue, 
+    diffvalue
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from log_nbi_hwwg_kpi_mme
+    where intid = #{intid,jdbcType=INTEGER}
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.LogNbiHwwgKpi" >
+    insert into ${tablename} (intid, taskid, province,
+      city, TimeStamp, TimeZone, 
+      Period, VendorName, ElementType, 
+      PmVersion, rmUID, Dn, 
+      UserLabel, startTime, ObjectType, 
+      pmname, bxvalue, hwwgvalue, 
+      diffvalue)
+    values (#{intid,jdbcType=INTEGER}, #{taskid,jdbcType=INTEGER}, #{province,jdbcType=VARCHAR}, 
+      #{city,jdbcType=VARCHAR}, #{timestamp,jdbcType=VARCHAR}, #{timezone,jdbcType=VARCHAR}, 
+      #{period,jdbcType=VARCHAR}, #{vendorname,jdbcType=VARCHAR}, #{elementtype,jdbcType=VARCHAR}, 
+      #{pmversion,jdbcType=VARCHAR}, #{rmuid,jdbcType=VARCHAR}, #{dn,jdbcType=VARCHAR}, 
+      #{userlabel,jdbcType=VARCHAR}, #{starttime,jdbcType=VARCHAR}, #{objecttype,jdbcType=VARCHAR}, 
+      #{pmname,jdbcType=VARCHAR}, #{bxvalue,jdbcType=DOUBLE}, #{hwwgvalue,jdbcType=DOUBLE}, 
+      #{diffvalue,jdbcType=DOUBLE})
+  </insert>
+
+  <delete id="deletebytaskid" parameterType="com.cn.chinamobile.pojo.mybatis.LogNbiHwwgKpi">
+    delete from ${tablename} where taskid = #{taskid,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.LogNbiHwwgKpi" >
+    insert into log_nbi_hwwg_kpi_mme
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        intid,
+      </if>
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="province != null" >
+        province,
+      </if>
+      <if test="city != null" >
+        city,
+      </if>
+      <if test="timestamp != null" >
+        TimeStamp,
+      </if>
+      <if test="timezone != null" >
+        TimeZone,
+      </if>
+      <if test="period != null" >
+        Period,
+      </if>
+      <if test="vendorname != null" >
+        VendorName,
+      </if>
+      <if test="elementtype != null" >
+        ElementType,
+      </if>
+      <if test="pmversion != null" >
+        PmVersion,
+      </if>
+      <if test="rmuid != null" >
+        rmUID,
+      </if>
+      <if test="dn != null" >
+        Dn,
+      </if>
+      <if test="userlabel != null" >
+        UserLabel,
+      </if>
+      <if test="starttime != null" >
+        startTime,
+      </if>
+      <if test="objecttype != null" >
+        ObjectType,
+      </if>
+      <if test="pmname != null" >
+        pmname,
+      </if>
+      <if test="bxvalue != null" >
+        bxvalue,
+      </if>
+      <if test="hwwgvalue != null" >
+        hwwgvalue,
+      </if>
+      <if test="diffvalue != null" >
+        diffvalue,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        #{intid,jdbcType=INTEGER},
+      </if>
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="province != null" >
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="timestamp != null" >
+        #{timestamp,jdbcType=VARCHAR},
+      </if>
+      <if test="timezone != null" >
+        #{timezone,jdbcType=VARCHAR},
+      </if>
+      <if test="period != null" >
+        #{period,jdbcType=VARCHAR},
+      </if>
+      <if test="vendorname != null" >
+        #{vendorname,jdbcType=VARCHAR},
+      </if>
+      <if test="elementtype != null" >
+        #{elementtype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmversion != null" >
+        #{pmversion,jdbcType=VARCHAR},
+      </if>
+      <if test="rmuid != null" >
+        #{rmuid,jdbcType=VARCHAR},
+      </if>
+      <if test="dn != null" >
+        #{dn,jdbcType=VARCHAR},
+      </if>
+      <if test="userlabel != null" >
+        #{userlabel,jdbcType=VARCHAR},
+      </if>
+      <if test="starttime != null" >
+        #{starttime,jdbcType=VARCHAR},
+      </if>
+      <if test="objecttype != null" >
+        #{objecttype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmname != null" >
+        #{pmname,jdbcType=VARCHAR},
+      </if>
+      <if test="bxvalue != null" >
+        #{bxvalue,jdbcType=DOUBLE},
+      </if>
+      <if test="hwwgvalue != null" >
+        #{hwwgvalue,jdbcType=DOUBLE},
+      </if>
+      <if test="diffvalue != null" >
+        #{diffvalue,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.LogNbiHwwgKpi" >
+    update log_nbi_hwwg_kpi_mme
+    <set >
+      <if test="taskid != null" >
+        taskid = #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="province != null" >
+        province = #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        city = #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="timestamp != null" >
+        TimeStamp = #{timestamp,jdbcType=VARCHAR},
+      </if>
+      <if test="timezone != null" >
+        TimeZone = #{timezone,jdbcType=VARCHAR},
+      </if>
+      <if test="period != null" >
+        Period = #{period,jdbcType=VARCHAR},
+      </if>
+      <if test="vendorname != null" >
+        VendorName = #{vendorname,jdbcType=VARCHAR},
+      </if>
+      <if test="elementtype != null" >
+        ElementType = #{elementtype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmversion != null" >
+        PmVersion = #{pmversion,jdbcType=VARCHAR},
+      </if>
+      <if test="rmuid != null" >
+        rmUID = #{rmuid,jdbcType=VARCHAR},
+      </if>
+      <if test="dn != null" >
+        Dn = #{dn,jdbcType=VARCHAR},
+      </if>
+      <if test="userlabel != null" >
+        UserLabel = #{userlabel,jdbcType=VARCHAR},
+      </if>
+      <if test="starttime != null" >
+        startTime = #{starttime,jdbcType=VARCHAR},
+      </if>
+      <if test="objecttype != null" >
+        ObjectType = #{objecttype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmname != null" >
+        pmname = #{pmname,jdbcType=VARCHAR},
+      </if>
+      <if test="bxvalue != null" >
+        bxvalue = #{bxvalue,jdbcType=DOUBLE},
+      </if>
+      <if test="hwwgvalue != null" >
+        hwwgvalue = #{hwwgvalue,jdbcType=DOUBLE},
+      </if>
+      <if test="diffvalue != null" >
+        diffvalue = #{diffvalue,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.LogNbiHwwgKpi" >
+    update log_nbi_hwwg_kpi_mme
+    set taskid = #{taskid,jdbcType=INTEGER},
+      province = #{province,jdbcType=VARCHAR},
+      city = #{city,jdbcType=VARCHAR},
+      TimeStamp = #{timestamp,jdbcType=VARCHAR},
+      TimeZone = #{timezone,jdbcType=VARCHAR},
+      Period = #{period,jdbcType=VARCHAR},
+      VendorName = #{vendorname,jdbcType=VARCHAR},
+      ElementType = #{elementtype,jdbcType=VARCHAR},
+      PmVersion = #{pmversion,jdbcType=VARCHAR},
+      rmUID = #{rmuid,jdbcType=VARCHAR},
+      Dn = #{dn,jdbcType=VARCHAR},
+      UserLabel = #{userlabel,jdbcType=VARCHAR},
+      startTime = #{starttime,jdbcType=VARCHAR},
+      ObjectType = #{objecttype,jdbcType=VARCHAR},
+      pmname = #{pmname,jdbcType=VARCHAR},
+      bxvalue = #{bxvalue,jdbcType=DOUBLE},
+      hwwgvalue = #{hwwgvalue,jdbcType=DOUBLE},
+      diffvalue = #{diffvalue,jdbcType=DOUBLE}
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+</mapper>

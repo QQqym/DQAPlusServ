@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd">
+		<vendorname name="华为" >
+			<pmversion name="PM-2.5" file="title_EutranCellTdd_huawei_omc_2.5.txt"></pmversion>
+			<pmversion name="PM-2.6" file="title_EutranCellTdd_huawei_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="中兴">
+			<pmversion name="PM-2.5" file="title_EutranCellTdd_zte_omc_2.5.txt"></pmversion>
+			<pmversion name="PM-2.6" file="title_EutranCellTdd_zte_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="贝尔">
+			<pmversion name="PM-2.5" file="title_EutranCellTdd_alcatel_omc_2.5.txt"></pmversion>
+			<pmversion name="PM-2.6" file="title_EutranCellTdd_alcatel_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="爱立信">
+			<pmversion name="PM-2.5" file="title_EutranCellTdd_ericsson_omc_2.5.txt"></pmversion>
+		</vendorname>
+		<vendorname name="大唐">
+			<pmversion name="PM-2.5" file="title_EutranCellTdd_datang_omc_2.5.txt"></pmversion>
+			<pmversion name="PM-2.6" file="title_EutranCellTdd_datang_omc_2.6.txt"></pmversion>
+		</vendorname>
+		<vendorname name="诺基亚">
+			<pmversion name="PM-2.5" file="title_EutranCellTdd_nokia_omc_2.5.txt"></pmversion>
+			<pmversion name="PM-2.6" file="title_EutranCellTdd_nokia_omc_2.6.txt"></pmversion>
+			<pmversion name="PM-2.7" file="title_EutranCellTdd_nokia_omc_2.7.txt"></pmversion>
+		</vendorname>
+		
+		<WYWG name="wangyou" filename="title_EutranCellTdd_wangyou.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="MmeFunction">
+		<vendorname name="华为" filename="title_MME_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_MME_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_MME_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_MME_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_MME_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_MME_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="EpRpDynS11Sgw">
+		<vendorname name="华为" filename="title_SGW_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_SGW_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_SGW_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_SGW_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_SGW_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SGW_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="EpRpDynS5S8Pgw">
+		<vendorname name="华为" filename="title_PGW_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_PGW_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_PGW_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_PGW_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_PGW_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_PGW_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="SbcFunction">
+		<vendorname name="华为" filename="title_SBC_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_SBC_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_SBC_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_SBC_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_SBC_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SBC_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="SgcFunction">
+		<vendorname name="华为" filename="title_SBC_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_SBC_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_SBC_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_SBC_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_SBC_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SBC_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	
+	<PmType name="ScscfFunction">
+		<vendorname name="华为" filename="title_SCSCF_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_SCSCF_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_SCSCF_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_SCSCF_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_SCSCF_nokia_omc.txt"></vendorname>
+		
+		<WYWG name="wangguan" filename="title_SCSCF_wangguan.txt"></WYWG>
+		
+	</PmType>
+	
+	<PmType name="SccAsFunction">
+		<vendorname name="华为" filename="title_TAS_huawei_omc.txt"></vendorname>
+		<vendorname name="中兴" filename="title_TAS_zte_omc.txt"></vendorname>
+		<vendorname name="贝尔" filename="title_TAS_alcatel_omc.txt"></vendorname>
+		<vendorname name="爱立信" filename="title_TAS_ericsson_omc.txt"></vendorname>
+		<vendorname name="诺基亚" filename="title_TAS_nokia_omc.txt"></vendorname>
+				
+	</PmType>
+	
+</file>

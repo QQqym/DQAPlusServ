@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpNrmMapper" >
+  <resultMap id="LevelResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpNrm" >
+    <constructor >
+      <arg column="Managed_Class" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Last_Class" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpNrm" >
+    <constructor >
+      <arg column="NE_Type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Ver" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Managed_Class" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Last_Class" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="NRM_Grade" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="NRMName_EN" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="DataType" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <resultMap id="ResultMapWithBLOBs" type="com.cn.chinamobile.pojo.mybatis.UdpNrm" >
+    <constructor >
+      <arg column="NE_Type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Ver" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Managed_Class" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Last_Class" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="NRM_Grade" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="NRMName_EN" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="DataType" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="NRM_Definition" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Blob_Column_List" >
+    NE_Type, Ver, Managed_Class,Last_Class,NRM_Grade, NRMName_EN, DataType,NRM_Definition
+  </sql>
+
+  <select id="selectByParas" resultMap="ResultMapWithBLOBs"  parameterType="map">
+    select 'false' as QUERYID,
+    <include refid="Blob_Column_List" />
+    from udp_nrm
+    where NE_Type = #{neType,jdbcType=VARCHAR}
+    and Ver = #{ver,jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectLevelInfo" resultMap="LevelResultMap"  parameterType="map">
+    select DISTINCT Managed_Class,Last_Class
+    from udp_nrm
+    where NE_Type = #{neType,jdbcType=VARCHAR}
+    and Ver = #{ver,jdbcType=VARCHAR}
+  </select>
+
+  <select id="getVersion" resultType="java.lang.String"  parameterType="java.lang.String">
+    select Ver
+    from udp_nrm
+    where NE_Type = #{netype,jdbcType=VARCHAR}
+    ORDER BY REPLACE(Ver,'V','') desc
+    limit 1
+  </select>
+
+  <select id="getHigherVersion" resultType="java.lang.String"  parameterType="map">
+    select Ver
+    from udp_nrm
+    where NE_Type = #{netype,jdbcType=VARCHAR}
+    and Ver &gt; #{ver,jdbcType=VARCHAR}
+    ORDER BY ver
+    limit 1
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpNrm" >
+    insert into udp_nrm (NE_Type, Ver, Managed_Class, 
+      Last_Class, NRM_Grade, NRMName_EN, 
+      DataType, NRM_Definition)
+    values (#{neType,jdbcType=VARCHAR}, #{ver,jdbcType=VARCHAR}, #{managedClass,jdbcType=VARCHAR}, 
+      #{lastClass,jdbcType=VARCHAR}, #{nrmGrade,jdbcType=VARCHAR}, #{nrmnameEn,jdbcType=VARCHAR}, 
+      #{datatype,jdbcType=VARCHAR}, #{nrmDefinition,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpNrm" >
+    insert into udp_nrm
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="neType != null" >
+        NE_Type,
+      </if>
+      <if test="ver != null" >
+        Ver,
+      </if>
+      <if test="managedClass != null" >
+        Managed_Class,
+      </if>
+      <if test="lastClass != null" >
+        Last_Class,
+      </if>
+      <if test="nrmGrade != null" >
+        NRM_Grade,
+      </if>
+      <if test="nrmnameEn != null" >
+        NRMName_EN,
+      </if>
+      <if test="datatype != null" >
+        DataType,
+      </if>
+      <if test="nrmDefinition != null" >
+        NRM_Definition,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="neType != null" >
+        #{neType,jdbcType=VARCHAR},
+      </if>
+      <if test="ver != null" >
+        #{ver,jdbcType=VARCHAR},
+      </if>
+      <if test="managedClass != null" >
+        #{managedClass,jdbcType=VARCHAR},
+      </if>
+      <if test="lastClass != null" >
+        #{lastClass,jdbcType=VARCHAR},
+      </if>
+      <if test="nrmGrade != null" >
+        #{nrmGrade,jdbcType=VARCHAR},
+      </if>
+      <if test="nrmnameEn != null" >
+        #{nrmnameEn,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="nrmDefinition != null" >
+        #{nrmDefinition,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

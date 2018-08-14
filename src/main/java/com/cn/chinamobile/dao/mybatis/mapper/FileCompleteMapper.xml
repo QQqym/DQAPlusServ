@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.FileCompleteMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.FileComplete" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="subid" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="filename" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="factlength" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="checklength" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="pmnum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="losepmnum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="parsestatus" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="failurereason" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.cn.chinamobile.pojo.mybatis.FileCompleteWithBLOBs" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="subid" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="filename" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="factlength" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="checklength" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="pmnum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="losepmnum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="parsestatus" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="failurereason" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="losepmdetail" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+      <arg column="nullpmdetail" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+      <arg column="nullpmnum" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    taskid, subid, filename,
+      factlength, checklength, pmnum,
+      losepmnum, parsestatus, failurereason,
+      losepmdetail, nullpmdetail, nullpmnum
+  </sql>
+
+  <sql id="Blob_Column_List" >
+    losepmdetail, nullpmdetail, nullpmnum
+  </sql>
+
+  <select id="selectByParas" resultMap="ResultMapWithBLOBs" parameterType="com.cn.chinamobile.pojo.mybatis.FileCompleteWithBLOBs" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from file_completeness
+    where taskid = #{taskid,jdbcType=INTEGER}
+    and filename= #{filename,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.FileCompleteWithBLOBs" >
+    insert into file_completeness (taskid, subid, filename, 
+      factlength, checklength, pmnum, 
+      losepmnum, parsestatus, failurereason, 
+      losepmdetail, nullpmdetail, nullpmnum
+      )
+    values (#{taskid,jdbcType=INTEGER}, #{subid,jdbcType=VARCHAR}, #{filename,jdbcType=VARCHAR}, 
+      #{factlength,jdbcType=BIGINT}, #{checklength,jdbcType=BIGINT}, #{pmnum,jdbcType=INTEGER}, 
+      #{losepmnum,jdbcType=INTEGER}, #{parsestatus,jdbcType=INTEGER}, #{failurereason,jdbcType=VARCHAR}, 
+      #{losepmdetail,jdbcType=LONGVARCHAR}, #{nullpmdetail,jdbcType=LONGVARCHAR}, #{nullpmnum,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.FileCompleteWithBLOBs" >
+    insert into file_completeness
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="subid != null" >
+        subid,
+      </if>
+      <if test="filename != null" >
+        filename,
+      </if>
+      <if test="factlength != null" >
+        factlength,
+      </if>
+      <if test="checklength != null" >
+        checklength,
+      </if>
+      <if test="pmnum != null" >
+        pmnum,
+      </if>
+      <if test="losepmnum != null" >
+        losepmnum,
+      </if>
+      <if test="parsestatus != null" >
+        parsestatus,
+      </if>
+      <if test="failurereason != null" >
+        failurereason,
+      </if>
+      <if test="losepmdetail != null" >
+        losepmdetail,
+      </if>
+      <if test="nullpmdetail != null" >
+        nullpmdetail,
+      </if>
+      <if test="nullpmnum != null" >
+        nullpmnum,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="subid != null" >
+        #{subid,jdbcType=VARCHAR},
+      </if>
+      <if test="filename != null" >
+        #{filename,jdbcType=VARCHAR},
+      </if>
+      <if test="factlength != null" >
+        #{factlength,jdbcType=BIGINT},
+      </if>
+      <if test="checklength != null" >
+        #{checklength,jdbcType=BIGINT},
+      </if>
+      <if test="pmnum != null" >
+        #{pmnum,jdbcType=INTEGER},
+      </if>
+      <if test="losepmnum != null" >
+        #{losepmnum,jdbcType=INTEGER},
+      </if>
+      <if test="parsestatus != null" >
+        #{parsestatus,jdbcType=INTEGER},
+      </if>
+      <if test="failurereason != null" >
+        #{failurereason,jdbcType=VARCHAR},
+      </if>
+      <if test="losepmdetail != null" >
+        #{losepmdetail,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="nullpmdetail != null" >
+        #{nullpmdetail,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="nullpmnum != null" >
+        #{nullpmnum,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

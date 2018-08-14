@@ -1,0 +1,579 @@
+2018-04-19 17:12:14,951 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HI\IMSUDP路径下的文件
+2018-04-19 17:12:14,953 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HI\IMSUDP is not exist
+2018-04-19 17:12:14,953 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\LN\IMSUDP路径下的文件
+2018-04-19 17:12:14,954 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\LN\IMSUDP is not exist
+2018-04-19 17:12:14,954 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JL\IMSUDP路径下的文件
+2018-04-19 17:12:15,039 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JL\IMSUDP is not exist
+2018-04-19 17:12:15,039 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XZ\IMSUDP路径下的文件
+2018-04-19 17:12:15,039 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XZ\IMSUDP is not exist
+2018-04-19 17:12:15,039 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TW\IMSUDP路径下的文件
+2018-04-19 17:12:15,039 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TW\IMSUDP is not exist
+2018-04-19 17:12:15,040 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HL\IMSUDP路径下的文件
+2018-04-19 17:12:15,040 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HL\IMSUDP is not exist
+2018-04-19 17:12:15,040 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\FJ\IMSUDP路径下的文件
+2018-04-19 17:12:15,044 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\FJ\IMSUDP is not exist
+2018-04-19 17:12:15,045 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HN\IMSUDP路径下的文件
+2018-04-19 17:12:15,045 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HN\IMSUDP is not exist
+2018-04-19 17:12:15,045 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\BJ\IMSUDP路径下的文件
+2018-04-19 17:12:15,046 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\BJ\IMSUDP is not exist
+2018-04-19 17:12:15,047 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JS\IMSUDP路径下的文件
+2018-04-19 17:12:15,047 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JS\IMSUDP is not exist
+2018-04-19 17:12:15,047 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NX\IMSUDP路径下的文件
+2018-04-19 17:12:15,047 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NX\IMSUDP is not exist
+2018-04-19 17:12:15,047 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JX\IMSUDP路径下的文件
+2018-04-19 17:12:15,048 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JX\IMSUDP is not exist
+2018-04-19 17:12:15,048 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SC\IMSUDP路径下的文件
+2018-04-19 17:12:15,059 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SC\IMSUDP is not exist
+2018-04-19 17:12:15,059 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SD\IMSUDP路径下的文件
+2018-04-19 17:12:15,074 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SD\IMSUDP is not exist
+2018-04-19 17:12:15,074 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\IMSUDP路径下的文件
+2018-04-19 17:12:15,093 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SH\IMSUDP is not exist
+2018-04-19 17:12:15,093 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\IMSUDP路径下的文件
+2018-04-19 17:12:15,093 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\YN\IMSUDP is not exist
+2018-04-19 17:12:15,093 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\QH\IMSUDP路径下的文件
+2018-04-19 17:12:15,094 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\QH\IMSUDP is not exist
+2018-04-19 17:12:15,094 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SN\IMSUDP路径下的文件
+2018-04-19 17:12:15,100 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SN\IMSUDP is not exist
+2018-04-19 17:12:15,100 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GD\IMSUDP路径下的文件
+2018-04-19 17:12:15,101 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GD\IMSUDP is not exist
+2018-04-19 17:12:15,101 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SX\IMSUDP路径下的文件
+2018-04-19 17:12:15,101 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SX\IMSUDP is not exist
+2018-04-19 17:12:15,101 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP路径下的文件
+2018-04-19 17:12:36,729 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW路径下的文件
+2018-04-19 17:13:14,276 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\NRM路径下的文件
+2018-04-19 17:13:15,889 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\NRM路径下的文件
+2018-04-19 17:13:17,631 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\NRM路径下的文件
+2018-04-19 17:14:14,337 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\NRM\2018-04-11路径下的文件
+2018-04-19 17:16:33,190 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM路径下的文件
+2018-04-19 17:16:33,206 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM路径下的文件
+2018-04-19 17:16:33,223 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM路径下的文件
+2018-04-19 17:16:33,240 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-00路径下的文件
+2018-04-19 17:20:06,601 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-01路径下的文件
+2018-04-19 17:20:08,332 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-02路径下的文件
+2018-04-19 17:20:13,912 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-03路径下的文件
+2018-04-19 17:20:13,965 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-04路径下的文件
+2018-04-19 17:20:14,012 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-05路径下的文件
+2018-04-19 17:20:14,078 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-06路径下的文件
+2018-04-19 17:20:14,131 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-07路径下的文件
+2018-04-19 17:20:14,344 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-08路径下的文件
+2018-04-19 17:20:14,404 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-09路径下的文件
+2018-04-19 17:20:14,485 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-10路径下的文件
+2018-04-19 17:20:14,539 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-11路径下的文件
+2018-04-19 17:20:14,587 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-12路径下的文件
+2018-04-19 17:20:14,629 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-13路径下的文件
+2018-04-19 17:20:14,676 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-14路径下的文件
+2018-04-19 17:20:14,752 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-15路径下的文件
+2018-04-19 17:20:14,796 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-16路径下的文件
+2018-04-19 17:20:14,843 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-17路径下的文件
+2018-04-19 17:20:14,917 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-18路径下的文件
+2018-04-19 17:20:14,976 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-19路径下的文件
+2018-04-19 17:20:15,186 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-20路径下的文件
+2018-04-19 17:20:15,250 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-21路径下的文件
+2018-04-19 17:20:15,324 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-22路径下的文件
+2018-04-19 17:20:15,408 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-11-23路径下的文件
+2018-04-19 17:20:15,533 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-00路径下的文件
+2018-04-19 17:20:15,590 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-01路径下的文件
+2018-04-19 17:20:15,635 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-02路径下的文件
+2018-04-19 17:20:15,682 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-03路径下的文件
+2018-04-19 17:20:15,735 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-04路径下的文件
+2018-04-19 17:20:15,781 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-05路径下的文件
+2018-04-19 17:20:15,829 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-06路径下的文件
+2018-04-19 17:20:15,873 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-07路径下的文件
+2018-04-19 17:20:15,925 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-08路径下的文件
+2018-04-19 17:20:16,056 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-09路径下的文件
+2018-04-19 17:20:16,100 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-10路径下的文件
+2018-04-19 17:20:16,172 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-11路径下的文件
+2018-04-19 17:20:16,216 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-12路径下的文件
+2018-04-19 17:20:16,255 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-13路径下的文件
+2018-04-19 17:20:16,299 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-14路径下的文件
+2018-04-19 17:20:16,355 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-15路径下的文件
+2018-04-19 17:20:16,399 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-16路径下的文件
+2018-04-19 17:20:16,446 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-17路径下的文件
+2018-04-19 17:20:16,482 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-18路径下的文件
+2018-04-19 17:20:16,521 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-19路径下的文件
+2018-04-19 17:20:16,607 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-20路径下的文件
+2018-04-19 17:20:16,646 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-21路径下的文件
+2018-04-19 17:20:16,690 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-22路径下的文件
+2018-04-19 17:20:16,743 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-12-23路径下的文件
+2018-04-19 17:20:16,789 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-00路径下的文件
+2018-04-19 17:20:16,828 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-01路径下的文件
+2018-04-19 17:20:16,872 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-02路径下的文件
+2018-04-19 17:20:16,911 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-03路径下的文件
+2018-04-19 17:20:16,969 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-04路径下的文件
+2018-04-19 17:20:17,013 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-05路径下的文件
+2018-04-19 17:20:17,061 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-06路径下的文件
+2018-04-19 17:20:17,105 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-07路径下的文件
+2018-04-19 17:20:17,144 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-08路径下的文件
+2018-04-19 17:20:17,188 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-09路径下的文件
+2018-04-19 17:20:17,227 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-10路径下的文件
+2018-04-19 17:20:17,272 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-11路径下的文件
+2018-04-19 17:20:17,324 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-12路径下的文件
+2018-04-19 17:20:17,405 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-13路径下的文件
+2018-04-19 17:20:17,543 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-14路径下的文件
+2018-04-19 17:20:17,642 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-15路径下的文件
+2018-04-19 17:20:17,700 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-16路径下的文件
+2018-04-19 17:20:17,744 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-17路径下的文件
+2018-04-19 17:20:17,783 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-18路径下的文件
+2018-04-19 17:20:17,828 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-19路径下的文件
+2018-04-19 17:20:17,867 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-20路径下的文件
+2018-04-19 17:20:17,911 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-21路径下的文件
+2018-04-19 17:20:17,975 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-22路径下的文件
+2018-04-19 17:20:18,018 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSMGW\HW\PM\2018-04-13-23路径下的文件
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GS\IMSUDP路径下的文件
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GS\IMSUDP is not exist
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AM\IMSUDP路径下的文件
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AM\IMSUDP is not exist
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\CQ\IMSUDP路径下的文件
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\CQ\IMSUDP is not exist
+2018-04-19 17:20:18,058 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XG\IMSUDP路径下的文件
+2018-04-19 17:20:18,059 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XG\IMSUDP is not exist
+2018-04-19 17:20:18,059 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\ZJ\IMSUDP路径下的文件
+2018-04-19 17:20:18,071 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\ZJ\IMSUDP is not exist
+2018-04-19 17:20:18,071 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GX\IMSUDP路径下的文件
+2018-04-19 17:20:18,071 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GX\IMSUDP is not exist
+2018-04-19 17:20:18,071 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XJ\IMSUDP路径下的文件
+2018-04-19 17:20:18,071 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XJ\IMSUDP is not exist
+2018-04-19 17:20:18,071 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GZ\IMSUDP路径下的文件
+2018-04-19 17:20:18,077 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GZ\IMSUDP is not exist
+2018-04-19 17:20:18,078 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TJ\IMSUDP路径下的文件
+2018-04-19 17:20:18,190 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TJ\IMSUDP is not exist
+2018-04-19 17:20:18,190 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HA\IMSUDP路径下的文件
+2018-04-19 17:20:18,200 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HA\IMSUDP is not exist
+2018-04-19 17:20:18,201 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HB\IMSUDP路径下的文件
+2018-04-19 17:20:18,212 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HB\IMSUDP is not exist
+2018-04-19 17:20:18,212 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HE\IMSUDP路径下的文件
+2018-04-19 17:20:18,213 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HE\IMSUDP is not exist
+2018-04-19 17:20:18,213 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NM\IMSUDP路径下的文件
+2018-04-19 17:20:18,213 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NM\IMSUDP is not exist
+2018-04-25 16:50:39,592 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/IMSHSS/HW/PM/2018-04-11-00路径下的文件
+2018-04-25 16:50:39,614 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-171路径下的文件
+2018-04-25 16:50:39,654 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-175路径下的文件
+2018-04-25 16:52:56,895 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/IMSHSS/HW/PM/2018-04-11-00路径下的文件
+2018-04-25 16:52:56,899 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-171路径下的文件
+2018-04-25 16:52:56,935 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-175路径下的文件
+2018-04-26 15:16:31,906 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/IMSHSS/HW/PM/2018-04-11-00路径下的文件
+2018-04-26 15:16:31,909 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-171路径下的文件
+2018-04-26 15:16:31,956 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-175路径下的文件
+2018-04-26 15:16:56,256 ERROR [com.cn.chinamobile.main.TaskInvoker] - 执行任务失败：2110012499
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: Could not process result for mapping: ResultMapping{property='null', column='version', javaType=class java.lang.String, jdbcType=VARCHAR, nestedResultMapId='null', nestedQueryId='null', notNullColumns=[], columnPrefix='null', flags=[CONSTRUCTOR], composites=[], resultSet='null', foreignColumn='null', lazy=false}
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy9.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy25.selectByParas(Unknown Source)
+	at com.cn.chinamobile.service.UdpExempDtypeService.selectByParas(UdpExempDtypeService.java:29)
+	at com.cn.chinamobile.business.UdpBusiness.insertPMLoseDataInfo(UdpBusiness.java:689)
+	at com.cn.chinamobile.business.UdpBusiness.dealPMProcess(UdpBusiness.java:308)
+	at com.cn.chinamobile.business.UdpBusiness.startBusiness(UdpBusiness.java:157)
+	at com.cn.chinamobile.main.UdpInvoker.main(UdpInvoker.java:61)
+	at com.cn.chinamobile.main.T.main(T.java:35)
+Caused by: org.apache.ibatis.executor.ExecutorException: Could not process result for mapping: ResultMapping{property='null', column='version', javaType=class java.lang.String, jdbcType=VARCHAR, nestedResultMapId='null', nestedQueryId='null', notNullColumns=[], columnPrefix='null', flags=[CONSTRUCTOR], composites=[], resultSet='null', foreignColumn='null', lazy=false}
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createParameterizedResultObject(DefaultResultSetHandler.java:636)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createResultObject(DefaultResultSetHandler.java:609)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createResultObject(DefaultResultSetHandler.java:586)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:388)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:347)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:322)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:295)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:192)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 12 more
+Caused by: org.apache.ibatis.executor.result.ResultMapException: Error attempting to get column 'version' from result set.  Cause: java.sql.SQLException: Column 'version' not found.
+	at org.apache.ibatis.type.BaseTypeHandler.getResult(BaseTypeHandler.java:68)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createParameterizedResultObject(DefaultResultSetHandler.java:633)
+	... 33 more
+Caused by: java.sql.SQLException: Column 'version' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1077)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5174)
+	at com.alibaba.druid.pool.DruidPooledResultSet.getString(DruidPooledResultSet.java:257)
+	at org.apache.ibatis.type.StringTypeHandler.getNullableResult(StringTypeHandler.java:37)
+	at org.apache.ibatis.type.StringTypeHandler.getNullableResult(StringTypeHandler.java:26)
+	at org.apache.ibatis.type.BaseTypeHandler.getResult(BaseTypeHandler.java:66)
+	... 34 more
+2018-04-26 15:21:03,599 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/IMSHSS/HW/PM/2018-04-11-00路径下的文件
+2018-04-26 15:21:03,601 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-171路径下的文件
+2018-04-26 15:21:03,643 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\IMSUDP\IMSHSS\HW\PM\2018-04-11-00\OMC-175路径下的文件
+2018-04-26 15:42:55,417 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/NBI/SCSCF/HW/PM/2018-03-14-15路径下的文件
+2018-04-26 15:42:55,419 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\NBI\SCSCF\HW\PM\2018-03-14-15\OMC1路径下的文件
+2018-05-04 15:10:20,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TJ/NBI/MME/HW/PM/2017-08-24-00路径下的文件
+2018-05-04 15:11:08,108 INFO [com.cn.chinamobile.main.TaskInvoker] - 任务：2110012501找不到软件版本
+2018-05-04 15:12:13,904 INFO [com.cn.chinamobile.main.TaskInvoker] - 任务：2110012501未找到版本高的规范
+2018-05-16 11:36:24,269 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM路径下的文件
+2018-05-16 11:36:24,303 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM路径下的文件
+2018-05-16 11:36:24,323 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM路径下的文件
+2018-05-16 11:36:30,812 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-00路径下的文件
+2018-05-16 11:36:30,814 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-01路径下的文件
+2018-05-16 11:36:30,815 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-02路径下的文件
+2018-05-16 11:36:30,817 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-03路径下的文件
+2018-05-16 11:36:30,819 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-04路径下的文件
+2018-05-16 11:36:30,820 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-05路径下的文件
+2018-05-16 11:36:30,822 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-06路径下的文件
+2018-05-16 11:36:30,823 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-07路径下的文件
+2018-05-16 11:36:30,825 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-08路径下的文件
+2018-05-16 11:36:30,826 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-09路径下的文件
+2018-05-16 11:36:30,828 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-10路径下的文件
+2018-05-16 11:36:30,830 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-11路径下的文件
+2018-05-16 11:36:30,832 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-12路径下的文件
+2018-05-16 11:36:30,834 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-13路径下的文件
+2018-05-16 11:36:30,835 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-14路径下的文件
+2018-05-16 11:36:30,837 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-15路径下的文件
+2018-05-16 11:36:30,838 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-16路径下的文件
+2018-05-16 11:36:30,840 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-17路径下的文件
+2018-05-16 11:36:30,842 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-18路径下的文件
+2018-05-16 11:36:30,843 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-19路径下的文件
+2018-05-16 11:36:30,845 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-20路径下的文件
+2018-05-16 11:36:30,846 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-21路径下的文件
+2018-05-16 11:36:30,848 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-22路径下的文件
+2018-05-16 11:36:30,850 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-11-23路径下的文件
+2018-05-16 11:36:30,851 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-00路径下的文件
+2018-05-16 11:36:30,853 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-01路径下的文件
+2018-05-16 11:36:30,855 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-02路径下的文件
+2018-05-16 11:36:30,857 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-03路径下的文件
+2018-05-16 11:36:30,858 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-04路径下的文件
+2018-05-16 11:36:30,860 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-05路径下的文件
+2018-05-16 11:36:30,861 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-06路径下的文件
+2018-05-16 11:36:30,863 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-07路径下的文件
+2018-05-16 11:36:30,865 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-08路径下的文件
+2018-05-16 11:36:30,866 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-09路径下的文件
+2018-05-16 11:36:30,868 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-10路径下的文件
+2018-05-16 11:36:30,870 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-11路径下的文件
+2018-05-16 11:36:30,871 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-12路径下的文件
+2018-05-16 11:36:30,874 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-13路径下的文件
+2018-05-16 11:36:30,876 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-14路径下的文件
+2018-05-16 11:36:30,878 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-15路径下的文件
+2018-05-16 11:36:30,879 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-16路径下的文件
+2018-05-16 11:36:30,881 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-17路径下的文件
+2018-05-16 11:36:30,882 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-18路径下的文件
+2018-05-16 11:36:30,883 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-19路径下的文件
+2018-05-16 11:36:30,884 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-20路径下的文件
+2018-05-16 11:36:30,885 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-21路径下的文件
+2018-05-16 11:36:30,886 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-22路径下的文件
+2018-05-16 11:36:30,887 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-12-23路径下的文件
+2018-05-16 11:36:30,888 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-00路径下的文件
+2018-05-16 11:36:30,889 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-01路径下的文件
+2018-05-16 11:36:30,890 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-02路径下的文件
+2018-05-16 11:36:30,892 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-03路径下的文件
+2018-05-16 11:36:30,893 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-04路径下的文件
+2018-05-16 11:36:30,894 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-05路径下的文件
+2018-05-16 11:36:30,895 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-06路径下的文件
+2018-05-16 11:36:30,896 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-07路径下的文件
+2018-05-16 11:36:30,896 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-08路径下的文件
+2018-05-16 11:36:30,897 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-09路径下的文件
+2018-05-16 11:36:30,898 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-10路径下的文件
+2018-05-16 11:36:30,899 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-11路径下的文件
+2018-05-16 11:36:30,900 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-12路径下的文件
+2018-05-16 11:36:30,902 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-13路径下的文件
+2018-05-16 11:36:30,903 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-14路径下的文件
+2018-05-16 11:36:30,904 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-15路径下的文件
+2018-05-16 11:36:30,905 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-16路径下的文件
+2018-05-16 11:36:30,906 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-17路径下的文件
+2018-05-16 11:36:30,907 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-18路径下的文件
+2018-05-16 11:36:30,908 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-19路径下的文件
+2018-05-16 11:36:30,909 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-20路径下的文件
+2018-05-16 11:36:30,910 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-21路径下的文件
+2018-05-16 11:36:30,911 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-22路径下的文件
+2018-05-16 11:36:30,912 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH/IMSUDP/PSBC/HW/PM/2018-04-13-23路径下的文件
+2018-07-03 14:49:30,094 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HI\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HI\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\LN\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\LN\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JL\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JL\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XZ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XZ\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TW\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TW\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HL\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HL\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\FJ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\FJ\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HN\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HN\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\BJ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\BJ\NBI\ENB is not exist
+2018-07-03 14:49:30,095 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JS\NBI\ENB路径下的文件
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JS\NBI\ENB is not exist
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NX\NBI\ENB路径下的文件
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NX\NBI\ENB is not exist
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JX\NBI\ENB路径下的文件
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JX\NBI\ENB is not exist
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SC\NBI\ENB路径下的文件
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SC\NBI\ENB is not exist
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SD\NBI\ENB路径下的文件
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SD\NBI\ENB is not exist
+2018-07-03 14:49:30,096 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB路径下的文件
+2018-07-03 14:49:30,097 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\HW\NRM路径下的文件
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\NS\NRM路径下的文件
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SH\NBI\ENB\NS\NRM is not exist
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB路径下的文件
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB\DT\NRM路径下的文件
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\YN\NBI\ENB\DT\NRM is not exist
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\QH\NBI\ENB路径下的文件
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\QH\NBI\ENB is not exist
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SN\NBI\ENB路径下的文件
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SN\NBI\ENB is not exist
+2018-07-03 14:49:30,098 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GD\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GD\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SX\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SX\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AH\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GS\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GS\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AM\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AM\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\CQ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\CQ\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XG\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XG\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\ZJ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\ZJ\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GX\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GX\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XJ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XJ\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GZ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GZ\NBI\ENB is not exist
+2018-07-03 14:49:30,099 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TJ\NBI\ENB路径下的文件
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TJ\NBI\ENB is not exist
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HA\NBI\ENB路径下的文件
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HA\NBI\ENB is not exist
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HB\NBI\ENB路径下的文件
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HB\NBI\ENB is not exist
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HE\NBI\ENB路径下的文件
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HE\NBI\ENB is not exist
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NM\NBI\ENB路径下的文件
+2018-07-03 14:49:30,100 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NM\NBI\ENB is not exist
+2018-07-03 14:52:33,184 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HI\NBI\ENB路径下的文件
+2018-07-03 14:52:33,185 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HI\NBI\ENB is not exist
+2018-07-03 14:53:11,120 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\LN\NBI\ENB路径下的文件
+2018-07-03 14:53:11,120 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\LN\NBI\ENB is not exist
+2018-07-03 14:53:12,703 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JL\NBI\ENB路径下的文件
+2018-07-03 14:53:12,703 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JL\NBI\ENB is not exist
+2018-07-03 14:53:13,979 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XZ\NBI\ENB路径下的文件
+2018-07-03 14:53:13,979 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XZ\NBI\ENB is not exist
+2018-07-03 14:53:14,786 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TW\NBI\ENB路径下的文件
+2018-07-03 14:53:14,786 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TW\NBI\ENB is not exist
+2018-07-03 14:53:15,595 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HL\NBI\ENB路径下的文件
+2018-07-03 14:53:15,595 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HL\NBI\ENB is not exist
+2018-07-03 14:53:16,402 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\FJ\NBI\ENB路径下的文件
+2018-07-03 14:53:16,403 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\FJ\NBI\ENB is not exist
+2018-07-03 14:53:17,428 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HN\NBI\ENB路径下的文件
+2018-07-03 14:53:17,428 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HN\NBI\ENB is not exist
+2018-07-03 14:53:18,306 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\BJ\NBI\ENB路径下的文件
+2018-07-03 14:53:18,306 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\BJ\NBI\ENB is not exist
+2018-07-03 14:53:18,891 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JS\NBI\ENB路径下的文件
+2018-07-03 14:53:18,896 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JS\NBI\ENB is not exist
+2018-07-03 14:53:19,539 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NX\NBI\ENB路径下的文件
+2018-07-03 14:53:19,540 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NX\NBI\ENB is not exist
+2018-07-03 14:53:20,131 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JX\NBI\ENB路径下的文件
+2018-07-03 14:53:20,132 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JX\NBI\ENB is not exist
+2018-07-03 14:53:20,779 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SC\NBI\ENB路径下的文件
+2018-07-03 14:53:20,779 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SC\NBI\ENB is not exist
+2018-07-03 14:53:21,972 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SD\NBI\ENB路径下的文件
+2018-07-03 14:53:21,973 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SD\NBI\ENB is not exist
+2018-07-03 14:53:22,619 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB路径下的文件
+2018-07-03 14:53:26,499 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\HW\NRM路径下的文件
+2018-07-03 14:53:28,130 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\NS\NRM路径下的文件
+2018-07-03 14:53:28,130 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SH\NBI\ENB\NS\NRM is not exist
+2018-07-03 14:53:28,756 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB路径下的文件
+2018-07-03 14:53:30,796 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB\DT\NRM路径下的文件
+2018-07-03 14:53:30,797 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\YN\NBI\ENB\DT\NRM is not exist
+2018-07-03 14:53:31,468 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\QH\NBI\ENB路径下的文件
+2018-07-03 14:53:31,468 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\QH\NBI\ENB is not exist
+2018-07-03 14:53:32,356 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SN\NBI\ENB路径下的文件
+2018-07-03 14:53:32,356 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SN\NBI\ENB is not exist
+2018-07-03 14:53:32,923 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GD\NBI\ENB路径下的文件
+2018-07-03 14:53:32,923 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GD\NBI\ENB is not exist
+2018-07-03 14:53:33,530 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SX\NBI\ENB路径下的文件
+2018-07-03 14:53:33,531 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SX\NBI\ENB is not exist
+2018-07-03 14:53:34,130 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\NBI\ENB路径下的文件
+2018-07-03 14:53:34,130 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AH\NBI\ENB is not exist
+2018-07-03 14:53:34,731 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GS\NBI\ENB路径下的文件
+2018-07-03 14:53:34,731 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GS\NBI\ENB is not exist
+2018-07-03 14:53:35,355 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AM\NBI\ENB路径下的文件
+2018-07-03 14:53:35,355 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AM\NBI\ENB is not exist
+2018-07-03 14:53:35,914 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\CQ\NBI\ENB路径下的文件
+2018-07-03 14:53:35,915 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\CQ\NBI\ENB is not exist
+2018-07-03 14:53:36,459 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XG\NBI\ENB路径下的文件
+2018-07-03 14:53:36,459 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XG\NBI\ENB is not exist
+2018-07-03 14:53:37,010 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\ZJ\NBI\ENB路径下的文件
+2018-07-03 14:53:37,013 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\ZJ\NBI\ENB is not exist
+2018-07-03 14:53:37,546 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GX\NBI\ENB路径下的文件
+2018-07-03 14:53:37,546 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GX\NBI\ENB is not exist
+2018-07-03 14:53:38,123 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XJ\NBI\ENB路径下的文件
+2018-07-03 14:53:38,123 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XJ\NBI\ENB is not exist
+2018-07-03 14:53:38,642 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GZ\NBI\ENB路径下的文件
+2018-07-03 14:53:38,642 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GZ\NBI\ENB is not exist
+2018-07-03 14:53:39,107 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TJ\NBI\ENB路径下的文件
+2018-07-03 14:53:39,107 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TJ\NBI\ENB is not exist
+2018-07-03 14:53:39,651 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HA\NBI\ENB路径下的文件
+2018-07-03 14:53:39,651 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HA\NBI\ENB is not exist
+2018-07-03 14:53:40,163 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HB\NBI\ENB路径下的文件
+2018-07-03 14:53:40,163 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HB\NBI\ENB is not exist
+2018-07-03 14:53:40,795 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HE\NBI\ENB路径下的文件
+2018-07-03 14:53:40,795 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HE\NBI\ENB is not exist
+2018-07-03 14:53:41,371 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NM\NBI\ENB路径下的文件
+2018-07-03 14:53:41,371 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NM\NBI\ENB is not exist
+2018-07-03 14:54:19,223 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HI\NBI\ENB路径下的文件
+2018-07-03 14:54:19,223 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HI\NBI\ENB is not exist
+2018-07-03 14:54:20,347 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\LN\NBI\ENB路径下的文件
+2018-07-03 14:54:20,347 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\LN\NBI\ENB is not exist
+2018-07-03 14:54:21,106 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JL\NBI\ENB路径下的文件
+2018-07-03 14:54:21,107 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JL\NBI\ENB is not exist
+2018-07-03 14:54:21,956 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XZ\NBI\ENB路径下的文件
+2018-07-03 14:54:21,956 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XZ\NBI\ENB is not exist
+2018-07-03 14:54:22,987 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TW\NBI\ENB路径下的文件
+2018-07-03 14:54:22,988 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TW\NBI\ENB is not exist
+2018-07-03 14:54:23,771 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HL\NBI\ENB路径下的文件
+2018-07-03 14:54:23,772 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HL\NBI\ENB is not exist
+2018-07-03 14:54:24,490 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\FJ\NBI\ENB路径下的文件
+2018-07-03 14:54:24,490 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\FJ\NBI\ENB is not exist
+2018-07-03 14:54:25,282 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HN\NBI\ENB路径下的文件
+2018-07-03 14:54:25,282 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HN\NBI\ENB is not exist
+2018-07-03 14:54:26,364 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\BJ\NBI\ENB路径下的文件
+2018-07-03 14:54:26,365 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\BJ\NBI\ENB is not exist
+2018-07-03 14:54:27,244 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JS\NBI\ENB路径下的文件
+2018-07-03 14:54:27,244 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JS\NBI\ENB is not exist
+2018-07-03 14:54:27,955 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NX\NBI\ENB路径下的文件
+2018-07-03 14:54:27,960 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NX\NBI\ENB is not exist
+2018-07-03 14:54:28,651 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JX\NBI\ENB路径下的文件
+2018-07-03 14:54:28,651 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JX\NBI\ENB is not exist
+2018-07-03 14:54:29,363 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SC\NBI\ENB路径下的文件
+2018-07-03 14:54:29,363 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SC\NBI\ENB is not exist
+2018-07-03 14:54:30,066 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SD\NBI\ENB路径下的文件
+2018-07-03 14:54:30,067 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SD\NBI\ENB is not exist
+2018-07-03 14:54:30,747 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB路径下的文件
+2018-07-03 14:54:57,990 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\HW\NRM路径下的文件
+2018-07-03 14:55:42,444 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\NS\NRM路径下的文件
+2018-07-03 14:55:42,444 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SH\NBI\ENB\NS\NRM is not exist
+2018-07-03 14:55:43,804 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB路径下的文件
+2018-07-03 14:56:24,469 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB\DT\NRM路径下的文件
+2018-07-03 14:56:24,469 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\YN\NBI\ENB\DT\NRM is not exist
+2018-07-03 14:56:31,861 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\QH\NBI\ENB路径下的文件
+2018-07-03 14:56:31,861 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\QH\NBI\ENB is not exist
+2018-07-03 14:56:32,267 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SN\NBI\ENB路径下的文件
+2018-07-03 14:56:32,267 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SN\NBI\ENB is not exist
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GD\NBI\ENB路径下的文件
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GD\NBI\ENB is not exist
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SX\NBI\ENB路径下的文件
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SX\NBI\ENB is not exist
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\NBI\ENB路径下的文件
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AH\NBI\ENB is not exist
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GS\NBI\ENB路径下的文件
+2018-07-03 14:56:42,931 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GS\NBI\ENB is not exist
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AM\NBI\ENB路径下的文件
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AM\NBI\ENB is not exist
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\CQ\NBI\ENB路径下的文件
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\CQ\NBI\ENB is not exist
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XG\NBI\ENB路径下的文件
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XG\NBI\ENB is not exist
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\ZJ\NBI\ENB路径下的文件
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\ZJ\NBI\ENB is not exist
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GX\NBI\ENB路径下的文件
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GX\NBI\ENB is not exist
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XJ\NBI\ENB路径下的文件
+2018-07-03 14:56:42,932 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XJ\NBI\ENB is not exist
+2018-07-03 14:56:42,933 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GZ\NBI\ENB路径下的文件
+2018-07-03 14:56:42,933 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GZ\NBI\ENB is not exist
+2018-07-03 14:56:42,933 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TJ\NBI\ENB路径下的文件
+2018-07-03 14:56:42,933 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TJ\NBI\ENB is not exist
+2018-07-03 14:56:42,933 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HA\NBI\ENB路径下的文件
+2018-07-03 14:56:42,933 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HA\NBI\ENB is not exist
+2018-07-03 14:56:42,934 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HB\NBI\ENB路径下的文件
+2018-07-03 14:56:42,934 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HB\NBI\ENB is not exist
+2018-07-03 14:56:42,934 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HE\NBI\ENB路径下的文件
+2018-07-03 14:56:42,934 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HE\NBI\ENB is not exist
+2018-07-03 14:56:42,934 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NM\NBI\ENB路径下的文件
+2018-07-03 14:56:42,934 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NM\NBI\ENB is not exist
+2018-07-03 14:57:53,123 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HI\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HI\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\LN\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\LN\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JL\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JL\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XZ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XZ\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TW\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TW\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HL\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HL\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\FJ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\FJ\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HN\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HN\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\BJ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\BJ\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JS\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JS\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NX\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NX\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\JX\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\JX\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SC\NBI\ENB路径下的文件
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SC\NBI\ENB is not exist
+2018-07-03 14:57:53,124 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SD\NBI\ENB路径下的文件
+2018-07-03 14:57:53,125 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SD\NBI\ENB is not exist
+2018-07-03 14:57:53,125 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB路径下的文件
+2018-07-03 14:57:53,125 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\HW\NRM路径下的文件
+2018-07-03 14:57:53,125 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SH\NBI\ENB\NS\NRM路径下的文件
+2018-07-03 14:57:53,125 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SH\NBI\ENB\NS\NRM is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\YN\NBI\ENB\DT\NRM路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\YN\NBI\ENB\DT\NRM is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\QH\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\QH\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SN\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SN\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GD\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GD\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\SX\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\SX\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AH\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AH\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GS\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GS\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\AM\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\AM\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\CQ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\CQ\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XG\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XG\NBI\ENB is not exist
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\ZJ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,126 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\ZJ\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GX\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GX\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\XJ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\XJ\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\GZ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\GZ\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\TJ\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\TJ\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HA\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HA\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HB\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HB\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\HE\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\HE\NBI\ENB is not exist
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - 检测D:\adapterdata\NM\NBI\ENB路径下的文件
+2018-07-03 14:57:53,127 INFO [com.cn.chinamobile.main.TaskInvoker] - D:\adapterdata\NM\NBI\ENB is not exist

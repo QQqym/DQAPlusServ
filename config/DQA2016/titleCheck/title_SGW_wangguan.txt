@@ -1,0 +1,13 @@
+开始时间
+结束时间
+周期
+省份
+地市
+厂家
+设备名称
+IMS专用承载建立成功率(SGW)
+SM.AttDedicatedEpsBearerS11.Ims
+SM.SuccDedicatedEpsBearerS11.Ims
+IMS专用承载更新成功率（SGW）
+SM.AttUpdateDedicatedEpsBearerS11.Ims
+SM.SuccUpdateDedicatedEpsBearerS11.Ims

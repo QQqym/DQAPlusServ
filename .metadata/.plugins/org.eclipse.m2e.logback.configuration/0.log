@@ -1,0 +1,29 @@
+2018-07-16 14:53:19,210 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-14 09:36:32,018 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-14 09:45:37,741 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DQAPlusServ:DQAPlusServ:1.0-SNAPSHOT @ C:\Users\hyyx\Desktop\DQAPlusServ\pom.xml.
+2018-08-14 09:45:39,253 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
+2018-08-14 09:45:39,481 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
+2018-08-14 09:45:39,727 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.25/slf4j-nop-1.7.25.pom
+2018-08-14 09:45:39,957 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.25/slf4j-nop-1.7.25.pom
+2018-08-14 09:45:40,183 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+2018-08-14 09:45:40,419 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom
+2018-08-14 09:45:40,554 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mozilla.intl:chardet:jar:1.0 is missing, no dependency information available
+2018-08-14 09:45:40,559 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache:jakarta-oro:jar:2.0.8 is missing, no dependency information available
+2018-08-14 09:45:40,838 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar
+2018-08-14 09:45:41,129 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar
+2018-08-14 09:45:41,339 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.25/slf4j-nop-1.7.25.jar
+2018-08-14 09:45:41,578 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.25/slf4j-nop-1.7.25.jar
+2018-08-14 09:45:41,793 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
+2018-08-14 09:45:42,045 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar
+2018-08-14 09:45:43,128 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DQAPlusServ/src/main/java
+2018-08-14 09:45:43,129 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /DQAPlusServ/src/main/java overlaps with sources folder /DQAPlusServ/src/main/java
+2018-08-14 09:45:43,131 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DQAPlusServ/src/main/resources
+2018-08-14 09:45:43,132 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DQAPlusServ/src/test/java
+2018-08-14 09:45:43,465 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2018-08-14 09:45:44,106 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mozilla.intl:chardet:jar:1.0 is missing, no dependency information available
+2018-08-14 09:45:44,110 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache:jakarta-oro:jar:2.0.8 is missing, no dependency information available
+2018-08-14 09:45:44,180 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-14 09:45:44,189 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 33 resources
+2018-08-14 09:45:44,202 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-08-14 09:45:44,205 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-14 09:45:44,207 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hyyx\Desktop\DQAPlusServ\src\test\resources

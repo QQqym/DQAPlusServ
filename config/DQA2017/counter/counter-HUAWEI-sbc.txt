@@ -1,0 +1,13 @@
+UR.AttInitReg#1907465280
+UR.SuccInitReg#1907465281
+UR.AttReReg#1907465307
+UR.SuccReReg#1907465308
+SC.AttSessionOrig#1907466045
+SC.SuccSessionOrig#1907466046
+SC.AttSessionTerm#1907466048
+SC.SuccSessionTerm#1907466049
+SC.VoiceAnsTraf#不支持
+SC.VideoAnsTrafTerm#不支持
+UR.UserRoamingRegSucc#不支持
+UR.ProvRoamingRegSucc#不支持
+UR.UserRegSucc#1907465344

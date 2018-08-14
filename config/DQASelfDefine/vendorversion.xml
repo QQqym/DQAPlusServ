@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd-无线网ENB">
+		<VendorName name="华为">
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="counter-NOKIA-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="counter-ALCATEL-2.5.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="MmeFunction-核心网MME">
+		<VendorName name="华为">
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="counter-NOKIA-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="counter-ALCATEL-2.5.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS11Sgw-核心网SGW">
+	<VendorName name="华为">
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="counter-NOKIA-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="counter-ALCATEL-2.5.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS5S8Pgw-核心网PGW">
+	<VendorName name="华为">
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="counter-NOKIA-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="counter-ALCATEL-2.5.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="SbcFunction-IMS指标SBC">
+	<VendorName name="华为">
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="counter-NOKIA-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="counter-ALCATEL-2.5.txt"/>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="ScscfFunction-IMS指标CSCF">
+	<VendorName name="华为">
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.5" file="counter-NOKIA-2.5.txt"/>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt"/>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.5" file="counter-ALCATEL-2.5.txt"/>
+		</VendorName>
+	</PmType>
+</file>

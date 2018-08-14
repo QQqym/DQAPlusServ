@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<VendorName name="NRM">
+		<pmversion name="HeNB-SeGW-NRM-V1.0.0" file="HeNB安全网关(SeGW)网元统计数据需求规范-NRM(v1.0).xlsx">
+		</pmversion>
+		<pmversion name="HeNB-AG-NRM-V1.0.0" file="HeNB接入网关(AG)网元统计数据需求规范-NRM(v1.0).xlsx">
+		</pmversion>
+		<pmversion name="NanoCell-eNB-NRM(V2.5.0)" file="NanoCell eNB网元统计数据需求规范-NRM(V2.5.0).xlsx">
+		</pmversion>
+	</VendorName>
+	<VendorName name="PM">
+		<pmversion name="HeNB-SeGW-PM-V1.0.0" file="HeNB安全网关(SeGW)网元统计数据需求规范-PM(v1.0).xlsx">
+		</pmversion>
+		<pmversion name="HeNB-AG-PM-V1.0.0" file="HeNB接入网关(AG)网元统计数据需求规范-PM(v1.0).xlsx">
+		</pmversion>
+		<pmversion name="NanoCell-eNB-PM(V2.5.0)" file="NanoCell eNB网元统计数据需求规范-PM(V2.5.0).xlsx">
+		</pmversion>
+	</VendorName>	
+</file>

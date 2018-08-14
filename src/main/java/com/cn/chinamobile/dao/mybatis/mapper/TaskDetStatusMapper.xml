@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.TaskDetStatusMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.TaskDetStatus" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="subtask" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datetime" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="taskstatus" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="commtent" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+      taskid, subtask, province,netype, vendor, version,datatype, datetime, taskstatus,commtent
+  </sql>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.TaskDetStatus" >
+    insert into task_detailstatus (taskid, subtask, province, 
+      netype, vendor, version, 
+      datatype, datetime, taskstatus, 
+      commtent)
+    values (#{taskid,jdbcType=INTEGER}, #{subtask,jdbcType=VARCHAR}, #{province,jdbcType=VARCHAR}, 
+      #{netype,jdbcType=VARCHAR}, #{vendor,jdbcType=VARCHAR}, #{version,jdbcType=VARCHAR}, 
+      #{datatype,jdbcType=VARCHAR}, #{datetime,jdbcType=VARCHAR}, #{taskstatus,jdbcType=VARCHAR}, 
+      #{commtent,jdbcType=VARCHAR})
+  </insert>
+
+  <select id="selectByParas" resultMap="BaseResultMap" parameterType="map" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from task_detailstatus
+    where subtask = #{subtask,jdbcType=VARCHAR}
+    and province = #{province,jdbcType=VARCHAR}
+    and netype=#{netype,jdbcType=VARCHAR}
+    and vendor=#{vendor,jdbcType=VARCHAR}
+    and version=#{version,jdbcType=VARCHAR}
+    and datatype=#{datatype,jdbcType=VARCHAR}
+    and datetime=#{datetime,jdbcType=VARCHAR}
+  </select>
+
+  <update id="updateByTaskSubId" parameterType="com.cn.chinamobile.pojo.mybatis.TaskDetStatus" >
+    update task_detailstatus
+    set  taskstatus = #{taskstatus,jdbcType=VARCHAR},
+         commtent = #{commtent,jdbcType=VARCHAR}
+    where taskid = #{taskid,jdbcType=INTEGER}
+        and subtask = #{subtask,jdbcType=VARCHAR}
+  </update>
+
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.TaskDetStatus" >
+    insert into task_detailstatus
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="subtask != null" >
+        subtask,
+      </if>
+      <if test="province != null" >
+        province,
+      </if>
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="datetime != null" >
+        datetime,
+      </if>
+      <if test="taskstatus != null" >
+        taskstatus,
+      </if>
+      <if test="commtent != null" >
+        commtent,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="subtask != null" >
+        #{subtask,jdbcType=VARCHAR},
+      </if>
+      <if test="province != null" >
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="datetime != null" >
+        #{datetime,jdbcType=VARCHAR},
+      </if>
+      <if test="taskstatus != null" >
+        #{taskstatus,jdbcType=VARCHAR},
+      </if>
+      <if test="commtent != null" >
+        #{commtent,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

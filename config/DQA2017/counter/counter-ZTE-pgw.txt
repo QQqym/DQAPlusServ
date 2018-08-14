@@ -1,0 +1,6 @@
+SM.AttCreateDedicatedEpsBearer.Ims#C048960049
+SM.SuccCreateDedicatedEpsBearer.Ims#C048960050
+SM.AttUpdateDedicatedEpsBearer.Ims#C048970066
+SM.SuccUpdateDedicatedEpsBearer.Ims#C048970067
+AAA.AccountingReqStartPgw#C048850013
+AAA.AccountingRespStartPgw#C048850014

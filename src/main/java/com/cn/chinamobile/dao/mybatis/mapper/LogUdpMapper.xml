@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.LogUdpMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.LogUdp" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="cityname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="swversion" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="pmname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="grade" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="errortype" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <delete id="deletebytaskid" parameterType="java.lang.Integer">
+    delete from log_udp where taskid = #{taskid,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="batchinsert" parameterType="list" >
+    insert into log_udp (taskid,  cityname, swversion, datatype,
+    pmname, grade, errortype)
+    values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.taskid,jdbcType=INTEGER}, #{item.cityname,jdbcType=VARCHAR},#{item.swversion,jdbcType=VARCHAR}, #{item.datatype,jdbcType=VARCHAR},
+      #{item.pmname,jdbcType=VARCHAR}, #{item.grade,jdbcType=VARCHAR}, #{item.errortype,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.LogUdp" >
+    insert into log_udp (taskid, cityname, swversion,datatype, pmname, grade,errortype)
+    values (#{taskid,jdbcType=INTEGER}, #{cityname,jdbcType=VARCHAR}, #{swversion,jdbcType=VARCHAR}, 
+      #{datatype,jdbcType=VARCHAR}, #{pmname,jdbcType=VARCHAR}, #{grade,jdbcType=VARCHAR}, 
+      #{errortype,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.LogUdp" >
+    insert into log_udp
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="cityname != null" >
+        cityname,
+      </if>
+      <if test="swversion != null" >
+        swversion,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="pmname != null" >
+        pmname,
+      </if>
+      <if test="grade != null" >
+        grade,
+      </if>
+      <if test="errortype != null" >
+        errortype,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="cityname != null" >
+        #{cityname,jdbcType=VARCHAR},
+      </if>
+      <if test="swversion != null" >
+        #{swversion,jdbcType=VARCHAR},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="pmname != null" >
+        #{pmname,jdbcType=VARCHAR},
+      </if>
+      <if test="grade != null" >
+        #{grade,jdbcType=VARCHAR},
+      </if>
+      <if test="errortype != null" >
+        #{errortype,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

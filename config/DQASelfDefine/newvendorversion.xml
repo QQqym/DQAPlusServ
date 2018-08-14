@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<PmType name="EutranCellTdd">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt" />
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt" />
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt" />
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt" />
+			<pmversion name="PM-2.4(RL55)" file="counter-NOKIA-2.5.txt" />
+			<pmversion name="PM-2.5(RL45)" file="counter-NOKIA-2.4.txt" />
+			<pmversion name="PM-2.5(RL55)" file="counter-NOKIA-2.5.txt" />
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt" />
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt" />
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt" />
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt" />
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt" />
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt" />
+			<pmversion name="PM-2.5(LR13.3)" file="counter-ALCATEL-LR13.3.txt" />
+			<pmversion name="PM-2.5(LR14.3)" file="counter-ALCATEL-LR14.3.txt" />
+			<pmversion name="PM-2.5(LR15.1)" file="counter-ALCATEL-LR15.1.txt" />
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt" />
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt" />
+		</VendorName>
+	</PmType>
+	
+	<PmType name="MmeFunction">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt" />
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt" />
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt" />
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt" />
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt" />
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt" />
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt" />
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt" />
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt" />
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt" />
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt" />
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt" />
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS11Mme">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt" />
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt" />
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt" />
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt" />
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt" />
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt" />
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt" />
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt" />
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt" />
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt" />
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="EpRpDynS11Sgw">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="PgwFunction">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="HssFunction">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	<PmType name="FeFunction">
+		<VendorName name="华为">
+			<pmversion name="PM-2.3" file="counter-HUAWEI-2.3.txt" />
+			<pmversion name="PM-2.5" file="counter-HUAWEI-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="中兴">
+			<pmversion name="PM-2.4" file="counter-ZTE-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ZTE-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="爱立信">
+			<pmversion name="PM-2.3" file="counter-ERICSSON-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-ERICSSON-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-ERICSSON-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="诺基亚">
+			<pmversion name="PM-2.3" file="counter-NOKIA-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4(RL45)" file="counter-NOKIA-2.4.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="大唐">
+			<pmversion name="PM-2.3" file="counter-DATANG-2.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-DATANG-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-DATANG-2.5.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="贝尔">
+			<pmversion name="PM-2.3.1(LR13.3)" file="counter-ALCATEL-2.3.1(LR13.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.1(LR14.3)" file="counter-ALCATEL-2.3.1(LR14.3).txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR13.3)" file="counter-ALCATEL-LR13.3.txt">
+			</pmversion>
+			<pmversion name="PM-2.3.2(LR14.3)" file="counter-ALCATEL-LR14.3.txt">
+			</pmversion>
+		</VendorName>
+		<VendorName name="普天">
+			<pmversion name="PM-2.1" file="counter-POTEVIO-2.1.txt">
+			</pmversion>
+			<pmversion name="PM-2.4" file="counter-POTEVIO-2.4.txt">
+			</pmversion>
+			<pmversion name="PM-2.5" file="counter-POTEVIO-2.5.txt">
+			</pmversion>
+		</VendorName>
+	</PmType>
+	
+	
+</file>

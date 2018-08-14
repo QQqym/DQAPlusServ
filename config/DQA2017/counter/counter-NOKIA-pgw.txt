@@ -1,0 +1,6 @@
+SM.AttCreateDedicatedEpsBearer.Ims#m3000c0053_ims_APN+m3000c0054_ims_APN
+SM.SuccCreateDedicatedEpsBearer.Ims#m3000c0053_ims_APN
+SM.AttUpdateDedicatedEpsBearer.Ims#m3000c0069_ims_APN+m3000c0070_ims_APN
+SM.SuccUpdateDedicatedEpsBearer.Ims#m3000c0069_ims_APN
+AAA.AccountingReqStartPgw#m3001c0002
+AAA.AccountingRespStartPgw#m3001c0022

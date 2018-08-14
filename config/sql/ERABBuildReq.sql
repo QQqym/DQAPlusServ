@@ -1,0 +1,21 @@
+# 无线接通率 
+# E-RAB建立请求数
+select SUM(
+		(CASE WHEN Bearer1Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer2Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer3Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer4Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer5Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer6Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer7Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer8Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer9Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer10Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer11Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer12Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer13Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer14Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer15Status IN(1,2) THEN 1 ELSE 0 END)
+		+(CASE WHEN Bearer16Status IN(1,2) THEN 1 ELSE 0 END)
+		)
+	FROM s1_mme WHERE ProcedureType IN (2,7,9,10,13,3,5)

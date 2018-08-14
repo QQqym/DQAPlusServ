@@ -1,0 +1,3 @@
+S-CSCF初始注册成功率#UR.SuccInitReg/UR.AttInitReg
+S-CSCF重注册成功率#UR.SuccReReg/UR.AttReReg
+S-CSCF接通率#(SC.SuccSessionOrig+SC.SuccSessionTerm)/(SC.AttSessionOrig+SC.AttSessionTerm)

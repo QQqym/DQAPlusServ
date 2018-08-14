@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpGradeTotalMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpGradeTotal" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="cityname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="swversion" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="Grade" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="totalnum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="excepnum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+
+  <delete id="deletebytaskid" parameterType="java.lang.Integer">
+    delete from udp_gradetotal where taskid = #{taskid,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.UdpGradeTotal" >
+    insert into udp_gradetotal (taskid, cityname, swversion, 
+      Grade, totalnum, excepnum
+      )
+    values (#{taskid,jdbcType=INTEGER}, #{cityname,jdbcType=VARCHAR}, #{swversion,jdbcType=VARCHAR}, 
+      #{grade,jdbcType=VARCHAR}, #{totalnum,jdbcType=INTEGER}, #{excepnum,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpGradeTotal" >
+    insert into udp_gradetotal
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="cityname != null" >
+        cityname,
+      </if>
+      <if test="swversion != null" >
+        swversion,
+      </if>
+      <if test="grade != null" >
+        Grade,
+      </if>
+      <if test="totalnum != null" >
+        totalnum,
+      </if>
+      <if test="excepnum != null" >
+        excepnum,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="cityname != null" >
+        #{cityname,jdbcType=VARCHAR},
+      </if>
+      <if test="swversion != null" >
+        #{swversion,jdbcType=VARCHAR},
+      </if>
+      <if test="grade != null" >
+        #{grade,jdbcType=VARCHAR},
+      </if>
+      <if test="totalnum != null" >
+        #{totalnum,jdbcType=INTEGER},
+      </if>
+      <if test="excepnum != null" >
+        #{excepnum,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

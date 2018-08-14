@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.UdpTaskMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.UdpTask" >
+    <constructor >
+      <idArg column="intid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="province" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datetime" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="taskstatus" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="failurereason" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    intid, province, netype, vendor, version, datetime, type, taskstatus, failurereason
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udp_task
+    where intid = #{intid,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectByParas" resultMap="BaseResultMap" parameterType="com.cn.chinamobile.pojo.mybatis.UdpTask" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from udp_task
+    where  province = #{province,jdbcType=VARCHAR}
+        and  netype = #{netype,jdbcType=VARCHAR}
+        and vendor = #{vendor,jdbcType=VARCHAR}
+        and version = #{version,jdbcType=VARCHAR}
+        and datetime = #{datetime,jdbcType=VARCHAR}
+        and type = #{type,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insert" keyProperty="intid"  useGeneratedKeys="true" parameterType="com.cn.chinamobile.pojo.mybatis.UdpTask" >
+    insert into udp_task (province, netype,
+      vendor, version, datetime,
+      type, taskstatus, failurereason
+      )
+    values (#{province,jdbcType=VARCHAR}, #{netype,jdbcType=VARCHAR},
+      #{vendor,jdbcType=VARCHAR}, #{version,jdbcType=VARCHAR}, #{datetime,jdbcType=VARCHAR},
+      #{type,jdbcType=VARCHAR}, #{taskstatus,jdbcType=VARCHAR}, #{failurereason,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpTask" >
+    insert into udp_task
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        intid,
+      </if>
+      <if test="province != null" >
+        province,
+      </if>
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+      <if test="datetime != null" >
+        datetime,
+      </if>
+      <if test="type != null" >
+        type,
+      </if>
+      <if test="taskstatus != null" >
+        taskstatus,
+      </if>
+      <if test="failurereason != null" >
+        failurereason,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="intid != null" >
+        #{intid,jdbcType=INTEGER},
+      </if>
+      <if test="province != null" >
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="datetime != null" >
+        #{datetime,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="taskstatus != null" >
+        #{taskstatus,jdbcType=VARCHAR},
+      </if>
+      <if test="failurereason != null" >
+        #{failurereason,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cn.chinamobile.pojo.mybatis.UdpTask" >
+    update udp_task
+    <set >
+      <if test="province != null" >
+        province = #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="netype != null" >
+        netype = #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        vendor = #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        version = #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="datetime != null" >
+        datetime = #{datetime,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        type = #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="taskstatus != null" >
+        taskstatus = #{taskstatus,jdbcType=VARCHAR},
+      </if>
+      <if test="failurereason != null" >
+        failurereason = #{failurereason,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cn.chinamobile.pojo.mybatis.UdpTask" >
+    update udp_task
+    set province = #{province,jdbcType=VARCHAR},
+      netype = #{netype,jdbcType=VARCHAR},
+      vendor = #{vendor,jdbcType=VARCHAR},
+      version = #{version,jdbcType=VARCHAR},
+      datetime = #{datetime,jdbcType=VARCHAR},
+      type = #{type,jdbcType=VARCHAR},
+      taskstatus = #{taskstatus,jdbcType=VARCHAR},
+      failurereason = #{failurereason,jdbcType=VARCHAR}
+    where intid = #{intid,jdbcType=INTEGER}
+  </update>
+</mapper>

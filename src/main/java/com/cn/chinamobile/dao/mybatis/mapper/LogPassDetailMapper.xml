@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.LogPassDetailMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.LogPassDetail" >
+    <constructor >
+      <arg column="taskid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="cityname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="datatype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="swversion" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="pnname" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="passcount" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="totalcount" jdbcType="INTEGER" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+
+  <delete id="deletebytaskid" parameterType="java.lang.Integer">
+    delete from log_passdetail where taskid = #{taskid,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="batchinsert" parameterType="list" >
+    insert into log_passdetail (taskid, cityname,datatype, swversion,
+    pnname, passcount, totalcount)
+    values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.taskid,jdbcType=INTEGER},#{item.cityname,jdbcType=VARCHAR}, #{item.datatype,jdbcType=VARCHAR}, #{item.swversion,jdbcType=VARCHAR},
+      #{item.pnname,jdbcType=VARCHAR}, #{item.passcount,jdbcType=INTEGER}, #{item.totalcount,jdbcType=INTEGER})
+    </foreach>
+  </insert>
+
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.LogPassDetail" >
+    insert into log_passdetail (taskid, cityname,datatype, swversion,
+      pnname, passcount, totalcount
+      )
+    values (#{taskid,jdbcType=INTEGER}, #{item.cityname,jdbcType=VARCHAR},#{datatype,jdbcType=VARCHAR}, #{swversion,jdbcType=VARCHAR},
+      #{pnname,jdbcType=VARCHAR}, #{passcount,jdbcType=INTEGER}, #{totalcount,jdbcType=INTEGER}
+      )
+  </insert>
+
+
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.LogPassDetail" >
+    insert into log_passdetail
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        taskid,
+      </if>
+      <if test="datatype != null" >
+        datatype,
+      </if>
+      <if test="swversion != null" >
+        swversion,
+      </if>
+      <if test="pnname != null" >
+        pnname,
+      </if>
+      <if test="passcount != null" >
+        passcount,
+      </if>
+      <if test="totalcount != null" >
+        totalcount,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="taskid != null" >
+        #{taskid,jdbcType=INTEGER},
+      </if>
+      <if test="datatype != null" >
+        #{datatype,jdbcType=VARCHAR},
+      </if>
+      <if test="swversion != null" >
+        #{swversion,jdbcType=VARCHAR},
+      </if>
+      <if test="pnname != null" >
+        #{pnname,jdbcType=VARCHAR},
+      </if>
+      <if test="passcount != null" >
+        #{passcount,jdbcType=INTEGER},
+      </if>
+      <if test="totalcount != null" >
+        #{totalcount,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

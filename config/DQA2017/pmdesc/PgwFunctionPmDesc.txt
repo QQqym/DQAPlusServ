@@ -1,0 +1,2 @@
+PGW计费请求成功率#PGWHG03#AAA.AccountingReqStartPgw#PGW计费开始请求次数
+PGW计费请求成功率#PGWHG04#AAA.AccountingRespStartPgw#PGW计费开始成功次数

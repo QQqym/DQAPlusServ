@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.chinamobile.dao.mybatis.mapper.AlgMappingMapper" >
+  <resultMap id="BaseResultMap" type="com.cn.chinamobile.pojo.mybatis.AlgMapping" >
+    <constructor >
+      <arg column="netype" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="version" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="vendor" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="swversion" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="omcversion" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="algversion" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    netype, version, vendor,swversion, omcversion, algversion
+  </sql>
+
+  <select id="selectByParas" resultMap="BaseResultMap" parameterType="map" >
+    select 'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from alg_mapping
+    where netype=#{netype,jdbcType=VARCHAR}
+    and vendor=#{vendor,jdbcType=VARCHAR}
+    and version=#{version,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insert" parameterType="com.cn.chinamobile.pojo.mybatis.AlgMapping" >
+    insert into alg_mapping (netype, version, vendor, 
+      swversion, omcversion, algversion
+      )
+    values (#{netype,jdbcType=VARCHAR}, #{version,jdbcType=VARCHAR}, #{vendor,jdbcType=VARCHAR}, 
+      #{swversion,jdbcType=VARCHAR}, #{omcversion,jdbcType=VARCHAR}, #{algversion,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.cn.chinamobile.pojo.mybatis.AlgMapping" >
+    insert into alg_mapping
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="netype != null" >
+        netype,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+      <if test="vendor != null" >
+        vendor,
+      </if>
+      <if test="swversion != null" >
+        swversion,
+      </if>
+      <if test="omcversion != null" >
+        omcversion,
+      </if>
+      <if test="algversion != null" >
+        algversion,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="netype != null" >
+        #{netype,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="vendor != null" >
+        #{vendor,jdbcType=VARCHAR},
+      </if>
+      <if test="swversion != null" >
+        #{swversion,jdbcType=VARCHAR},
+      </if>
+      <if test="omcversion != null" >
+        #{omcversion,jdbcType=VARCHAR},
+      </if>
+      <if test="algversion != null" >
+        #{algversion,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

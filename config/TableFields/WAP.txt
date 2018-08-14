@@ -1,0 +1,26 @@
+#是否建表 1 需要 2不需要
+##1%%
+#XDR分割方式
+##|**
+#原数据是否忽略前1行或者前N行
+#$0#$
+#数据文件名 ID代码
+fileID SMALLINT UNSIGNED not null
+#下行流量 位置28
+##28##
+DlTraffic int UNSIGNED
+#事物响应码 位置 38
+##38##
+ItemRespondCode int
+#第一个HTTP响应包时延(MS)位置 40
+##40##
+HttpFirstRespondTime int UNSIGNED
+#最后一个HTTP内容包的时延(MS)位置 41
+##41##
+HttpLastPacketTime int UNSIGNED
+#  最后一个ACK确认包的时延（ms）位置42
+##42##
+HttpLastAckTime int UNSIGNED
+# Content-Length字段 位置50
+##50##
+ContentLength int UNSIGNED

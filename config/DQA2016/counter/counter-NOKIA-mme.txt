@@ -1,0 +1,2 @@
+SM.PdnConnectivityRequest.Ims#M51C048+M51C049
+SM.PdnConnectivityComplete.Ims#M51C048
